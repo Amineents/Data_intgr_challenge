@@ -3,10 +3,15 @@ import random
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# Dossier cible
-lamp_dir = Path("../data_lake/lampadaires")
+current_file = Path(__file__).resolve()
+base_dir = current_file.parent.parent 
+
+lamp_dir = base_dir / "data_lake" / "lampadaires"
 lamp_dir.mkdir(parents=True, exist_ok=True)
+
+# Fichier de sortie
 output_file = lamp_dir / "reclamations_lampadaires.jsonl"
+
 
 # Paramètres de simulation
 lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]

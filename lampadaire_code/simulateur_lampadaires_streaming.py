@@ -4,10 +4,18 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-#  Dossier cible
-landing_dir = Path("../data_lake/lampadaires")
+
+#  Dossier de sortie
+current_file = Path(__file__).resolve()
+base_dir = current_file.parent.parent 
+
+landing_dir = base_dir / "data_lake" / "lampadaires"
 landing_dir.mkdir(parents=True, exist_ok=True)
+
+# Fichier de sortie
 output_file = landing_dir / "lampadaires_streaming_simulation.jsonl"
+
+
 
 #  Paramètres de simulation
 lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]

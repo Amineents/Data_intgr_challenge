@@ -3,9 +3,16 @@ from datetime import datetime
 from pathlib import Path
 
 #  Dossier de sortie
-bus_dir = Path("../data_like/bus")
-bus_dir.mkdir(parents=True, exist_ok=True)
-output_file = bus_dir / "planning_allumage_saisonnier.csv"
+current_file = Path(__file__).resolve()
+base_dir = current_file.parent.parent 
+
+lamp_dir = base_dir / "data_lake" / "lampadaires"
+lamp_dir.mkdir(parents=True, exist_ok=True)
+
+# Fichier de sortie
+output_file = lamp_dir / "planning_allumage_saisonnier.csv"
+
+
 
 #  Paramètres
 lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
