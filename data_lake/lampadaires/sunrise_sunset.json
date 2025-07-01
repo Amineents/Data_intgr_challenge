@@ -1,0 +1,16 @@
+{
+    "results": {
+        "sunrise": "2025-07-01T03:59:44+00:00",
+        "sunset": "2025-07-01T19:29:40+00:00",
+        "solar_noon": "2025-07-01T11:44:42+00:00",
+        "day_length": 55796,
+        "civil_twilight_begin": "2025-07-01T03:25:17+00:00",
+        "civil_twilight_end": "2025-07-01T20:04:08+00:00",
+        "nautical_twilight_begin": "2025-07-01T02:37:48+00:00",
+        "nautical_twilight_end": "2025-07-01T20:51:37+00:00",
+        "astronomical_twilight_begin": "2025-07-01T01:37:32+00:00",
+        "astronomical_twilight_end": "2025-07-01T21:51:52+00:00"
+    },
+    "status": "OK",
+    "tzid": "UTC"
+}
