@@ -1,0 +1,45 @@
+id_bus,ligne,gare_depart,gare_retard,heure_arrivee_prevue,heure_arrivee_reelle
+1,21,Stade Charléty,Gare Saint-Lazare,08:17,08:25
+1,21,Stade Charléty,Alésia,08:40,08:43
+1,21,Stade Charléty,Alésia,08:48,09:01
+2,38,Gare du Nord,Châtelet,08:49,08:57
+2,38,Gare du Nord,Alésia,08:34,08:41
+2,38,Gare du Nord,Raspail,08:24,08:28
+2,38,Gare du Nord,Porte d'Orléans,08:10,08:25
+3,47,Fort du Kremlin,Gare d'Austerlitz,08:22,08:33
+3,47,Fort du Kremlin,Place d'Italie,08:47,08:53
+3,47,Fort du Kremlin,Châtelet,08:27,08:33
+3,47,Fort du Kremlin,Gare d'Austerlitz,08:14,08:17
+4,63,Porte de la Muette,Gare d'Austerlitz,08:32,08:37
+4,63,Porte de la Muette,Gare d'Austerlitz,08:23,08:34
+4,63,Porte de la Muette,La Muette,08:34,08:36
+5,72,Hôtel de Ville,Concorde,08:38,08:48
+5,72,Hôtel de Ville,Concorde,08:44,08:56
+6,82,Luxembourg,Invalides,08:10,08:17
+6,82,Luxembourg,Charles de Gaulle Étoile,08:38,08:47
+7,91,Bastille,Montparnasse,08:26,08:30
+7,91,Bastille,Place d'Italie,08:22,08:37
+8,96,Gare Montparnasse,République,08:28,08:38
+8,96,Gare Montparnasse,République,08:10,08:16
+9,27,Gare Saint-Lazare,Gare d'Austerlitz,08:37,08:49
+9,27,Gare Saint-Lazare,Opéra,08:37,08:52
+9,27,Gare Saint-Lazare,Châtelet,08:41,08:54
+9,27,Gare Saint-Lazare,Opéra,08:46,08:55
+10,69,Champ de Mars,Gambetta,08:32,08:43
+10,69,Champ de Mars,Louvre,08:23,08:33
+10,69,Champ de Mars,Gambetta,08:38,08:42
+10,69,Champ de Mars,Louvre,08:15,08:20
+11,24,Pont Neuf,Châtelet,08:48,08:54
+11,24,Pont Neuf,Invalides,08:35,08:50
+12,52,La Muette,Madeleine,08:44,08:51
+12,52,La Muette,Opéra,08:41,08:49
+12,52,La Muette,Madeleine,08:12,08:17
+12,52,La Muette,Opéra,08:26,08:34
+13,73,La Défense,Concorde,08:22,08:31
+13,73,La Défense,Musée d'Orsay,08:19,08:26
+14,30,Porte Maillot,Place de Clichy,08:27,08:41
+14,30,Porte Maillot,Ternes,08:39,08:52
+14,30,Porte Maillot,Ternes,08:34,08:39
+14,30,Porte Maillot,Ternes,08:25,08:29
+15,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:15,08:18
+15,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:27,08:31

@@ -1,0 +1,90 @@
+ligne,nom_arret,placement_gare,heure_passage,ordre_arret
+21,Stade Charléty,Arrêt 1 - Ligne 21,2025-07-01 09:04:00,1
+21,Place d’Italie,Arrêt 2 - Ligne 21,2025-07-01 09:09:00,2
+21,Glacière,Arrêt 3 - Ligne 21,2025-07-01 09:10:00,3
+21,Denfert-Rochereau,Arrêt 4 - Ligne 21,2025-07-01 09:13:00,4
+21,Raspail,Arrêt 5 - Ligne 21,2025-07-01 09:24:00,5
+21,Gare Saint-Lazare,Arrêt 6 - Ligne 21,2025-07-01 09:24:00,6
+38,Gare du Nord,Arrêt 1 - Ligne 38,2025-07-01 10:29:00,1
+38,Saint-Michel,Arrêt 2 - Ligne 38,2025-07-01 10:32:00,2
+38,Cluny - La Sorbonne,Arrêt 3 - Ligne 38,2025-07-01 10:39:00,3
+38,Luxembourg,Arrêt 4 - Ligne 38,2025-07-01 10:44:00,4
+38,Alésia,Arrêt 5 - Ligne 38,2025-07-01 10:41:00,5
+38,Porte d'Orléans,Arrêt 6 - Ligne 38,2025-07-01 10:49:00,6
+47,Fort du Kremlin,Arrêt 1 - Ligne 47,2025-07-01 10:35:00,1
+47,Maison Blanche,Arrêt 2 - Ligne 47,2025-07-01 10:38:00,2
+47,Place d’Italie,Arrêt 3 - Ligne 47,2025-07-01 10:41:00,3
+47,Censier Daubenton,Arrêt 4 - Ligne 47,2025-07-01 10:50:00,4
+47,Châtelet,Arrêt 5 - Ligne 47,2025-07-01 10:51:00,5
+63,Porte de la Muette,Arrêt 1 - Ligne 63,2025-07-01 10:11:00,1
+63,Trocadéro,Arrêt 2 - Ligne 63,2025-07-01 10:14:00,2
+63,Iéna,Arrêt 3 - Ligne 63,2025-07-01 10:19:00,3
+63,Invalides,Arrêt 4 - Ligne 63,2025-07-01 10:23:00,4
+63,Quai d’Orsay,Arrêt 5 - Ligne 63,2025-07-01 10:23:00,5
+63,Gare de Lyon,Arrêt 6 - Ligne 63,2025-07-01 10:26:00,6
+72,Hôtel de Ville,Arrêt 1 - Ligne 72,2025-07-01 08:47:00,1
+72,Pont Neuf,Arrêt 2 - Ligne 72,2025-07-01 08:52:00,2
+72,Musée d'Orsay,Arrêt 3 - Ligne 72,2025-07-01 08:55:00,3
+72,Trocadéro,Arrêt 4 - Ligne 72,2025-07-01 08:59:00,4
+72,Boulogne Jean Jaurès,Arrêt 5 - Ligne 72,2025-07-01 09:07:00,5
+72,Parc de Saint-Cloud,Arrêt 6 - Ligne 72,2025-07-01 09:07:00,6
+82,Luxembourg,Arrêt 1 - Ligne 82,2025-07-01 10:57:00,1
+82,Port Royal,Arrêt 2 - Ligne 82,2025-07-01 11:02:00,2
+82,Montparnasse,Arrêt 3 - Ligne 82,2025-07-01 11:07:00,3
+82,Pasteur,Arrêt 4 - Ligne 82,2025-07-01 11:09:00,4
+82,Convention,Arrêt 5 - Ligne 82,2025-07-01 11:17:00,5
+82,Neuilly,Arrêt 6 - Ligne 82,2025-07-01 11:22:00,6
+91,Bastille,Arrêt 1 - Ligne 91,2025-07-01 10:49:00,1
+91,Gare de Lyon,Arrêt 2 - Ligne 91,2025-07-01 10:53:00,2
+91,Gobelins,Arrêt 3 - Ligne 91,2025-07-01 10:55:00,3
+91,Glacière,Arrêt 4 - Ligne 91,2025-07-01 10:58:00,4
+91,Raspail,Arrêt 5 - Ligne 91,2025-07-01 11:01:00,5
+91,Montparnasse,Arrêt 6 - Ligne 91,2025-07-01 11:14:00,6
+96,Gare Montparnasse,Arrêt 1 - Ligne 96,2025-07-01 09:44:00,1
+96,Rennes,Arrêt 2 - Ligne 96,2025-07-01 09:48:00,2
+96,Saint-Germain-des-Prés,Arrêt 3 - Ligne 96,2025-07-01 09:54:00,3
+96,Odéon,Arrêt 4 - Ligne 96,2025-07-01 09:59:00,4
+96,République,Arrêt 5 - Ligne 96,2025-07-01 10:00:00,5
+96,Porte des Lilas,Arrêt 6 - Ligne 96,2025-07-01 09:59:00,6
+27,Gare Saint-Lazare,Arrêt 1 - Ligne 27,2025-07-01 09:25:00,1
+27,Opéra,Arrêt 2 - Ligne 27,2025-07-01 09:29:00,2
+27,Pyramides,Arrêt 3 - Ligne 27,2025-07-01 09:31:00,3
+27,Châtelet,Arrêt 4 - Ligne 27,2025-07-01 09:40:00,4
+27,Quai de la Rapée,Arrêt 5 - Ligne 27,2025-07-01 09:45:00,5
+27,Porte d’Ivry,Arrêt 6 - Ligne 27,2025-07-01 09:45:00,6
+69,Champ de Mars,Arrêt 1 - Ligne 69,2025-07-01 09:33:00,1
+69,Invalides,Arrêt 2 - Ligne 69,2025-07-01 09:37:00,2
+69,Assemblée Nationale,Arrêt 3 - Ligne 69,2025-07-01 09:41:00,3
+69,Musée du Louvre,Arrêt 4 - Ligne 69,2025-07-01 09:45:00,4
+69,Bastille,Arrêt 5 - Ligne 69,2025-07-01 09:53:00,5
+69,Gambetta,Arrêt 6 - Ligne 69,2025-07-01 09:48:00,6
+24,Pont Neuf,Arrêt 1 - Ligne 24,2025-07-01 08:37:00,1
+24,Hôtel de Ville,Arrêt 2 - Ligne 24,2025-07-01 08:40:00,2
+24,Bastille,Arrêt 3 - Ligne 24,2025-07-01 08:47:00,3
+24,Nation,Arrêt 4 - Ligne 24,2025-07-01 08:49:00,4
+24,Montgallet,Arrêt 5 - Ligne 24,2025-07-01 08:57:00,5
+24,École Militaire,Arrêt 6 - Ligne 24,2025-07-01 08:57:00,6
+52,La Muette,Arrêt 1 - Ligne 52,2025-07-01 07:45:00,1
+52,Rue de la Pompe,Arrêt 2 - Ligne 52,2025-07-01 07:50:00,2
+52,Trocadéro,Arrêt 3 - Ligne 52,2025-07-01 07:51:00,3
+52,Iéna,Arrêt 4 - Ligne 52,2025-07-01 07:54:00,4
+52,Madeleine,Arrêt 5 - Ligne 52,2025-07-01 07:57:00,5
+52,Opéra,Arrêt 6 - Ligne 52,2025-07-01 08:10:00,6
+73,La Défense,Arrêt 1 - Ligne 73,2025-07-01 10:44:00,1
+73,Neuilly,Arrêt 2 - Ligne 73,2025-07-01 10:47:00,2
+73,Porte Maillot,Arrêt 3 - Ligne 73,2025-07-01 10:50:00,3
+73,Charles de Gaulle - Étoile,Arrêt 4 - Ligne 73,2025-07-01 10:59:00,4
+73,Champs-Élysées,Arrêt 5 - Ligne 73,2025-07-01 11:04:00,5
+73,Musée d'Orsay,Arrêt 6 - Ligne 73,2025-07-01 10:59:00,6
+30,Porte Maillot,Arrêt 1 - Ligne 30,2025-07-01 10:01:00,1
+30,Ternes,Arrêt 2 - Ligne 30,2025-07-01 10:05:00,2
+30,Place Clichy,Arrêt 3 - Ligne 30,2025-07-01 10:09:00,3
+30,Barbès,Arrêt 4 - Ligne 30,2025-07-01 10:16:00,4
+30,Gare du Nord,Arrêt 5 - Ligne 30,2025-07-01 10:21:00,5
+30,Gare de l'Est,Arrêt 6 - Ligne 30,2025-07-01 10:26:00,6
+87,Gare de Lyon,Arrêt 1 - Ligne 87,2025-07-01 09:38:00,1
+87,Bercy,Arrêt 2 - Ligne 87,2025-07-01 09:43:00,2
+87,Bibliothèque F. Mitterrand,Arrêt 3 - Ligne 87,2025-07-01 09:46:00,3
+87,Olympiades,Arrêt 4 - Ligne 87,2025-07-01 09:50:00,4
+87,Tolbiac,Arrêt 5 - Ligne 87,2025-07-01 09:54:00,5
+87,Maison Blanche,Arrêt 6 - Ligne 87,2025-07-01 10:03:00,6
