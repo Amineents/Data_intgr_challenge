@@ -1,0 +1,47 @@
+id_bus,ligne,gare_depart,gare_retard,heure_arrivee_prevue,heure_arrivee_reelle
+1,21,Gare Saint-Lazare,Opéra,08:10,08:18
+2,21,Gare Saint-Lazare,Châtelet,08:20,08:30
+3,21,Gare Saint-Lazare,Bastille,08:25,08:32
+4,21,Gare Saint-Lazare,Châtelet,08:20,08:30
+5,38,Gare du Nord,Denfert-Rochereau,08:25,08:28
+6,38,Gare du Nord,République,08:10,08:15
+7,38,Gare du Nord,Denfert-Rochereau,08:25,08:35
+8,72,Parc André Citroën,Hôtel de Ville,08:30,08:40
+9,72,Parc André Citroën,Musée d'Orsay,08:20,08:24
+10,72,Parc André Citroën,Musée d'Orsay,08:20,08:28
+11,91,Gare Montparnasse,Bibliothèque F. Mitterrand,08:30,08:37
+12,91,Gare Montparnasse,Denfert-Rochereau,08:15,08:24
+13,91,Gare Montparnasse,Place d'Italie,08:25,08:31
+14,91,Gare Montparnasse,Place d'Italie,08:25,08:33
+15,91,Gare Montparnasse,Place d'Italie,08:25,08:29
+16,31,Porte de Champerret,Trinité,08:20,08:28
+17,31,Porte de Champerret,Chaussée d’Antin,08:25,08:33
+18,31,Porte de Champerret,Trinité,08:20,08:24
+19,31,Porte de Champerret,Chaussée d’Antin,08:25,08:30
+20,24,Gare Saint-Lazare,Saint-Michel,08:30,08:32
+21,24,Gare Saint-Lazare,Saint-Augustin,08:10,08:12
+22,26,Nation,Porte de Bagnolet,08:25,08:35
+23,26,Nation,Avron,08:10,08:20
+24,56,Porte de Clignancourt,Jules Joffrin,08:20,08:24
+25,56,Porte de Clignancourt,Simplon,08:10,08:14
+26,52,Gare Saint-Lazare,Europe,08:10,08:15
+27,39,Issy,Convention,08:15,08:16
+28,39,Issy,Sèvres-Lecourbe,08:25,08:29
+29,39,Issy,Volontaires,08:20,08:27
+30,39,Issy,Volontaires,08:20,08:24
+31,39,Issy,Montparnasse,08:30,08:36
+32,62,Porte de Saint-Cloud,Exelmans,08:10,08:16
+33,73,La Défense,Charles de Gaulle-Étoile,08:20,08:21
+34,73,La Défense,Champs-Élysées,08:30,08:31
+35,68,Châtillon,Montparnasse,08:30,08:37
+36,68,Châtillon,Denfert-Rochereau,08:25,08:34
+37,68,Châtillon,Denfert-Rochereau,08:25,08:28
+38,68,Châtillon,Alésia,08:20,08:28
+39,68,Châtillon,Porte de Vanves,08:15,08:22
+40,80,Mairie du 18e,Invalides,08:30,08:34
+41,80,Mairie du 18e,Place Clichy,08:10,08:11
+42,80,Mairie du 18e,Opéra,08:20,08:23
+43,92,Porte de Champerret,Courcelles,08:15,08:21
+44,92,Porte de Champerret,Courcelles,08:15,08:19
+45,92,Porte de Champerret,Péreire,08:10,08:20
+46,92,Porte de Champerret,Miromesnil,08:25,08:31
