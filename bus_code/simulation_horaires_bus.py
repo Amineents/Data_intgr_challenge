@@ -1,8 +1,13 @@
 import csv
 from datetime import datetime, timedelta
 import random
+from pathlib import Path
 
-# Liste des arrêts fixes par ligne (départ + intermédiaires + destination)
+#  Dossier cible correct
+landing_dir = Path("../data_like/bus")
+output_file = landing_dir / "horaires_arrets_bus.csv"
+
+#  Liste des arrêts fixes par ligne
 arrets_par_ligne = {
     "21": ["Stade Charléty", "Place d’Italie", "Glacière", "Denfert-Rochereau", "Raspail", "Gare Saint-Lazare"],
     "38": ["Gare du Nord", "Saint-Michel", "Cluny - La Sorbonne", "Luxembourg", "Alésia", "Porte d'Orléans"],
@@ -21,8 +26,8 @@ arrets_par_ligne = {
     "87": ["Gare de Lyon", "Bercy", "Bibliothèque F. Mitterrand", "Olympiades", "Tolbiac", "Maison Blanche"]
 }
 
-# Création du fichier CSV
-with open("horaires_arrets_bus.csv", mode="w", newline="", encoding="utf-8") as fichier_csv:
+#  Génération du fichier CSV
+with output_file.open(mode="w", newline="", encoding="utf-8") as fichier_csv:
     writer = csv.writer(fichier_csv)
     writer.writerow(["ligne", "nom_arret", "placement_gare", "heure_passage", "ordre_arret"])
 
@@ -41,4 +46,4 @@ with open("horaires_arrets_bus.csv", mode="w", newline="", encoding="utf-8") as 
                 i + 1
             ])
 
-print(" Fichier 'horaires_arrets_bus.csv' généré avec arrêts fixes par ligne.")
+print(f"Fichier généré : {output_file}")

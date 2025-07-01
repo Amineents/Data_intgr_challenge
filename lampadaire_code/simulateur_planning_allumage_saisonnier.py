@@ -2,20 +2,21 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-# Préparation du dossier cible
-landing_dir = Path("data_lake/landing/lampadaires")
-landing_dir.mkdir(parents=True, exist_ok=True)
+#  Dossier de sortie
+bus_dir = Path("../data_like/bus")
+bus_dir.mkdir(parents=True, exist_ok=True)
+output_file = bus_dir / "planning_allumage_saisonnier.csv"
 
-# Paramètres
+#  Paramètres
 lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
 dates = pd.date_range(start="2025-06-28", periods=10, freq="D")
 
 def is_summer(date):
-    # On considère que l'été est de mai à août
+    # Été défini de mai à août
     return date.month in [5, 6, 7, 8]
 
+# Génération du planning
 planning = []
-
 for lamp_id in lamp_ids:
     for date in dates:
         if is_summer(date):
@@ -32,8 +33,7 @@ for lamp_id in lamp_ids:
             "off_time": off_time
         })
 
-# Export CSV dans dossier landing/lampadaires
-output_file = landing_dir / "planning_allumage_saisonnier.csv"
+# Sauvegarde CSV
 df = pd.DataFrame(planning)
 df.to_csv(output_file, index=False, encoding="utf-8")
-print(f"Fichier '{output_file}' généré.")
+print(f" Fichier généré : {output_file}")
