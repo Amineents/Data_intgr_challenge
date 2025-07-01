@@ -1,30 +1,34 @@
-
 import csv
 import random
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# Création du dossier cible
-landing_dir = Path("data_lake/landing/lampadaires")
+#  Création du dossier cible correct
+landing_dir = Path("data_lake/landing/trafic_routes")
 landing_dir.mkdir(parents=True, exist_ok=True)
 
-# Liste d'arrêts de bus (exemples)
+#  Liste complète des arrêts officiels
 bus_stops = [
-    "Saint-Lazare", "Châtelet", "Gare de Lyon",
-    "Invalides", "Porte de Clignancourt"
+    "Stade Charléty", "Gare Saint-Lazare", "Gare du Nord", "Porte d'Orléans",
+    "Fort du Kremlin", "Châtelet", "Porte de la Muette", "Gare de Lyon",
+    "Hôtel de Ville", "Parc de Saint-Cloud", "Luxembourg", "Neuilly",
+    "Bastille", "Montparnasse", "Porte des Lilas", "Porte d’Ivry",
+    "Champ de Mars", "Gambetta", "Pont Neuf", "École Militaire",
+    "La Muette", "Opéra", "La Défense", "Musée d'Orsay",
+    "Porte Maillot", "Gare de l'Est", "Bibliothèque F. Mitterrand"
 ]
 
-# Génération des paires de routes entre arrêts distincts
+#  Paires de routes entre arrêts distincts
 routes = [
     (a, b) for a in bus_stops for b in bus_stops if a != b
 ]
 
-# Paramètres de simulation
+#  Paramètres de simulation
 traffic_levels = ["léger", "modéré", "fort"]
 num_entries = 100
 start_time = datetime.now() - timedelta(hours=5)
 
-# Génération du trafic
+#  Génération des données
 traffic_data = []
 for _ in range(num_entries):
     frm, to = random.choice(routes)
@@ -38,11 +42,11 @@ for _ in range(num_entries):
     }
     traffic_data.append(entry)
 
-# Écriture du fichier CSV
+# Écriture dans le fichier CSV final
 output_file = landing_dir / "trafic_routes_paris.csv"
 with output_file.open("w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=traffic_data[0].keys())
     writer.writeheader()
     writer.writerows(traffic_data)
 
-print(f"Fichier généré : {output_file}")
+print(f" Fichier généré : {output_file}")
