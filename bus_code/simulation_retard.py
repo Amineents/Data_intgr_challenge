@@ -2,54 +2,71 @@ import csv
 import random
 from datetime import datetime, timedelta
 
-# Lignes avec leurs arrêts fixes
-arrets_par_ligne = {
-    "21": ["Gare Saint-Lazare", "Opéra", "Louvre", "Châtelet", "Bastille", "Gare de Lyon"],
-    "38": ["Gare du Nord", "République", "Hôtel de Ville", "Saint-Michel", "Denfert-Rochereau", "Porte d'Orléans"],
-    "72": ["Parc André Citroën", "Tour Eiffel", "Invalides", "Musée d'Orsay", "Louvre", "Hôtel de Ville"],
-    "91": ["Gare Montparnasse", "Raspail", "Denfert-Rochereau", "Glacière", "Place d'Italie", "Bibliothèque F. Mitterrand"],
-    "31": ["Porte de Champerret", "Wagram", "Place de Clichy", "Trinité", "Chaussée d’Antin", "Opéra"],
-    "24": ["Gare Saint-Lazare", "Saint-Augustin", "Opéra", "Louvre", "Pont Neuf", "Saint-Michel"],
-    "26": ["Nation", "Avron", "Buzenval", "Maraîchers", "Porte de Bagnolet", "Gallieni"],
-    "56": ["Porte de Clignancourt", "Simplon", "Marcadet", "Jules Joffrin", "Guy Môquet", "Place de Clichy"],
-    "52": ["Gare Saint-Lazare", "Europe", "Rome", "Villiers", "Porte de Clichy", "Mairie de Clichy"],
-    "39": ["Issy", "Corentin Celton", "Convention", "Volontaires", "Sèvres-Lecourbe", "Montparnasse"],
-    "62": ["Porte de Saint-Cloud", "Exelmans", "Michel-Ange", "Porte de Versailles", "Porte de Vanves", "Alésia"],
-    "73": ["La Défense", "Pont de Neuilly", "Argentine", "Charles de Gaulle-Étoile", "George V", "Champs-Élysées"],
-    "68": ["Châtillon", "Malakoff", "Porte de Vanves", "Alésia", "Denfert-Rochereau", "Montparnasse"],
-    "80": ["Mairie du 18e", "Place Clichy", "Saint-Lazare", "Opéra", "Madeleine", "Invalides"],
-    "92": ["Porte de Champerret", "Péreire", "Courcelles", "Monceau", "Miromesnil", "Madeleine"]
+# Dictionnaire : ligne → liste de gares (arrêts)
+gares_par_ligne = {
+    "21": ["Stade Charléty", "Alésia", "Denfert-Rochereau", "Montparnasse", "Opéra", "Gare Saint-Lazare"],
+    "38": ["Gare du Nord", "Châtelet", "Luxembourg", "Raspail", "Alésia", "Porte d'Orléans"],
+    "47": ["Fort du Kremlin", "Ivry", "Place d'Italie", "Gare d'Austerlitz", "Hôtel de Ville", "Châtelet"],
+    "63": ["Porte de la Muette", "La Muette", "Trocadéro", "Invalides", "Gare d'Austerlitz", "Gare de Lyon"],
+    "72": ["Hôtel de Ville", "Concorde", "Pont de l'Alma", "Musée du quai Branly", "Pont Mirabeau", "Parc de Saint-Cloud"],
+    "82": ["Luxembourg", "Montparnasse", "Invalides", "Charles de Gaulle Étoile", "Bois de Boulogne", "Neuilly"],
+    "91": ["Bastille", "Gare de Lyon", "Place d'Italie", "Raspail", "Gare Montparnasse", "Montparnasse"],
+    "96": ["Gare Montparnasse", "Odéon", "Hôtel de Ville", "République", "Ménilmontant", "Porte des Lilas"],
+    "27": ["Gare Saint-Lazare", "Opéra", "Châtelet", "Gare d'Austerlitz", "Bibliothèque", "Porte d’Ivry"],
+    "69": ["Champ de Mars", "Invalides", "Louvre", "Bastille", "Père Lachaise", "Gambetta"],
+    "24": ["Pont Neuf", "Châtelet", "Odéon", "Invalides", "École Militaire"],
+    "52": ["La Muette", "Trocadéro", "Champs-Élysées", "Madeleine", "Opéra"],
+    "73": ["La Défense", "Neuilly", "Porte Maillot", "Concorde", "Musée d'Orsay"],
+    "30": ["Porte Maillot", "Ternes", "Place de Clichy", "Gare du Nord", "Gare de l'Est"],
+    "87": ["Gare de Lyon", "Bibliothèque F. Mitterrand"]
 }
 
+# Bus liés à une seule ligne
+bus_infos = [
+    {"id": 1, "ligne": "21"},
+    {"id": 2, "ligne": "38"},
+    {"id": 3, "ligne": "47"},
+    {"id": 4, "ligne": "63"},
+    {"id": 5, "ligne": "72"},
+    {"id": 6, "ligne": "82"},
+    {"id": 7, "ligne": "91"},
+    {"id": 8, "ligne": "96"},
+    {"id": 9, "ligne": "27"},
+    {"id": 10, "ligne": "69"},
+    {"id": 11, "ligne": "24"},
+    {"id": 12, "ligne": "52"},
+    {"id": 13, "ligne": "73"},
+    {"id": 14, "ligne": "30"},
+    {"id": 15, "ligne": "87"}
+]
+
+# Création du fichier CSV des retards
 with open("historique_retards.csv", mode="w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["id_bus", "ligne", "gare_depart", "gare_retard", "heure_arrivee_prevue", "heure_arrivee_reelle"])
-    
-    bus_counter = 1
 
-    for ligne, arrets in arrets_par_ligne.items():
-        nb_retards = random.randint(1, 5)  # nombre de retards par ligne
+    for bus in bus_infos:
+        ligne = bus["ligne"]
+        arrets = gares_par_ligne[ligne]
+        gare_depart = arrets[0]
+
+        nb_retards = random.randint(2, 4)
 
         for _ in range(nb_retards):
-            id_bus = bus_counter
-            gare_depart = arrets[0]  # premier arrêt (nom)
-            num_gare_retard = random.randint(1, len(arrets)-1)  # indice aléatoire sauf premier arrêt
-            gare_retard = arrets[num_gare_retard]
+            gare_retard = random.choice(arrets[1:])  # on ne prend pas la gare de départ
 
             heure_base = datetime.strptime("08:00", "%H:%M")
-            minute_offset = (num_gare_retard + 1) * 5
-            heure_prevue = heure_base + timedelta(minutes=minute_offset)
+            offset_min = random.randint(10, 50)
+            heure_prevue = heure_base + timedelta(minutes=offset_min)
 
-            retard = random.randint(1, 10)
-            heure_reelle = heure_prevue + timedelta(minutes=retard)
+            retard_min = random.randint(2, 15)
+            heure_reelle = heure_prevue + timedelta(minutes=retard_min)
 
             writer.writerow([
-                id_bus,
+                bus["id"],
                 ligne,
                 gare_depart,
                 gare_retard,
                 heure_prevue.strftime("%H:%M"),
                 heure_reelle.strftime("%H:%M")
             ])
-
-            bus_counter += 1
