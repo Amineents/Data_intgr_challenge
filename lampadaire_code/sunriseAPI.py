@@ -13,7 +13,7 @@ url = f"https://api.sunrise-sunset.org/json?lat={lat}&lng={lng}&formatted=0"
 response = requests.get(url)
 
 
-folder_path = "data_like/lampadaires"
+folder_path = "../data_like/lampadaires"
 file_path = os.path.join(folder_path, "sunrise_sunset.json")
 
 

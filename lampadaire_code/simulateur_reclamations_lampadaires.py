@@ -3,20 +3,18 @@ import random
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# Préparation du dossier cible
-landing_dir = Path("data_lake/landing/lampadaires")
-landing_dir.mkdir(parents=True, exist_ok=True)
+# Dossier cible
+lamp_dir = Path("../data_lake/lampadaires")
+lamp_dir.mkdir(parents=True, exist_ok=True)
+output_file = lamp_dir / "reclamations_lampadaires.jsonl"
 
-# Paramètres
+# Paramètres de simulation
 lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
 statuses = ["off", "blinking", "broken", "on_but_dim"]
 num_reports = 30
 start_time = datetime.now() - timedelta(days=5)
 
-# Chemin de sortie
-output_file = landing_dir / "reclamations_lampadaires.jsonl"
-
-# Génération
+# Génération des réclamations
 with output_file.open("w", encoding="utf-8") as f:
     for _ in range(num_reports):
         record = {
@@ -26,3 +24,5 @@ with output_file.open("w", encoding="utf-8") as f:
         }
         f.write(json.dumps(record) + "\n")
         print(f"Généré : {record}")
+
+print(f"\n Fichier généré : {output_file}")

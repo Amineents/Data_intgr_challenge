@@ -1,6 +1,11 @@
 import csv
 import random
-from datetime import datetime, timedelta
+from datetime import datetime
+from pathlib import Path
+
+#  Dossier cible
+bus_dir = Path("../data_like/bus")
+output_file = bus_dir / "localisation_bus_paris.csv"
 
 # 15 lignes de bus fictives
 lignes_bus = [
@@ -21,13 +26,10 @@ lignes_bus = [
     {"ligne": "87", "gare_depart": "Gare de Lyon", "destination": "Bibliothèque F. Mitterrand"},
 ]
 
-# Écriture du fichier CSV sans heure de départ
-with open("donnees_bus_paris.csv", mode="w", newline="", encoding="utf-8") as fichier_csv:
+#  Écriture du fichier CSV
+with output_file.open(mode="w", newline="", encoding="utf-8") as fichier_csv:
     writer = csv.writer(fichier_csv)
-    writer.writerow([
-        "id", "ligne", "gare_depart", "destination", "position_gps",
-        "heure_de_captage"
-    ])
+    writer.writerow(["id", "ligne", "gare_depart", "destination", "position_gps", "heure_de_captage"])
 
     for idx, ligne in enumerate(lignes_bus, start=1):
         lat = round(random.uniform(48.80, 48.90), 6)
@@ -45,9 +47,9 @@ with open("donnees_bus_paris.csv", mode="w", newline="", encoding="utf-8") as fi
             heure_captage.strftime("%Y-%m-%d %H:%M:%S")
         ])
 
-print(" Fichier 'donnees_bus_paris.csv' généré sans colonne 'heure_depart'.")
+print(f"Fichier généré : {output_file}")
 
-# Affichage des lignes
+#  Affichage des lignes
 def afficher_lignes_bus(lignes_bus):
     print("\nListe des lignes de bus :\n")
     for ligne in lignes_bus:
