@@ -1,16 +1,16 @@
 id,ligne,gare_depart,destination,position_gps,heure_de_captage
-1,21,Stade Charléty,Gare Saint-Lazare,"48.871594,2.396458",2025-07-01 16:01:48
-2,38,Gare du Nord,Porte d'Orléans,"48.884788,2.315771",2025-07-01 16:01:48
-3,47,Fort du Kremlin,Châtelet,"48.881197,2.38715",2025-07-01 16:01:48
-4,63,Porte de la Muette,Gare de Lyon,"48.82169,2.372406",2025-07-01 16:01:48
-5,72,Hôtel de Ville,Parc de Saint-Cloud,"48.8536,2.416022",2025-07-01 16:01:48
-6,82,Luxembourg,Neuilly,"48.849192,2.365714",2025-07-01 16:01:48
-7,91,Bastille,Montparnasse,"48.899777,2.333124",2025-07-01 16:01:48
-8,96,Gare Montparnasse,Porte des Lilas,"48.821769,2.308308",2025-07-01 16:01:48
-9,27,Gare Saint-Lazare,Porte d’Ivry,"48.896053,2.40066",2025-07-01 16:01:48
-10,69,Champ de Mars,Gambetta,"48.849204,2.398573",2025-07-01 16:01:48
-11,24,Pont Neuf,École Militaire,"48.879971,2.390029",2025-07-01 16:01:48
-12,52,La Muette,Opéra,"48.897129,2.331175",2025-07-01 16:01:48
-13,73,La Défense,Musée d'Orsay,"48.808625,2.402494",2025-07-01 16:01:48
-14,30,Porte Maillot,Gare de l'Est,"48.829712,2.315039",2025-07-01 16:01:48
-15,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.893698,2.305019",2025-07-01 16:01:48
+1,21,Stade Charléty,Gare Saint-Lazare,"48.803265,2.3006",2025-07-01 16:15:02
+2,38,Gare du Nord,Porte d'Orléans,"48.865166,2.413374",2025-07-01 16:15:02
+3,47,Fort du Kremlin,Châtelet,"48.842525,2.349923",2025-07-01 16:15:02
+4,63,Porte de la Muette,Gare de Lyon,"48.845898,2.314494",2025-07-01 16:15:02
+5,72,Hôtel de Ville,Parc de Saint-Cloud,"48.815359,2.401946",2025-07-01 16:15:02
+6,82,Luxembourg,Neuilly,"48.802188,2.386147",2025-07-01 16:15:02
+7,91,Bastille,Montparnasse,"48.891594,2.314645",2025-07-01 16:15:02
+8,96,Gare Montparnasse,Porte des Lilas,"48.800595,2.361364",2025-07-01 16:15:02
+9,27,Gare Saint-Lazare,Porte d’Ivry,"48.864129,2.31758",2025-07-01 16:15:02
+10,69,Champ de Mars,Gambetta,"48.819873,2.350758",2025-07-01 16:15:02
+11,24,Pont Neuf,École Militaire,"48.878022,2.393999",2025-07-01 16:15:02
+12,52,La Muette,Opéra,"48.83115,2.361949",2025-07-01 16:15:02
+13,73,La Défense,Musée d'Orsay,"48.804112,2.331209",2025-07-01 16:15:02
+14,30,Porte Maillot,Gare de l'Est,"48.841456,2.417794",2025-07-01 16:15:02
+15,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.839927,2.336809",2025-07-01 16:15:02

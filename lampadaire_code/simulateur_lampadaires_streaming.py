@@ -20,7 +20,7 @@ output_file = landing_dir / "lampadaires_streaming_simulation.jsonl"
 #  Paramètres de simulation
 lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
 num_lines = 100  # Nombre de lignes à générer
-interval_seconds = 1  # Intervalle entre chaque ligne (en secondes)
+
 
 #  Simulation de données de consommation électrique en streaming
 with output_file.open("w", encoding="utf-8") as f:
@@ -38,6 +38,5 @@ with output_file.open("w", encoding="utf-8") as f:
         f.write(json.dumps(record) + "\n")
         f.flush()  # Pour simuler un flux en temps réel
         print(f"Écrit: {record}")
-        time.sleep(interval_seconds)
 
 print(f"\n Fichier généré : {output_file}")
