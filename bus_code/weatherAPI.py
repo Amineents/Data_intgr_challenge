@@ -16,7 +16,7 @@ api_key = os.getenv("OPENWEATHER_API_KEY")
 url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}&units=metric&lang=fr"
 
 
-folder_path = "data_like/bus"
+folder_path = "../data_like/bus"
 os.makedirs(folder_path, exist_ok=True)  
 
 
