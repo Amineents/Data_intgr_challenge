@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Chemins
 BASE_DIR = Path(__file__).resolve().parent
-DATA_LAKE_DIR = BASE_DIR / "data_lake1"
+DATA_LAKE_DIR = BASE_DIR / "data_lake"
 BUS_CODE_DIR = BASE_DIR / "bus_code"
 LAMPADAIRE_CODE_DIR = BASE_DIR / "lampadaire_code"
 

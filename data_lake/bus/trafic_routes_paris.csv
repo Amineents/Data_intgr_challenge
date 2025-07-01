@@ -1,101 +1,101 @@
 id,route_from,route_to,traffic_level,vehicle_count,avg_speed_kmh,timestamp
-1,Fort du Kremlin,Bibliothèque F. Mitterrand,fort,16,43.7,2025-07-01 15:22:48
-2,Porte d’Ivry,Montparnasse,fort,145,38.1,2025-07-01 11:41:48
-3,Pont Neuf,Opéra,léger,8,50.1,2025-07-01 15:36:48
-4,Stade Charléty,Gare de l'Est,léger,133,33.0,2025-07-01 15:10:48
-5,Châtelet,Porte d'Orléans,modéré,33,56.2,2025-07-01 15:46:48
-6,Gare Saint-Lazare,Bibliothèque F. Mitterrand,fort,61,11.9,2025-07-01 12:56:48
-7,École Militaire,Porte de la Muette,léger,64,53.3,2025-07-01 15:45:48
-8,Musée d'Orsay,Gare Saint-Lazare,fort,30,50.3,2025-07-01 13:12:48
-9,Musée d'Orsay,Porte Maillot,léger,24,41.0,2025-07-01 12:56:48
-10,Gare Saint-Lazare,Porte des Lilas,léger,67,13.5,2025-07-01 12:13:48
-11,Montparnasse,La Défense,léger,39,23.2,2025-07-01 15:35:48
-12,Montparnasse,Gambetta,modéré,79,46.7,2025-07-01 14:08:48
-13,Bastille,Opéra,léger,19,41.4,2025-07-01 14:32:48
-14,La Défense,Neuilly,modéré,87,26.9,2025-07-01 11:37:48
-15,Porte de la Muette,Luxembourg,fort,98,57.7,2025-07-01 14:04:48
-16,Gare de l'Est,Hôtel de Ville,fort,12,21.4,2025-07-01 15:36:48
-17,Porte d’Ivry,La Muette,modéré,19,21.7,2025-07-01 12:41:48
-18,Neuilly,Pont Neuf,modéré,61,47.8,2025-07-01 14:49:48
-19,Gambetta,Châtelet,modéré,146,16.7,2025-07-01 14:01:48
-20,La Muette,Gare du Nord,léger,85,11.6,2025-07-01 15:37:48
-21,Porte d'Orléans,Fort du Kremlin,fort,121,37.5,2025-07-01 15:22:48
-22,Parc de Saint-Cloud,École Militaire,léger,72,46.9,2025-07-01 13:49:48
-23,Porte d’Ivry,Gare de l'Est,fort,140,19.5,2025-07-01 11:41:48
-24,Parc de Saint-Cloud,Neuilly,léger,114,59.8,2025-07-01 14:20:48
-25,Bibliothèque F. Mitterrand,Opéra,modéré,121,12.2,2025-07-01 15:47:48
-26,Porte d’Ivry,La Défense,modéré,130,14.2,2025-07-01 13:27:48
-27,École Militaire,Gare de l'Est,modéré,10,29.7,2025-07-01 11:17:48
-28,Opéra,Gare de l'Est,léger,97,39.9,2025-07-01 15:01:48
-29,Fort du Kremlin,Châtelet,fort,15,57.2,2025-07-01 14:09:48
-30,Gare du Nord,Châtelet,modéré,85,10.5,2025-07-01 14:09:48
-31,Porte d'Orléans,La Défense,modéré,41,51.1,2025-07-01 14:53:48
-32,Parc de Saint-Cloud,Porte Maillot,fort,15,49.7,2025-07-01 13:40:48
-33,Fort du Kremlin,Châtelet,modéré,31,19.9,2025-07-01 12:05:48
-34,Gare du Nord,Porte de la Muette,fort,21,49.7,2025-07-01 15:06:48
-35,Porte des Lilas,Opéra,modéré,92,49.8,2025-07-01 14:14:48
-36,La Défense,Neuilly,fort,8,33.6,2025-07-01 13:05:48
-37,Gambetta,Bibliothèque F. Mitterrand,léger,113,30.4,2025-07-01 12:37:48
-38,Porte de la Muette,Musée d'Orsay,modéré,124,32.3,2025-07-01 13:24:48
-39,École Militaire,Porte de la Muette,léger,102,49.8,2025-07-01 15:33:48
-40,Hôtel de Ville,Bastille,modéré,96,33.1,2025-07-01 13:59:48
-41,Opéra,Luxembourg,fort,134,14.4,2025-07-01 12:01:48
-42,Fort du Kremlin,Champ de Mars,modéré,39,50.1,2025-07-01 13:57:48
-43,Luxembourg,Gare Saint-Lazare,modéré,86,46.1,2025-07-01 13:28:48
-44,Champ de Mars,Bastille,léger,97,45.7,2025-07-01 11:09:48
-45,Porte d'Orléans,Porte d’Ivry,léger,48,54.0,2025-07-01 15:14:48
-46,Porte des Lilas,Bastille,léger,71,15.1,2025-07-01 12:09:48
-47,Hôtel de Ville,Montparnasse,modéré,80,50.1,2025-07-01 11:21:48
-48,Gambetta,Gare Saint-Lazare,léger,114,20.1,2025-07-01 14:54:48
-49,Gambetta,Porte d'Orléans,modéré,34,12.1,2025-07-01 15:35:48
-50,École Militaire,Gambetta,léger,65,22.5,2025-07-01 14:00:48
-51,Gare de Lyon,Musée d'Orsay,modéré,77,18.1,2025-07-01 12:11:48
-52,Porte des Lilas,Musée d'Orsay,fort,55,21.3,2025-07-01 12:37:48
-53,La Muette,Musée d'Orsay,modéré,140,20.2,2025-07-01 11:16:48
-54,Gare Saint-Lazare,Bastille,léger,73,14.1,2025-07-01 11:25:48
-55,Porte des Lilas,La Muette,modéré,137,46.0,2025-07-01 14:32:48
-56,Gare de l'Est,Porte des Lilas,fort,36,42.5,2025-07-01 14:32:48
-57,Bastille,Gare de Lyon,modéré,149,30.8,2025-07-01 13:11:48
-58,Porte de la Muette,Gambetta,léger,73,27.9,2025-07-01 15:25:48
-59,Porte d’Ivry,Parc de Saint-Cloud,léger,12,23.0,2025-07-01 12:44:48
-60,Pont Neuf,Gare du Nord,léger,33,38.8,2025-07-01 11:31:48
-61,Gambetta,Gare Saint-Lazare,modéré,109,14.1,2025-07-01 14:11:48
-62,Hôtel de Ville,École Militaire,léger,106,25.8,2025-07-01 14:35:48
-63,Gare du Nord,Porte Maillot,léger,67,38.0,2025-07-01 13:28:48
-64,La Défense,Neuilly,léger,111,57.8,2025-07-01 11:34:48
-65,Porte d'Orléans,Porte de la Muette,léger,89,28.9,2025-07-01 14:37:48
-66,Porte des Lilas,École Militaire,modéré,70,25.2,2025-07-01 11:29:48
-67,Bibliothèque F. Mitterrand,Stade Charléty,léger,51,26.0,2025-07-01 11:26:48
-68,Porte Maillot,Porte d'Orléans,fort,32,53.3,2025-07-01 14:05:48
-69,Fort du Kremlin,Stade Charléty,modéré,46,37.0,2025-07-01 12:08:48
-70,Bibliothèque F. Mitterrand,Porte d'Orléans,fort,91,58.4,2025-07-01 15:05:48
-71,Bastille,La Muette,léger,87,22.8,2025-07-01 11:34:48
-72,Fort du Kremlin,Neuilly,modéré,82,21.7,2025-07-01 14:36:48
-73,Champ de Mars,Gare de Lyon,modéré,18,30.9,2025-07-01 13:58:48
-74,Gare du Nord,Porte des Lilas,léger,58,48.9,2025-07-01 13:46:48
-75,Hôtel de Ville,Porte de la Muette,fort,54,41.0,2025-07-01 15:40:48
-76,Gare Saint-Lazare,La Muette,léger,143,20.3,2025-07-01 14:45:48
-77,Musée d'Orsay,Porte Maillot,léger,54,11.6,2025-07-01 11:21:48
-78,Porte Maillot,Gare de l'Est,fort,60,39.7,2025-07-01 12:26:48
-79,Parc de Saint-Cloud,Porte de la Muette,fort,19,21.0,2025-07-01 11:22:48
-80,Gare du Nord,Gare Saint-Lazare,léger,110,34.3,2025-07-01 14:54:48
-81,Gare Saint-Lazare,Bastille,léger,118,32.3,2025-07-01 13:49:48
-82,Porte d’Ivry,Bastille,fort,134,53.2,2025-07-01 13:24:48
-83,Montparnasse,Champ de Mars,léger,113,25.2,2025-07-01 14:03:48
-84,Porte d’Ivry,École Militaire,fort,25,23.2,2025-07-01 11:01:48
-85,École Militaire,Neuilly,léger,111,30.6,2025-07-01 14:32:48
-86,Opéra,Stade Charléty,léger,150,43.7,2025-07-01 12:26:48
-87,Gare de Lyon,Gare de l'Est,fort,103,31.9,2025-07-01 14:29:48
-88,Neuilly,Porte d’Ivry,léger,7,57.4,2025-07-01 11:51:48
-89,Châtelet,Porte d'Orléans,léger,83,48.8,2025-07-01 13:05:48
-90,Champ de Mars,Gare de Lyon,modéré,134,53.0,2025-07-01 12:56:48
-91,Gambetta,Neuilly,léger,37,15.8,2025-07-01 13:45:48
-92,Gare de l'Est,La Défense,léger,95,20.1,2025-07-01 11:27:48
-93,Gare de Lyon,Neuilly,fort,119,26.9,2025-07-01 13:35:48
-94,Bastille,Fort du Kremlin,fort,59,42.0,2025-07-01 16:00:48
-95,Gare du Nord,Châtelet,léger,26,26.3,2025-07-01 12:59:48
-96,Châtelet,Montparnasse,modéré,128,18.6,2025-07-01 13:19:48
-97,Parc de Saint-Cloud,École Militaire,modéré,89,58.2,2025-07-01 14:46:48
-98,Bibliothèque F. Mitterrand,Fort du Kremlin,fort,49,32.8,2025-07-01 11:13:48
-99,La Défense,Bibliothèque F. Mitterrand,modéré,32,34.4,2025-07-01 15:47:48
-100,Porte d'Orléans,Bastille,modéré,140,53.3,2025-07-01 11:02:48
+1,Porte de la Muette,Hôtel de Ville,léger,48,54.2,2025-07-01 12:24:02
+2,Hôtel de Ville,Opéra,léger,141,36.1,2025-07-01 13:37:02
+3,Luxembourg,Gare de l'Est,modéré,59,31.5,2025-07-01 12:47:02
+4,Gare de Lyon,La Défense,léger,84,14.6,2025-07-01 12:59:02
+5,Porte de la Muette,Champ de Mars,modéré,52,24.9,2025-07-01 14:19:02
+6,Bibliothèque F. Mitterrand,École Militaire,léger,106,55.8,2025-07-01 12:56:02
+7,Montparnasse,Hôtel de Ville,fort,52,44.3,2025-07-01 12:43:02
+8,Porte des Lilas,Châtelet,fort,34,19.4,2025-07-01 12:04:02
+9,Neuilly,Opéra,léger,25,40.3,2025-07-01 14:35:02
+10,Neuilly,Montparnasse,modéré,53,40.2,2025-07-01 14:06:02
+11,Gare de Lyon,La Défense,léger,63,44.8,2025-07-01 13:57:02
+12,Hôtel de Ville,Porte d’Ivry,modéré,68,52.1,2025-07-01 11:52:02
+13,Fort du Kremlin,Musée d'Orsay,léger,133,24.7,2025-07-01 11:48:02
+14,Parc de Saint-Cloud,Bibliothèque F. Mitterrand,fort,127,55.8,2025-07-01 13:52:02
+15,Porte Maillot,Champ de Mars,modéré,148,31.4,2025-07-01 13:00:02
+16,Musée d'Orsay,Châtelet,fort,54,42.2,2025-07-01 13:29:02
+17,Gare Saint-Lazare,Porte d'Orléans,léger,136,48.8,2025-07-01 13:12:02
+18,Hôtel de Ville,Bibliothèque F. Mitterrand,léger,12,17.0,2025-07-01 14:32:02
+19,Porte d'Orléans,Gare de Lyon,léger,70,58.7,2025-07-01 13:31:02
+20,École Militaire,Bibliothèque F. Mitterrand,fort,99,51.9,2025-07-01 14:38:02
+21,Porte d’Ivry,Fort du Kremlin,fort,14,13.0,2025-07-01 12:22:02
+22,La Défense,Luxembourg,léger,111,45.7,2025-07-01 14:14:02
+23,Porte des Lilas,Gare de Lyon,modéré,83,39.2,2025-07-01 14:50:02
+24,Neuilly,La Défense,léger,77,56.1,2025-07-01 13:02:02
+25,Pont Neuf,Montparnasse,léger,17,50.9,2025-07-01 13:23:02
+26,Châtelet,Porte de la Muette,léger,70,43.1,2025-07-01 11:47:02
+27,Parc de Saint-Cloud,La Muette,léger,54,18.7,2025-07-01 15:45:02
+28,Hôtel de Ville,Porte d’Ivry,fort,114,14.2,2025-07-01 12:16:02
+29,Montparnasse,École Militaire,léger,129,29.0,2025-07-01 12:47:02
+30,Luxembourg,Porte d'Orléans,modéré,133,54.8,2025-07-01 12:19:02
+31,Porte d'Orléans,Pont Neuf,modéré,146,28.1,2025-07-01 11:30:02
+32,Pont Neuf,Gare de Lyon,léger,76,56.3,2025-07-01 12:59:02
+33,Porte des Lilas,Porte de la Muette,modéré,109,44.5,2025-07-01 12:56:02
+34,École Militaire,Porte d’Ivry,léger,122,47.6,2025-07-01 13:48:02
+35,Porte de la Muette,École Militaire,fort,68,48.1,2025-07-01 13:32:02
+36,Porte d’Ivry,Stade Charléty,fort,80,38.9,2025-07-01 11:16:02
+37,Gambetta,Porte de la Muette,fort,148,18.4,2025-07-01 13:55:02
+38,Gare de l'Est,Porte de la Muette,modéré,143,58.3,2025-07-01 14:30:02
+39,Opéra,Porte d'Orléans,fort,107,27.1,2025-07-01 15:53:02
+40,La Muette,Champ de Mars,fort,115,27.1,2025-07-01 12:27:02
+41,Fort du Kremlin,Porte Maillot,léger,124,14.1,2025-07-01 15:01:02
+42,Gare du Nord,La Défense,léger,35,37.8,2025-07-01 11:42:02
+43,Porte Maillot,Fort du Kremlin,fort,115,41.3,2025-07-01 11:44:02
+44,Gare de l'Est,Neuilly,modéré,148,21.9,2025-07-01 13:53:02
+45,École Militaire,Neuilly,modéré,15,50.2,2025-07-01 14:04:02
+46,Pont Neuf,Musée d'Orsay,modéré,95,42.0,2025-07-01 16:14:02
+47,Luxembourg,Gambetta,modéré,149,30.1,2025-07-01 15:27:02
+48,Parc de Saint-Cloud,Bibliothèque F. Mitterrand,fort,126,27.2,2025-07-01 15:38:02
+49,Opéra,Gare de Lyon,léger,140,27.2,2025-07-01 12:54:02
+50,Hôtel de Ville,Porte d'Orléans,fort,103,52.4,2025-07-01 12:48:02
+51,Gare du Nord,Neuilly,fort,67,41.9,2025-07-01 13:01:02
+52,École Militaire,Porte Maillot,léger,142,44.8,2025-07-01 16:14:02
+53,Fort du Kremlin,Gare de l'Est,modéré,134,30.5,2025-07-01 12:25:02
+54,Luxembourg,Musée d'Orsay,fort,106,51.5,2025-07-01 15:31:02
+55,Gare Saint-Lazare,Gare de l'Est,modéré,40,37.2,2025-07-01 12:41:02
+56,Pont Neuf,Porte de la Muette,léger,18,21.5,2025-07-01 15:44:02
+57,Luxembourg,Porte des Lilas,léger,70,56.8,2025-07-01 15:39:02
+58,Porte d’Ivry,Porte de la Muette,modéré,89,22.7,2025-07-01 12:33:02
+59,Gare de Lyon,Gambetta,modéré,134,53.7,2025-07-01 14:08:02
+60,Montparnasse,Gare Saint-Lazare,léger,12,16.4,2025-07-01 15:15:02
+61,Porte de la Muette,Neuilly,modéré,131,26.5,2025-07-01 12:16:02
+62,Luxembourg,Gare du Nord,fort,47,45.4,2025-07-01 11:57:02
+63,Champ de Mars,Stade Charléty,modéré,77,17.6,2025-07-01 14:35:02
+64,Châtelet,Champ de Mars,léger,61,22.5,2025-07-01 12:44:02
+65,Pont Neuf,Opéra,léger,68,28.6,2025-07-01 16:15:02
+66,Musée d'Orsay,Pont Neuf,fort,39,50.6,2025-07-01 14:16:02
+67,La Muette,Champ de Mars,léger,46,35.9,2025-07-01 15:18:02
+68,Châtelet,Gare Saint-Lazare,fort,66,21.6,2025-07-01 13:45:02
+69,Bastille,Fort du Kremlin,modéré,25,29.8,2025-07-01 14:46:02
+70,La Muette,Musée d'Orsay,modéré,44,39.9,2025-07-01 12:30:02
+71,Porte Maillot,Gare Saint-Lazare,fort,102,57.6,2025-07-01 15:13:02
+72,Porte des Lilas,Gare du Nord,fort,135,18.8,2025-07-01 14:56:02
+73,Bastille,Stade Charléty,fort,135,25.1,2025-07-01 15:21:02
+74,Bibliothèque F. Mitterrand,Montparnasse,léger,40,53.0,2025-07-01 12:15:02
+75,Neuilly,Montparnasse,léger,49,39.4,2025-07-01 15:15:02
+76,Opéra,La Muette,modéré,12,53.9,2025-07-01 15:36:02
+77,Fort du Kremlin,Montparnasse,modéré,94,58.2,2025-07-01 12:55:02
+78,Gare de Lyon,Luxembourg,fort,24,31.3,2025-07-01 14:13:02
+79,Gare Saint-Lazare,Gare de Lyon,modéré,20,55.8,2025-07-01 13:54:02
+80,Gare de Lyon,La Muette,léger,16,59.5,2025-07-01 11:38:02
+81,Fort du Kremlin,Porte d’Ivry,modéré,119,22.8,2025-07-01 14:44:02
+82,Châtelet,Luxembourg,modéré,40,54.1,2025-07-01 14:24:02
+83,Parc de Saint-Cloud,Gare de Lyon,léger,104,30.3,2025-07-01 14:15:02
+84,Porte Maillot,Fort du Kremlin,léger,149,42.7,2025-07-01 14:44:02
+85,Gare de l'Est,Gambetta,fort,79,29.2,2025-07-01 13:34:02
+86,Musée d'Orsay,Porte des Lilas,léger,19,36.9,2025-07-01 12:31:02
+87,Opéra,Gambetta,fort,73,28.7,2025-07-01 15:11:02
+88,Montparnasse,École Militaire,modéré,112,42.5,2025-07-01 12:03:02
+89,Porte d'Orléans,Porte d’Ivry,fort,97,27.2,2025-07-01 12:06:02
+90,La Défense,La Muette,léger,107,25.7,2025-07-01 11:54:02
+91,Hôtel de Ville,Stade Charléty,léger,11,34.7,2025-07-01 14:40:02
+92,Bastille,Châtelet,modéré,115,50.6,2025-07-01 11:51:02
+93,Bastille,Montparnasse,modéré,20,27.1,2025-07-01 16:08:02
+94,La Muette,Châtelet,léger,69,17.9,2025-07-01 16:04:02
+95,Opéra,Luxembourg,modéré,31,38.3,2025-07-01 13:43:02
+96,Porte d’Ivry,Stade Charléty,léger,147,37.7,2025-07-01 13:16:02
+97,Châtelet,Gare Saint-Lazare,fort,8,44.0,2025-07-01 15:20:02
+98,Hôtel de Ville,Gambetta,léger,41,49.6,2025-07-01 15:53:02
+99,Gare de l'Est,Parc de Saint-Cloud,léger,45,41.3,2025-07-01 13:49:02
+100,Bibliothèque F. Mitterrand,Gare de Lyon,léger,57,27.2,2025-07-01 13:38:02
