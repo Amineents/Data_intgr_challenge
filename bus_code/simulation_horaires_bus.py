@@ -3,9 +3,17 @@ from datetime import datetime, timedelta
 import random
 from pathlib import Path
 
-#  Dossier cible correct
-landing_dir = Path("../data_like/bus")
-output_file = landing_dir / "horaires_arrets_bus.csv"
+#  Dossier cible existant
+current_file = Path(__file__).resolve()
+base_dir = current_file.parent.parent 
+
+bus_dir = base_dir / "data_lake" / "bus"
+bus_dir.mkdir(parents=True, exist_ok=True)
+
+# Fichier de sortie
+output_file = bus_dir / "horaires_arrets_bus.csv"
+
+
 
 #  Liste des arrêts fixes par ligne
 arrets_par_ligne = {

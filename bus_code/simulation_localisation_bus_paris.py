@@ -3,9 +3,17 @@ import random
 from datetime import datetime
 from pathlib import Path
 
-#  Dossier cible
-bus_dir = Path("../data_like/bus")
+#  Dossier cible existant
+current_file = Path(__file__).resolve()
+base_dir = current_file.parent.parent 
+
+bus_dir = base_dir / "data_lake" / "bus"
+bus_dir.mkdir(parents=True, exist_ok=True)
+
+# Fichier de sortie
 output_file = bus_dir / "localisation_bus_paris.csv"
+
+
 
 # 15 lignes de bus fictives
 lignes_bus = [

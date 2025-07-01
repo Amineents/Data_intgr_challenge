@@ -16,12 +16,15 @@ api_key = os.getenv("OPENWEATHER_API_KEY")
 url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}&units=metric&lang=fr"
 
 
-folder_path = "../data_like/bus"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+
+
+folder_path = os.path.join(parent_dir, "data_lake", "bus")
 os.makedirs(folder_path, exist_ok=True)  
 
 
 file_path = os.path.join(folder_path, "weather_data.json")
-
 
 response = requests.get(url)
 

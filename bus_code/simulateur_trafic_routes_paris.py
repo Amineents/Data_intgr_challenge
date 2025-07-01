@@ -4,8 +4,17 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 #  Dossier cible existant
-bus_dir = Path("../data_like/bus")
+current_file = Path(__file__).resolve()
+base_dir = current_file.parent.parent 
+
+bus_dir = base_dir / "data_lake" / "bus"
+bus_dir.mkdir(parents=True, exist_ok=True)
+
+# Fichier de sortie
 output_file = bus_dir / "trafic_routes_paris.csv"
+
+
+
 
 # Liste complète des arrêts
 bus_stops = [
