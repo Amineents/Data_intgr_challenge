@@ -1,20 +1,9 @@
 import csv
 import random
 from datetime import datetime, timedelta
-from pathlib import Path  # Import manquant corrigé
 
-# Dossier cible existant ou à créer
-current_file = Path(__file__).resolve()
-base_dir = current_file.parent.parent
-
-bus_dir = base_dir / "data_lake" / "bus"
-bus_dir.mkdir(parents=True, exist_ok=True)
-
-# Fichier de sortie CSV
-output_file = bus_dir / "historique_retards.csv"
-
-# Dictionnaire : ligne → liste de gares (arrêts)
-gares_par_ligne = {
+# Lignes et leurs gares (comme dans ton dictionnaire)
+ares_par_ligne = {
     "21": ["Stade Charléty", "Alésia", "Denfert-Rochereau", "Montparnasse", "Opéra", "Gare Saint-Lazare"],
     "38": ["Gare du Nord", "Châtelet", "Luxembourg", "Raspail", "Alésia", "Porte d'Orléans"],
     "47": ["Fort du Kremlin", "Ivry", "Place d'Italie", "Gare d'Austerlitz", "Hôtel de Ville", "Châtelet"],
@@ -32,38 +21,54 @@ gares_par_ligne = {
     "87": ["Gare de Lyon", "Bibliothèque F. Mitterrand"]
 }
 
-# Bus liés à une seule ligne
-bus_infos = [{"id": i+1, "ligne": ligne} for i, ligne in enumerate(gares_par_ligne)]
+# On va créer 10 bus par ligne, donc id_bus de 1 à 150 (15 lignes x 10 bus)
+bus_par_ligne = 10
 
-# Création du fichier CSV des retards
-with open(output_file, mode="w", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["id_bus", "ligne", "gare_depart", "gare_retard", "heure_arrivee_prevue", "heure_arrivee_reelle"])
+def random_time(start_hour=8, end_hour=9):
+    """Génère une heure aléatoire au format HH:MM entre start_hour et end_hour."""
+    hour = random.randint(start_hour, end_hour - 1)
+    minute = random.randint(0, 59)
+    return datetime.strptime(f"{hour}:{minute}", "%H:%M")
 
-    for bus in bus_infos:
-        ligne = bus["ligne"]
-        arrets = gares_par_ligne[ligne]
-        gare_depart = arrets[0]
+# Génération des données de retard
+historique_retards = []
 
-        nb_retards = random.randint(2, 4)
+id_bus_global = 1  # compteur d'id bus
+
+for ligne, gares in ares_par_ligne.items():
+    # Chaque ligne a 10 bus
+    for bus_num in range(bus_par_ligne):
+        id_bus = id_bus_global
+        id_bus_global += 1
+
+        gare_depart = gares[0]  # La première gare comme départ
+
+        # On génère plusieurs retards aléatoires (entre 3 et 6 retards par bus)
+        nb_retards = random.randint(3, 6)
 
         for _ in range(nb_retards):
-            gare_retard = random.choice(arrets[1:])  # éviter la gare de départ
+            # Choisir une gare de retard (différente du départ)
+            gare_retard = random.choice(gares[1:])
+            
+            heure_prevue = random_time()
+            # Heure réelle = prévue + un retard aléatoire de 1 à 15 minutes
+            retard = timedelta(minutes=random.randint(1, 15))
+            heure_reelle = heure_prevue + retard
+            
+            historique_retards.append({
+                "id_bus": id_bus,
+                "ligne": ligne,
+                "gare_depart": gare_depart,
+                "gare_retard": gare_retard,
+                "heure_arrivee_prevue": heure_prevue.strftime("%H:%M"),
+                "heure_arrivee_reelle": heure_reelle.strftime("%H:%M")
+            })
 
-            heure_base = datetime.strptime("08:00", "%H:%M")
-            offset_min = random.randint(10, 50)
-            heure_prevue = heure_base + timedelta(minutes=offset_min)
-
-            retard_min = random.randint(2, 15)
-            heure_reelle = heure_prevue + timedelta(minutes=retard_min)
-
-            writer.writerow([
-                bus["id"],
-                ligne,
-                gare_depart,
-                gare_retard,
-                heure_prevue.strftime("%H:%M"),
-                heure_reelle.strftime("%H:%M")
-            ])
-
-print(f" Fichier généré : {output_file}")
+# Écriture dans un fichier CSV
+with open("historique_retard.csv", mode="w", newline="", encoding="utf-8") as csvfile:
+    fieldnames = ["id_bus", "ligne", "gare_depart", "gare_retard", "heure_arrivee_prevue", "heure_arrivee_reelle"]
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    
+    writer.writeheader()
+    for row in historique_retards:
+        writer.writerow(row)

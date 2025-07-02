@@ -27,23 +27,34 @@ for ligne in ares_par_ligne.keys():
         bus_infos.append({"id": bus_id, "ligne": ligne})
         bus_id += 1
 
-# Génération du fichier horaire_bus.csv
-with open("horaire_bus.csv", mode="w", newline='', encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["ligne", "nom_arret", "placement_gare", "heure_passage", "ordre_arret"])
 
+# Génération du fichier localisation_bus_paris.csv
+with open("localisation_bus_paris.csv", mode="w", newline='', encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(["id", "ligne", "gare_depart", "destination", "position_gps", "heure_de_captage"])
     # On fixe une heure de départ fictive
+
     base_time = datetime(2025, 7, 1, 6, 0, 0)
 
     for bus in bus_infos:
         ligne = bus["ligne"]
         stops = ares_par_ligne[ligne]
-        for ordre, arret in enumerate(stops):
-            # Chaque arrêt a une heure de passage avec un délai en fonction de l'ordre et du bus (bus espacés de 3 min)
-            heure_passage = base_time + timedelta(minutes=5*ordre + 3*bus["id"])
-            placement_gare = f"Arrêt {ordre} - Ligne {ligne}"
-            writer.writerow([ligne, arret, placement_gare, heure_passage.strftime("%Y-%m-%d %H:%M:%S"), ordre])
-
-
-
-print(" Fichier 'horaires_arrets_bus.csv' généré avec arrêts fixes par ligne.")
+        # GPS de base fictif autour de Paris, latitude ~48.85, longitude ~2.35
+        lat_base = 48.85
+        lon_base = 2.35
+        for ordre, arret in enumerate(stops[:-1]):  # Pour chaque tronçon sauf le dernier arrêt
+            gare_depart = arret
+            destination = stops[ordre + 1]
+            # Simuler position GPS entre gare_depart et destination avec petite variation
+            lat = lat_base + random.uniform(-0.01, 0.01)
+            lon = lon_base + random.uniform(-0.01, 0.01)
+            # Heure de captage correspond à horaire plus un petit offset
+            heure_captage = base_time + timedelta(minutes=5*ordre + 3*bus["id"] + 2)
+            writer.writerow([
+                bus["id"],
+                ligne,
+                gare_depart,
+                destination,
+                f"{lat:.5f},{lon:.5f}",
+                heure_captage.strftime("%d/%m/%Y %H:%M")
+            ])
