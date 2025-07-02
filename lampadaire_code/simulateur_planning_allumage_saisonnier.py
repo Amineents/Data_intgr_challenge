@@ -15,8 +15,8 @@ output_file = lamp_dir / "planning_allumage_saisonnier.csv"
 
 
 #  Paramètres
-lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
-dates = pd.date_range(start="2025-06-28", periods=10, freq="D")
+lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(100)]
+dates = pd.date_range(start="2025-05-28", periods=10, freq="D")
 
 def is_summer(date):
     # Été défini de mai à août

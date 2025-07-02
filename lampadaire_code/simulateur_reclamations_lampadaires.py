@@ -14,9 +14,9 @@ output_file = lamp_dir / "reclamations_lampadaires.jsonl"
 
 
 # Paramètres de simulation
-lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
+lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(500)]
 statuses = ["off", "blinking", "broken", "on_but_dim"]
-num_reports = 30
+num_reports = 600
 start_time = datetime.now() - timedelta(days=5)
 
 # Génération des réclamations

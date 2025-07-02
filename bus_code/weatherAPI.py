@@ -13,7 +13,7 @@ api_key = os.getenv("OPENWEATHER_API_KEY")
 
 
 
-url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}&units=metric&lang=fr"
+url = f"https://history.openweathermap.org/data/2.5/history/city?lat={lat}&lon={lon}&type=hour&start=1735776000&end=1751760000&appid={api_key}"
 
 
 current_dir = os.path.dirname(os.path.abspath(__file__))

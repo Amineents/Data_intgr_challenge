@@ -18,8 +18,8 @@ output_file = landing_dir / "lampadaires_streaming_simulation.jsonl"
 
 
 #  Paramètres de simulation
-lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(10)]
-num_lines = 100  # Nombre de lignes à générer
+lamp_ids = [f"LAMP{str(i+1).zfill(3)}" for i in range(999)]
+num_lines = 5000  # Nombre de lignes à générer
 
 
 #  Simulation de données de consommation électrique en streaming
