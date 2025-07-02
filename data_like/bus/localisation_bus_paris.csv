@@ -1,16 +1,671 @@
-id;ligne;gare_depart;destination;position_gps;heure_de_captage
-1;21;Stade Charléty;Gare Saint-Lazare;48.866867,2.386929;30/06/2025 17:09
-2;38;Gare du Nord;Porte d'Orléans;48.885514,2.362134;30/06/2025 17:09
-3;47;Fort du Kremlin;Châtelet;48.802446,2.392169;30/06/2025 17:09
-4;63;Porte de la Muette;Gare de Lyon;48.88694,2.37539;30/06/2025 17:09
-5;72;Hôtel de Ville;Parc de Saint-Cloud;48.8811,2.403144;30/06/2025 17:09
-6;82;Luxembourg;Neuilly;48.879547,2.379337;30/06/2025 17:09
-7;91;Bastille;Montparnasse;48.897601,2.418616;30/06/2025 17:09
-8;96;Gare Montparnasse;Porte des Lilas;48.823312,2.300538;30/06/2025 17:09
-9;27;Gare Saint-Lazare;Porte d’Ivry;48.813567,2.399766;30/06/2025 17:09
-10;69;Champ de Mars;Gambetta;48.878641,2.405022;30/06/2025 17:09
-11;24;Pont Neuf;École Militaire;48.85205,2.376534;30/06/2025 17:09
-12;52;La Muette;Opéra;48.854297,2.313028;30/06/2025 17:09
-13;73;La Défense;Musée d'Orsay;48.810118,2.40149;30/06/2025 17:09
-14;30;Porte Maillot;Gare de l'Est;48.891871,2.350429;30/06/2025 17:09
-15;87;Gare de Lyon;Bibliothèque F. Mitterrand;48.876162,2.38854;30/06/2025 17:09
+id,ligne,gare_depart,destination,position_gps,heure_de_captage
+1,21,Stade Charléty,Alésia,"48.84427,2.34610",01/07/2025 06:05
+1,21,Alésia,Denfert-Rochereau,"48.84753,2.34104",01/07/2025 06:10
+1,21,Denfert-Rochereau,Montparnasse,"48.84230,2.34278",01/07/2025 06:15
+1,21,Montparnasse,Opéra,"48.84316,2.35174",01/07/2025 06:20
+1,21,Opéra,Gare Saint-Lazare,"48.85445,2.34833",01/07/2025 06:25
+2,21,Stade Charléty,Alésia,"48.85128,2.34633",01/07/2025 06:08
+2,21,Alésia,Denfert-Rochereau,"48.84945,2.35001",01/07/2025 06:13
+2,21,Denfert-Rochereau,Montparnasse,"48.85036,2.35512",01/07/2025 06:18
+2,21,Montparnasse,Opéra,"48.84242,2.35436",01/07/2025 06:23
+2,21,Opéra,Gare Saint-Lazare,"48.84020,2.34264",01/07/2025 06:28
+3,21,Stade Charléty,Alésia,"48.84816,2.34792",01/07/2025 06:11
+3,21,Alésia,Denfert-Rochereau,"48.84608,2.35810",01/07/2025 06:16
+3,21,Denfert-Rochereau,Montparnasse,"48.85355,2.34014",01/07/2025 06:21
+3,21,Montparnasse,Opéra,"48.84855,2.35798",01/07/2025 06:26
+3,21,Opéra,Gare Saint-Lazare,"48.85883,2.34329",01/07/2025 06:31
+4,21,Stade Charléty,Alésia,"48.85675,2.35232",01/07/2025 06:14
+4,21,Alésia,Denfert-Rochereau,"48.85610,2.35681",01/07/2025 06:19
+4,21,Denfert-Rochereau,Montparnasse,"48.85741,2.35237",01/07/2025 06:24
+4,21,Montparnasse,Opéra,"48.84767,2.34344",01/07/2025 06:29
+4,21,Opéra,Gare Saint-Lazare,"48.84955,2.34086",01/07/2025 06:34
+5,21,Stade Charléty,Alésia,"48.84636,2.34022",01/07/2025 06:17
+5,21,Alésia,Denfert-Rochereau,"48.85998,2.35628",01/07/2025 06:22
+5,21,Denfert-Rochereau,Montparnasse,"48.84618,2.34091",01/07/2025 06:27
+5,21,Montparnasse,Opéra,"48.84461,2.34964",01/07/2025 06:32
+5,21,Opéra,Gare Saint-Lazare,"48.84039,2.35476",01/07/2025 06:37
+6,21,Stade Charléty,Alésia,"48.84878,2.34418",01/07/2025 06:20
+6,21,Alésia,Denfert-Rochereau,"48.84013,2.35576",01/07/2025 06:25
+6,21,Denfert-Rochereau,Montparnasse,"48.84848,2.35959",01/07/2025 06:30
+6,21,Montparnasse,Opéra,"48.84714,2.34445",01/07/2025 06:35
+6,21,Opéra,Gare Saint-Lazare,"48.85832,2.34793",01/07/2025 06:40
+7,21,Stade Charléty,Alésia,"48.84585,2.34614",01/07/2025 06:23
+7,21,Alésia,Denfert-Rochereau,"48.85260,2.35056",01/07/2025 06:28
+7,21,Denfert-Rochereau,Montparnasse,"48.84574,2.34307",01/07/2025 06:33
+7,21,Montparnasse,Opéra,"48.85400,2.35185",01/07/2025 06:38
+7,21,Opéra,Gare Saint-Lazare,"48.84829,2.34596",01/07/2025 06:43
+8,21,Stade Charléty,Alésia,"48.84589,2.35881",01/07/2025 06:26
+8,21,Alésia,Denfert-Rochereau,"48.85776,2.35699",01/07/2025 06:31
+8,21,Denfert-Rochereau,Montparnasse,"48.85861,2.35853",01/07/2025 06:36
+8,21,Montparnasse,Opéra,"48.85097,2.35962",01/07/2025 06:41
+8,21,Opéra,Gare Saint-Lazare,"48.84823,2.35790",01/07/2025 06:46
+9,21,Stade Charléty,Alésia,"48.85614,2.34558",01/07/2025 06:29
+9,21,Alésia,Denfert-Rochereau,"48.85963,2.34385",01/07/2025 06:34
+9,21,Denfert-Rochereau,Montparnasse,"48.84440,2.35479",01/07/2025 06:39
+9,21,Montparnasse,Opéra,"48.85169,2.35532",01/07/2025 06:44
+9,21,Opéra,Gare Saint-Lazare,"48.84129,2.34943",01/07/2025 06:49
+10,21,Stade Charléty,Alésia,"48.85368,2.34299",01/07/2025 06:32
+10,21,Alésia,Denfert-Rochereau,"48.85950,2.35805",01/07/2025 06:37
+10,21,Denfert-Rochereau,Montparnasse,"48.85824,2.34460",01/07/2025 06:42
+10,21,Montparnasse,Opéra,"48.85344,2.34262",01/07/2025 06:47
+10,21,Opéra,Gare Saint-Lazare,"48.85649,2.34940",01/07/2025 06:52
+11,38,Gare du Nord,Châtelet,"48.84246,2.34539",01/07/2025 06:35
+11,38,Châtelet,Luxembourg,"48.84505,2.35682",01/07/2025 06:40
+11,38,Luxembourg,Raspail,"48.85588,2.34429",01/07/2025 06:45
+11,38,Raspail,Alésia,"48.85273,2.34250",01/07/2025 06:50
+11,38,Alésia,Porte d'Orléans,"48.84230,2.34490",01/07/2025 06:55
+12,38,Gare du Nord,Châtelet,"48.84085,2.34278",01/07/2025 06:38
+12,38,Châtelet,Luxembourg,"48.84803,2.35883",01/07/2025 06:43
+12,38,Luxembourg,Raspail,"48.85537,2.35843",01/07/2025 06:48
+12,38,Raspail,Alésia,"48.84147,2.34133",01/07/2025 06:53
+12,38,Alésia,Porte d'Orléans,"48.85286,2.34490",01/07/2025 06:58
+13,38,Gare du Nord,Châtelet,"48.85788,2.35470",01/07/2025 06:41
+13,38,Châtelet,Luxembourg,"48.84811,2.34266",01/07/2025 06:46
+13,38,Luxembourg,Raspail,"48.85048,2.34149",01/07/2025 06:51
+13,38,Raspail,Alésia,"48.84873,2.34611",01/07/2025 06:56
+13,38,Alésia,Porte d'Orléans,"48.84806,2.34067",01/07/2025 07:01
+14,38,Gare du Nord,Châtelet,"48.84369,2.34665",01/07/2025 06:44
+14,38,Châtelet,Luxembourg,"48.84784,2.34101",01/07/2025 06:49
+14,38,Luxembourg,Raspail,"48.84568,2.34116",01/07/2025 06:54
+14,38,Raspail,Alésia,"48.85352,2.35601",01/07/2025 06:59
+14,38,Alésia,Porte d'Orléans,"48.84464,2.34600",01/07/2025 07:04
+15,38,Gare du Nord,Châtelet,"48.85378,2.34807",01/07/2025 06:47
+15,38,Châtelet,Luxembourg,"48.85508,2.34565",01/07/2025 06:52
+15,38,Luxembourg,Raspail,"48.84044,2.35442",01/07/2025 06:57
+15,38,Raspail,Alésia,"48.85491,2.35485",01/07/2025 07:02
+15,38,Alésia,Porte d'Orléans,"48.85346,2.34644",01/07/2025 07:07
+16,38,Gare du Nord,Châtelet,"48.84931,2.34459",01/07/2025 06:50
+16,38,Châtelet,Luxembourg,"48.84690,2.34481",01/07/2025 06:55
+16,38,Luxembourg,Raspail,"48.84299,2.35086",01/07/2025 07:00
+16,38,Raspail,Alésia,"48.85726,2.35843",01/07/2025 07:05
+16,38,Alésia,Porte d'Orléans,"48.84447,2.34882",01/07/2025 07:10
+17,38,Gare du Nord,Châtelet,"48.84603,2.35852",01/07/2025 06:53
+17,38,Châtelet,Luxembourg,"48.85885,2.34230",01/07/2025 06:58
+17,38,Luxembourg,Raspail,"48.85554,2.35075",01/07/2025 07:03
+17,38,Raspail,Alésia,"48.84557,2.35651",01/07/2025 07:08
+17,38,Alésia,Porte d'Orléans,"48.85033,2.35537",01/07/2025 07:13
+18,38,Gare du Nord,Châtelet,"48.85072,2.34448",01/07/2025 06:56
+18,38,Châtelet,Luxembourg,"48.85791,2.35587",01/07/2025 07:01
+18,38,Luxembourg,Raspail,"48.85781,2.35112",01/07/2025 07:06
+18,38,Raspail,Alésia,"48.84143,2.35342",01/07/2025 07:11
+18,38,Alésia,Porte d'Orléans,"48.84167,2.34331",01/07/2025 07:16
+19,38,Gare du Nord,Châtelet,"48.84453,2.35023",01/07/2025 06:59
+19,38,Châtelet,Luxembourg,"48.85592,2.34432",01/07/2025 07:04
+19,38,Luxembourg,Raspail,"48.85545,2.34717",01/07/2025 07:09
+19,38,Raspail,Alésia,"48.85786,2.34393",01/07/2025 07:14
+19,38,Alésia,Porte d'Orléans,"48.85221,2.35475",01/07/2025 07:19
+20,38,Gare du Nord,Châtelet,"48.85015,2.35762",01/07/2025 07:02
+20,38,Châtelet,Luxembourg,"48.85153,2.34354",01/07/2025 07:07
+20,38,Luxembourg,Raspail,"48.85042,2.35053",01/07/2025 07:12
+20,38,Raspail,Alésia,"48.85169,2.35946",01/07/2025 07:17
+20,38,Alésia,Porte d'Orléans,"48.84386,2.35034",01/07/2025 07:22
+21,47,Fort du Kremlin,Ivry,"48.84852,2.34599",01/07/2025 07:05
+21,47,Ivry,Place d'Italie,"48.85221,2.34051",01/07/2025 07:10
+21,47,Place d'Italie,Gare d'Austerlitz,"48.84541,2.34124",01/07/2025 07:15
+21,47,Gare d'Austerlitz,Hôtel de Ville,"48.84847,2.35155",01/07/2025 07:20
+21,47,Hôtel de Ville,Châtelet,"48.85713,2.35498",01/07/2025 07:25
+22,47,Fort du Kremlin,Ivry,"48.85429,2.35235",01/07/2025 07:08
+22,47,Ivry,Place d'Italie,"48.85643,2.35268",01/07/2025 07:13
+22,47,Place d'Italie,Gare d'Austerlitz,"48.85736,2.35730",01/07/2025 07:18
+22,47,Gare d'Austerlitz,Hôtel de Ville,"48.84682,2.35180",01/07/2025 07:23
+22,47,Hôtel de Ville,Châtelet,"48.85367,2.35707",01/07/2025 07:28
+23,47,Fort du Kremlin,Ivry,"48.84942,2.35524",01/07/2025 07:11
+23,47,Ivry,Place d'Italie,"48.85345,2.35415",01/07/2025 07:16
+23,47,Place d'Italie,Gare d'Austerlitz,"48.84769,2.34464",01/07/2025 07:21
+23,47,Gare d'Austerlitz,Hôtel de Ville,"48.84344,2.34150",01/07/2025 07:26
+23,47,Hôtel de Ville,Châtelet,"48.85999,2.34254",01/07/2025 07:31
+24,47,Fort du Kremlin,Ivry,"48.84806,2.34868",01/07/2025 07:14
+24,47,Ivry,Place d'Italie,"48.85458,2.35913",01/07/2025 07:19
+24,47,Place d'Italie,Gare d'Austerlitz,"48.84539,2.35397",01/07/2025 07:24
+24,47,Gare d'Austerlitz,Hôtel de Ville,"48.85807,2.35853",01/07/2025 07:29
+24,47,Hôtel de Ville,Châtelet,"48.85595,2.34911",01/07/2025 07:34
+25,47,Fort du Kremlin,Ivry,"48.85551,2.35486",01/07/2025 07:17
+25,47,Ivry,Place d'Italie,"48.84776,2.34408",01/07/2025 07:22
+25,47,Place d'Italie,Gare d'Austerlitz,"48.85377,2.35203",01/07/2025 07:27
+25,47,Gare d'Austerlitz,Hôtel de Ville,"48.84429,2.34559",01/07/2025 07:32
+25,47,Hôtel de Ville,Châtelet,"48.84113,2.34257",01/07/2025 07:37
+26,47,Fort du Kremlin,Ivry,"48.85994,2.34309",01/07/2025 07:20
+26,47,Ivry,Place d'Italie,"48.84087,2.34360",01/07/2025 07:25
+26,47,Place d'Italie,Gare d'Austerlitz,"48.84039,2.34847",01/07/2025 07:30
+26,47,Gare d'Austerlitz,Hôtel de Ville,"48.85928,2.35096",01/07/2025 07:35
+26,47,Hôtel de Ville,Châtelet,"48.85195,2.35248",01/07/2025 07:40
+27,47,Fort du Kremlin,Ivry,"48.85891,2.35662",01/07/2025 07:23
+27,47,Ivry,Place d'Italie,"48.85920,2.34374",01/07/2025 07:28
+27,47,Place d'Italie,Gare d'Austerlitz,"48.85485,2.34747",01/07/2025 07:33
+27,47,Gare d'Austerlitz,Hôtel de Ville,"48.85345,2.35285",01/07/2025 07:38
+27,47,Hôtel de Ville,Châtelet,"48.85213,2.35143",01/07/2025 07:43
+28,47,Fort du Kremlin,Ivry,"48.84671,2.35743",01/07/2025 07:26
+28,47,Ivry,Place d'Italie,"48.84577,2.34039",01/07/2025 07:31
+28,47,Place d'Italie,Gare d'Austerlitz,"48.84216,2.34798",01/07/2025 07:36
+28,47,Gare d'Austerlitz,Hôtel de Ville,"48.85803,2.34759",01/07/2025 07:41
+28,47,Hôtel de Ville,Châtelet,"48.85159,2.35475",01/07/2025 07:46
+29,47,Fort du Kremlin,Ivry,"48.84664,2.35750",01/07/2025 07:29
+29,47,Ivry,Place d'Italie,"48.85336,2.34303",01/07/2025 07:34
+29,47,Place d'Italie,Gare d'Austerlitz,"48.85809,2.35817",01/07/2025 07:39
+29,47,Gare d'Austerlitz,Hôtel de Ville,"48.84284,2.35167",01/07/2025 07:44
+29,47,Hôtel de Ville,Châtelet,"48.85085,2.35889",01/07/2025 07:49
+30,47,Fort du Kremlin,Ivry,"48.84564,2.34597",01/07/2025 07:32
+30,47,Ivry,Place d'Italie,"48.85762,2.35178",01/07/2025 07:37
+30,47,Place d'Italie,Gare d'Austerlitz,"48.85065,2.34746",01/07/2025 07:42
+30,47,Gare d'Austerlitz,Hôtel de Ville,"48.85921,2.34351",01/07/2025 07:47
+30,47,Hôtel de Ville,Châtelet,"48.85024,2.34700",01/07/2025 07:52
+31,63,Porte de la Muette,La Muette,"48.85456,2.35006",01/07/2025 07:35
+31,63,La Muette,Trocadéro,"48.85513,2.34330",01/07/2025 07:40
+31,63,Trocadéro,Invalides,"48.84197,2.35758",01/07/2025 07:45
+31,63,Invalides,Gare d'Austerlitz,"48.84105,2.35945",01/07/2025 07:50
+31,63,Gare d'Austerlitz,Gare de Lyon,"48.85653,2.34426",01/07/2025 07:55
+32,63,Porte de la Muette,La Muette,"48.85100,2.35547",01/07/2025 07:38
+32,63,La Muette,Trocadéro,"48.84013,2.34274",01/07/2025 07:43
+32,63,Trocadéro,Invalides,"48.85347,2.35488",01/07/2025 07:48
+32,63,Invalides,Gare d'Austerlitz,"48.84781,2.35287",01/07/2025 07:53
+32,63,Gare d'Austerlitz,Gare de Lyon,"48.85219,2.35299",01/07/2025 07:58
+33,63,Porte de la Muette,La Muette,"48.84193,2.34280",01/07/2025 07:41
+33,63,La Muette,Trocadéro,"48.84668,2.34661",01/07/2025 07:46
+33,63,Trocadéro,Invalides,"48.85194,2.34356",01/07/2025 07:51
+33,63,Invalides,Gare d'Austerlitz,"48.84257,2.34835",01/07/2025 07:56
+33,63,Gare d'Austerlitz,Gare de Lyon,"48.85791,2.34573",01/07/2025 08:01
+34,63,Porte de la Muette,La Muette,"48.84584,2.34949",01/07/2025 07:44
+34,63,La Muette,Trocadéro,"48.84006,2.35290",01/07/2025 07:49
+34,63,Trocadéro,Invalides,"48.85755,2.35006",01/07/2025 07:54
+34,63,Invalides,Gare d'Austerlitz,"48.85804,2.35311",01/07/2025 07:59
+34,63,Gare d'Austerlitz,Gare de Lyon,"48.84908,2.34734",01/07/2025 08:04
+35,63,Porte de la Muette,La Muette,"48.85578,2.34793",01/07/2025 07:47
+35,63,La Muette,Trocadéro,"48.85065,2.35059",01/07/2025 07:52
+35,63,Trocadéro,Invalides,"48.84695,2.35409",01/07/2025 07:57
+35,63,Invalides,Gare d'Austerlitz,"48.84804,2.34167",01/07/2025 08:02
+35,63,Gare d'Austerlitz,Gare de Lyon,"48.84994,2.34746",01/07/2025 08:07
+36,63,Porte de la Muette,La Muette,"48.85401,2.35463",01/07/2025 07:50
+36,63,La Muette,Trocadéro,"48.84284,2.35192",01/07/2025 07:55
+36,63,Trocadéro,Invalides,"48.85443,2.34721",01/07/2025 08:00
+36,63,Invalides,Gare d'Austerlitz,"48.85370,2.34849",01/07/2025 08:05
+36,63,Gare d'Austerlitz,Gare de Lyon,"48.85067,2.35222",01/07/2025 08:10
+37,63,Porte de la Muette,La Muette,"48.84216,2.34257",01/07/2025 07:53
+37,63,La Muette,Trocadéro,"48.85849,2.35062",01/07/2025 07:58
+37,63,Trocadéro,Invalides,"48.85844,2.35394",01/07/2025 08:03
+37,63,Invalides,Gare d'Austerlitz,"48.85659,2.35740",01/07/2025 08:08
+37,63,Gare d'Austerlitz,Gare de Lyon,"48.84444,2.34731",01/07/2025 08:13
+38,63,Porte de la Muette,La Muette,"48.85878,2.35197",01/07/2025 07:56
+38,63,La Muette,Trocadéro,"48.84837,2.35604",01/07/2025 08:01
+38,63,Trocadéro,Invalides,"48.85843,2.35660",01/07/2025 08:06
+38,63,Invalides,Gare d'Austerlitz,"48.85102,2.35305",01/07/2025 08:11
+38,63,Gare d'Austerlitz,Gare de Lyon,"48.84967,2.34302",01/07/2025 08:16
+39,63,Porte de la Muette,La Muette,"48.85355,2.34054",01/07/2025 07:59
+39,63,La Muette,Trocadéro,"48.84958,2.35414",01/07/2025 08:04
+39,63,Trocadéro,Invalides,"48.84624,2.34111",01/07/2025 08:09
+39,63,Invalides,Gare d'Austerlitz,"48.85345,2.34871",01/07/2025 08:14
+39,63,Gare d'Austerlitz,Gare de Lyon,"48.85404,2.35647",01/07/2025 08:19
+40,63,Porte de la Muette,La Muette,"48.85713,2.35001",01/07/2025 08:02
+40,63,La Muette,Trocadéro,"48.84680,2.35996",01/07/2025 08:07
+40,63,Trocadéro,Invalides,"48.84338,2.35256",01/07/2025 08:12
+40,63,Invalides,Gare d'Austerlitz,"48.85527,2.35773",01/07/2025 08:17
+40,63,Gare d'Austerlitz,Gare de Lyon,"48.85048,2.34413",01/07/2025 08:22
+41,72,Hôtel de Ville,Concorde,"48.85160,2.34969",01/07/2025 08:05
+41,72,Concorde,Pont de l'Alma,"48.85196,2.34242",01/07/2025 08:10
+41,72,Pont de l'Alma,Musée du quai Branly,"48.85209,2.35310",01/07/2025 08:15
+41,72,Musée du quai Branly,Pont Mirabeau,"48.84993,2.34626",01/07/2025 08:20
+41,72,Pont Mirabeau,Parc de Saint-Cloud,"48.84931,2.35092",01/07/2025 08:25
+42,72,Hôtel de Ville,Concorde,"48.84474,2.35690",01/07/2025 08:08
+42,72,Concorde,Pont de l'Alma,"48.85031,2.35367",01/07/2025 08:13
+42,72,Pont de l'Alma,Musée du quai Branly,"48.85718,2.35081",01/07/2025 08:18
+42,72,Musée du quai Branly,Pont Mirabeau,"48.85042,2.35768",01/07/2025 08:23
+42,72,Pont Mirabeau,Parc de Saint-Cloud,"48.85301,2.34004",01/07/2025 08:28
+43,72,Hôtel de Ville,Concorde,"48.84216,2.35332",01/07/2025 08:11
+43,72,Concorde,Pont de l'Alma,"48.84743,2.35105",01/07/2025 08:16
+43,72,Pont de l'Alma,Musée du quai Branly,"48.84582,2.35081",01/07/2025 08:21
+43,72,Musée du quai Branly,Pont Mirabeau,"48.85274,2.35854",01/07/2025 08:26
+43,72,Pont Mirabeau,Parc de Saint-Cloud,"48.84617,2.34591",01/07/2025 08:31
+44,72,Hôtel de Ville,Concorde,"48.85851,2.34875",01/07/2025 08:14
+44,72,Concorde,Pont de l'Alma,"48.84787,2.35526",01/07/2025 08:19
+44,72,Pont de l'Alma,Musée du quai Branly,"48.84715,2.34910",01/07/2025 08:24
+44,72,Musée du quai Branly,Pont Mirabeau,"48.85147,2.34101",01/07/2025 08:29
+44,72,Pont Mirabeau,Parc de Saint-Cloud,"48.84559,2.35566",01/07/2025 08:34
+45,72,Hôtel de Ville,Concorde,"48.84766,2.35356",01/07/2025 08:17
+45,72,Concorde,Pont de l'Alma,"48.85931,2.34627",01/07/2025 08:22
+45,72,Pont de l'Alma,Musée du quai Branly,"48.85948,2.34528",01/07/2025 08:27
+45,72,Musée du quai Branly,Pont Mirabeau,"48.84436,2.34366",01/07/2025 08:32
+45,72,Pont Mirabeau,Parc de Saint-Cloud,"48.85170,2.34416",01/07/2025 08:37
+46,72,Hôtel de Ville,Concorde,"48.84713,2.34832",01/07/2025 08:20
+46,72,Concorde,Pont de l'Alma,"48.84509,2.35148",01/07/2025 08:25
+46,72,Pont de l'Alma,Musée du quai Branly,"48.85260,2.34501",01/07/2025 08:30
+46,72,Musée du quai Branly,Pont Mirabeau,"48.85415,2.34267",01/07/2025 08:35
+46,72,Pont Mirabeau,Parc de Saint-Cloud,"48.85944,2.35080",01/07/2025 08:40
+47,72,Hôtel de Ville,Concorde,"48.84034,2.35602",01/07/2025 08:23
+47,72,Concorde,Pont de l'Alma,"48.85598,2.34883",01/07/2025 08:28
+47,72,Pont de l'Alma,Musée du quai Branly,"48.84220,2.34298",01/07/2025 08:33
+47,72,Musée du quai Branly,Pont Mirabeau,"48.84718,2.34544",01/07/2025 08:38
+47,72,Pont Mirabeau,Parc de Saint-Cloud,"48.84116,2.34639",01/07/2025 08:43
+48,72,Hôtel de Ville,Concorde,"48.84821,2.35140",01/07/2025 08:26
+48,72,Concorde,Pont de l'Alma,"48.84785,2.34645",01/07/2025 08:31
+48,72,Pont de l'Alma,Musée du quai Branly,"48.85499,2.34672",01/07/2025 08:36
+48,72,Musée du quai Branly,Pont Mirabeau,"48.84117,2.35013",01/07/2025 08:41
+48,72,Pont Mirabeau,Parc de Saint-Cloud,"48.84660,2.34510",01/07/2025 08:46
+49,72,Hôtel de Ville,Concorde,"48.85698,2.34095",01/07/2025 08:29
+49,72,Concorde,Pont de l'Alma,"48.85932,2.35289",01/07/2025 08:34
+49,72,Pont de l'Alma,Musée du quai Branly,"48.84003,2.35872",01/07/2025 08:39
+49,72,Musée du quai Branly,Pont Mirabeau,"48.85174,2.35474",01/07/2025 08:44
+49,72,Pont Mirabeau,Parc de Saint-Cloud,"48.85877,2.34657",01/07/2025 08:49
+50,72,Hôtel de Ville,Concorde,"48.84622,2.35356",01/07/2025 08:32
+50,72,Concorde,Pont de l'Alma,"48.85353,2.35542",01/07/2025 08:37
+50,72,Pont de l'Alma,Musée du quai Branly,"48.85297,2.35669",01/07/2025 08:42
+50,72,Musée du quai Branly,Pont Mirabeau,"48.84010,2.34370",01/07/2025 08:47
+50,72,Pont Mirabeau,Parc de Saint-Cloud,"48.84700,2.34018",01/07/2025 08:52
+51,82,Luxembourg,Montparnasse,"48.85569,2.34917",01/07/2025 08:35
+51,82,Montparnasse,Invalides,"48.85540,2.35964",01/07/2025 08:40
+51,82,Invalides,Charles de Gaulle Étoile,"48.85767,2.34106",01/07/2025 08:45
+51,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.84574,2.34367",01/07/2025 08:50
+51,82,Bois de Boulogne,Neuilly,"48.85227,2.34009",01/07/2025 08:55
+52,82,Luxembourg,Montparnasse,"48.85819,2.34339",01/07/2025 08:38
+52,82,Montparnasse,Invalides,"48.84214,2.34757",01/07/2025 08:43
+52,82,Invalides,Charles de Gaulle Étoile,"48.85776,2.35781",01/07/2025 08:48
+52,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.85494,2.35418",01/07/2025 08:53
+52,82,Bois de Boulogne,Neuilly,"48.85628,2.34659",01/07/2025 08:58
+53,82,Luxembourg,Montparnasse,"48.85603,2.34916",01/07/2025 08:41
+53,82,Montparnasse,Invalides,"48.84471,2.34981",01/07/2025 08:46
+53,82,Invalides,Charles de Gaulle Étoile,"48.84851,2.35454",01/07/2025 08:51
+53,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.84905,2.35758",01/07/2025 08:56
+53,82,Bois de Boulogne,Neuilly,"48.84188,2.34733",01/07/2025 09:01
+54,82,Luxembourg,Montparnasse,"48.85841,2.34725",01/07/2025 08:44
+54,82,Montparnasse,Invalides,"48.84992,2.34768",01/07/2025 08:49
+54,82,Invalides,Charles de Gaulle Étoile,"48.84451,2.34869",01/07/2025 08:54
+54,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.84711,2.34798",01/07/2025 08:59
+54,82,Bois de Boulogne,Neuilly,"48.84844,2.35602",01/07/2025 09:04
+55,82,Luxembourg,Montparnasse,"48.84526,2.34625",01/07/2025 08:47
+55,82,Montparnasse,Invalides,"48.84058,2.34928",01/07/2025 08:52
+55,82,Invalides,Charles de Gaulle Étoile,"48.84021,2.34726",01/07/2025 08:57
+55,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.84120,2.34580",01/07/2025 09:02
+55,82,Bois de Boulogne,Neuilly,"48.85916,2.35179",01/07/2025 09:07
+56,82,Luxembourg,Montparnasse,"48.84825,2.34880",01/07/2025 08:50
+56,82,Montparnasse,Invalides,"48.84814,2.34644",01/07/2025 08:55
+56,82,Invalides,Charles de Gaulle Étoile,"48.84606,2.34957",01/07/2025 09:00
+56,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.84223,2.34826",01/07/2025 09:05
+56,82,Bois de Boulogne,Neuilly,"48.85474,2.35839",01/07/2025 09:10
+57,82,Luxembourg,Montparnasse,"48.85270,2.34166",01/07/2025 08:53
+57,82,Montparnasse,Invalides,"48.84641,2.35385",01/07/2025 08:58
+57,82,Invalides,Charles de Gaulle Étoile,"48.85898,2.35382",01/07/2025 09:03
+57,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.85014,2.35805",01/07/2025 09:08
+57,82,Bois de Boulogne,Neuilly,"48.85205,2.35146",01/07/2025 09:13
+58,82,Luxembourg,Montparnasse,"48.84829,2.35644",01/07/2025 08:56
+58,82,Montparnasse,Invalides,"48.84613,2.34816",01/07/2025 09:01
+58,82,Invalides,Charles de Gaulle Étoile,"48.85270,2.35445",01/07/2025 09:06
+58,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.85328,2.34315",01/07/2025 09:11
+58,82,Bois de Boulogne,Neuilly,"48.84055,2.35156",01/07/2025 09:16
+59,82,Luxembourg,Montparnasse,"48.85214,2.34598",01/07/2025 08:59
+59,82,Montparnasse,Invalides,"48.84393,2.34222",01/07/2025 09:04
+59,82,Invalides,Charles de Gaulle Étoile,"48.84777,2.34232",01/07/2025 09:09
+59,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.85300,2.35990",01/07/2025 09:14
+59,82,Bois de Boulogne,Neuilly,"48.85441,2.34262",01/07/2025 09:19
+60,82,Luxembourg,Montparnasse,"48.85177,2.35981",01/07/2025 09:02
+60,82,Montparnasse,Invalides,"48.85788,2.35180",01/07/2025 09:07
+60,82,Invalides,Charles de Gaulle Étoile,"48.85322,2.34853",01/07/2025 09:12
+60,82,Charles de Gaulle Étoile,Bois de Boulogne,"48.84094,2.35756",01/07/2025 09:17
+60,82,Bois de Boulogne,Neuilly,"48.85634,2.34659",01/07/2025 09:22
+61,91,Bastille,Gare de Lyon,"48.84317,2.35492",01/07/2025 09:05
+61,91,Gare de Lyon,Place d'Italie,"48.85768,2.34009",01/07/2025 09:10
+61,91,Place d'Italie,Raspail,"48.85372,2.35786",01/07/2025 09:15
+61,91,Raspail,Gare Montparnasse,"48.85102,2.35302",01/07/2025 09:20
+61,91,Gare Montparnasse,Montparnasse,"48.85026,2.35230",01/07/2025 09:25
+62,91,Bastille,Gare de Lyon,"48.84296,2.34889",01/07/2025 09:08
+62,91,Gare de Lyon,Place d'Italie,"48.84655,2.34142",01/07/2025 09:13
+62,91,Place d'Italie,Raspail,"48.85773,2.35445",01/07/2025 09:18
+62,91,Raspail,Gare Montparnasse,"48.85589,2.34626",01/07/2025 09:23
+62,91,Gare Montparnasse,Montparnasse,"48.85411,2.34828",01/07/2025 09:28
+63,91,Bastille,Gare de Lyon,"48.85679,2.34628",01/07/2025 09:11
+63,91,Gare de Lyon,Place d'Italie,"48.85204,2.35778",01/07/2025 09:16
+63,91,Place d'Italie,Raspail,"48.85356,2.35868",01/07/2025 09:21
+63,91,Raspail,Gare Montparnasse,"48.84482,2.35288",01/07/2025 09:26
+63,91,Gare Montparnasse,Montparnasse,"48.84048,2.34342",01/07/2025 09:31
+64,91,Bastille,Gare de Lyon,"48.85573,2.35941",01/07/2025 09:14
+64,91,Gare de Lyon,Place d'Italie,"48.85169,2.34309",01/07/2025 09:19
+64,91,Place d'Italie,Raspail,"48.85480,2.34484",01/07/2025 09:24
+64,91,Raspail,Gare Montparnasse,"48.85054,2.35575",01/07/2025 09:29
+64,91,Gare Montparnasse,Montparnasse,"48.85272,2.34760",01/07/2025 09:34
+65,91,Bastille,Gare de Lyon,"48.85881,2.35584",01/07/2025 09:17
+65,91,Gare de Lyon,Place d'Italie,"48.85184,2.35381",01/07/2025 09:22
+65,91,Place d'Italie,Raspail,"48.85008,2.34785",01/07/2025 09:27
+65,91,Raspail,Gare Montparnasse,"48.85765,2.35595",01/07/2025 09:32
+65,91,Gare Montparnasse,Montparnasse,"48.84060,2.34985",01/07/2025 09:37
+66,91,Bastille,Gare de Lyon,"48.85686,2.34738",01/07/2025 09:20
+66,91,Gare de Lyon,Place d'Italie,"48.84180,2.35724",01/07/2025 09:25
+66,91,Place d'Italie,Raspail,"48.84158,2.34007",01/07/2025 09:30
+66,91,Raspail,Gare Montparnasse,"48.84371,2.34182",01/07/2025 09:35
+66,91,Gare Montparnasse,Montparnasse,"48.85281,2.34140",01/07/2025 09:40
+67,91,Bastille,Gare de Lyon,"48.84305,2.35795",01/07/2025 09:23
+67,91,Gare de Lyon,Place d'Italie,"48.84619,2.35854",01/07/2025 09:28
+67,91,Place d'Italie,Raspail,"48.84234,2.34343",01/07/2025 09:33
+67,91,Raspail,Gare Montparnasse,"48.84127,2.34339",01/07/2025 09:38
+67,91,Gare Montparnasse,Montparnasse,"48.85891,2.34186",01/07/2025 09:43
+68,91,Bastille,Gare de Lyon,"48.85561,2.35538",01/07/2025 09:26
+68,91,Gare de Lyon,Place d'Italie,"48.85228,2.35568",01/07/2025 09:31
+68,91,Place d'Italie,Raspail,"48.85536,2.34489",01/07/2025 09:36
+68,91,Raspail,Gare Montparnasse,"48.85087,2.34531",01/07/2025 09:41
+68,91,Gare Montparnasse,Montparnasse,"48.85513,2.35983",01/07/2025 09:46
+69,91,Bastille,Gare de Lyon,"48.85326,2.34778",01/07/2025 09:29
+69,91,Gare de Lyon,Place d'Italie,"48.84544,2.35119",01/07/2025 09:34
+69,91,Place d'Italie,Raspail,"48.85751,2.34182",01/07/2025 09:39
+69,91,Raspail,Gare Montparnasse,"48.84133,2.34278",01/07/2025 09:44
+69,91,Gare Montparnasse,Montparnasse,"48.84547,2.34419",01/07/2025 09:49
+70,91,Bastille,Gare de Lyon,"48.85682,2.34812",01/07/2025 09:32
+70,91,Gare de Lyon,Place d'Italie,"48.85852,2.34178",01/07/2025 09:37
+70,91,Place d'Italie,Raspail,"48.84670,2.34908",01/07/2025 09:42
+70,91,Raspail,Gare Montparnasse,"48.84435,2.34498",01/07/2025 09:47
+70,91,Gare Montparnasse,Montparnasse,"48.84904,2.35983",01/07/2025 09:52
+71,96,Gare Montparnasse,Odéon,"48.84673,2.34803",01/07/2025 09:35
+71,96,Odéon,Hôtel de Ville,"48.84852,2.34778",01/07/2025 09:40
+71,96,Hôtel de Ville,République,"48.85116,2.35217",01/07/2025 09:45
+71,96,République,Ménilmontant,"48.84236,2.34106",01/07/2025 09:50
+71,96,Ménilmontant,Porte des Lilas,"48.85606,2.35107",01/07/2025 09:55
+72,96,Gare Montparnasse,Odéon,"48.84614,2.34382",01/07/2025 09:38
+72,96,Odéon,Hôtel de Ville,"48.84134,2.35822",01/07/2025 09:43
+72,96,Hôtel de Ville,République,"48.85418,2.34233",01/07/2025 09:48
+72,96,République,Ménilmontant,"48.84301,2.34052",01/07/2025 09:53
+72,96,Ménilmontant,Porte des Lilas,"48.85970,2.35232",01/07/2025 09:58
+73,96,Gare Montparnasse,Odéon,"48.84329,2.34198",01/07/2025 09:41
+73,96,Odéon,Hôtel de Ville,"48.85328,2.35013",01/07/2025 09:46
+73,96,Hôtel de Ville,République,"48.85677,2.34465",01/07/2025 09:51
+73,96,République,Ménilmontant,"48.85067,2.34095",01/07/2025 09:56
+73,96,Ménilmontant,Porte des Lilas,"48.84464,2.35761",01/07/2025 10:01
+74,96,Gare Montparnasse,Odéon,"48.85975,2.35779",01/07/2025 09:44
+74,96,Odéon,Hôtel de Ville,"48.85620,2.34633",01/07/2025 09:49
+74,96,Hôtel de Ville,République,"48.84872,2.34336",01/07/2025 09:54
+74,96,République,Ménilmontant,"48.85823,2.34076",01/07/2025 09:59
+74,96,Ménilmontant,Porte des Lilas,"48.84653,2.34366",01/07/2025 10:04
+75,96,Gare Montparnasse,Odéon,"48.85878,2.35185",01/07/2025 09:47
+75,96,Odéon,Hôtel de Ville,"48.85192,2.34934",01/07/2025 09:52
+75,96,Hôtel de Ville,République,"48.84921,2.34906",01/07/2025 09:57
+75,96,République,Ménilmontant,"48.85044,2.34360",01/07/2025 10:02
+75,96,Ménilmontant,Porte des Lilas,"48.85339,2.34938",01/07/2025 10:07
+76,96,Gare Montparnasse,Odéon,"48.84885,2.35097",01/07/2025 09:50
+76,96,Odéon,Hôtel de Ville,"48.85087,2.34183",01/07/2025 09:55
+76,96,Hôtel de Ville,République,"48.84390,2.35767",01/07/2025 10:00
+76,96,République,Ménilmontant,"48.85940,2.34073",01/07/2025 10:05
+76,96,Ménilmontant,Porte des Lilas,"48.85726,2.34701",01/07/2025 10:10
+77,96,Gare Montparnasse,Odéon,"48.85469,2.35300",01/07/2025 09:53
+77,96,Odéon,Hôtel de Ville,"48.84153,2.35909",01/07/2025 09:58
+77,96,Hôtel de Ville,République,"48.85860,2.34531",01/07/2025 10:03
+77,96,République,Ménilmontant,"48.85772,2.34770",01/07/2025 10:08
+77,96,Ménilmontant,Porte des Lilas,"48.85245,2.34366",01/07/2025 10:13
+78,96,Gare Montparnasse,Odéon,"48.85124,2.34266",01/07/2025 09:56
+78,96,Odéon,Hôtel de Ville,"48.84971,2.34016",01/07/2025 10:01
+78,96,Hôtel de Ville,République,"48.84630,2.34305",01/07/2025 10:06
+78,96,République,Ménilmontant,"48.84622,2.34950",01/07/2025 10:11
+78,96,Ménilmontant,Porte des Lilas,"48.84220,2.35120",01/07/2025 10:16
+79,96,Gare Montparnasse,Odéon,"48.84641,2.34606",01/07/2025 09:59
+79,96,Odéon,Hôtel de Ville,"48.84616,2.35461",01/07/2025 10:04
+79,96,Hôtel de Ville,République,"48.85271,2.35614",01/07/2025 10:09
+79,96,République,Ménilmontant,"48.85890,2.35855",01/07/2025 10:14
+79,96,Ménilmontant,Porte des Lilas,"48.85107,2.34296",01/07/2025 10:19
+80,96,Gare Montparnasse,Odéon,"48.84001,2.35899",01/07/2025 10:02
+80,96,Odéon,Hôtel de Ville,"48.85914,2.35260",01/07/2025 10:07
+80,96,Hôtel de Ville,République,"48.85913,2.35483",01/07/2025 10:12
+80,96,République,Ménilmontant,"48.84276,2.34336",01/07/2025 10:17
+80,96,Ménilmontant,Porte des Lilas,"48.84776,2.35909",01/07/2025 10:22
+81,27,Gare Saint-Lazare,Opéra,"48.85375,2.35484",01/07/2025 10:05
+81,27,Opéra,Châtelet,"48.85280,2.35396",01/07/2025 10:10
+81,27,Châtelet,Gare d'Austerlitz,"48.84364,2.35331",01/07/2025 10:15
+81,27,Gare d'Austerlitz,Bibliothèque,"48.84895,2.34744",01/07/2025 10:20
+81,27,Bibliothèque,Porte d’Ivry,"48.85975,2.35465",01/07/2025 10:25
+82,27,Gare Saint-Lazare,Opéra,"48.85414,2.35139",01/07/2025 10:08
+82,27,Opéra,Châtelet,"48.85921,2.35002",01/07/2025 10:13
+82,27,Châtelet,Gare d'Austerlitz,"48.85806,2.35280",01/07/2025 10:18
+82,27,Gare d'Austerlitz,Bibliothèque,"48.84102,2.34339",01/07/2025 10:23
+82,27,Bibliothèque,Porte d’Ivry,"48.84816,2.35766",01/07/2025 10:28
+83,27,Gare Saint-Lazare,Opéra,"48.85604,2.35549",01/07/2025 10:11
+83,27,Opéra,Châtelet,"48.85092,2.34587",01/07/2025 10:16
+83,27,Châtelet,Gare d'Austerlitz,"48.84649,2.34616",01/07/2025 10:21
+83,27,Gare d'Austerlitz,Bibliothèque,"48.85947,2.35624",01/07/2025 10:26
+83,27,Bibliothèque,Porte d’Ivry,"48.84029,2.34817",01/07/2025 10:31
+84,27,Gare Saint-Lazare,Opéra,"48.85052,2.35796",01/07/2025 10:14
+84,27,Opéra,Châtelet,"48.85848,2.34392",01/07/2025 10:19
+84,27,Châtelet,Gare d'Austerlitz,"48.84319,2.35477",01/07/2025 10:24
+84,27,Gare d'Austerlitz,Bibliothèque,"48.85970,2.34996",01/07/2025 10:29
+84,27,Bibliothèque,Porte d’Ivry,"48.85247,2.35890",01/07/2025 10:34
+85,27,Gare Saint-Lazare,Opéra,"48.85310,2.34642",01/07/2025 10:17
+85,27,Opéra,Châtelet,"48.84485,2.35476",01/07/2025 10:22
+85,27,Châtelet,Gare d'Austerlitz,"48.84181,2.35675",01/07/2025 10:27
+85,27,Gare d'Austerlitz,Bibliothèque,"48.85218,2.34653",01/07/2025 10:32
+85,27,Bibliothèque,Porte d’Ivry,"48.84563,2.35466",01/07/2025 10:37
+86,27,Gare Saint-Lazare,Opéra,"48.84399,2.35245",01/07/2025 10:20
+86,27,Opéra,Châtelet,"48.84273,2.34182",01/07/2025 10:25
+86,27,Châtelet,Gare d'Austerlitz,"48.84268,2.35962",01/07/2025 10:30
+86,27,Gare d'Austerlitz,Bibliothèque,"48.85540,2.35144",01/07/2025 10:35
+86,27,Bibliothèque,Porte d’Ivry,"48.84992,2.34766",01/07/2025 10:40
+87,27,Gare Saint-Lazare,Opéra,"48.84132,2.34152",01/07/2025 10:23
+87,27,Opéra,Châtelet,"48.85889,2.35176",01/07/2025 10:28
+87,27,Châtelet,Gare d'Austerlitz,"48.84829,2.34161",01/07/2025 10:33
+87,27,Gare d'Austerlitz,Bibliothèque,"48.84052,2.34328",01/07/2025 10:38
+87,27,Bibliothèque,Porte d’Ivry,"48.84359,2.34844",01/07/2025 10:43
+88,27,Gare Saint-Lazare,Opéra,"48.85434,2.35111",01/07/2025 10:26
+88,27,Opéra,Châtelet,"48.85836,2.34599",01/07/2025 10:31
+88,27,Châtelet,Gare d'Austerlitz,"48.84854,2.35714",01/07/2025 10:36
+88,27,Gare d'Austerlitz,Bibliothèque,"48.85510,2.34964",01/07/2025 10:41
+88,27,Bibliothèque,Porte d’Ivry,"48.85749,2.34986",01/07/2025 10:46
+89,27,Gare Saint-Lazare,Opéra,"48.85454,2.34685",01/07/2025 10:29
+89,27,Opéra,Châtelet,"48.85525,2.35100",01/07/2025 10:34
+89,27,Châtelet,Gare d'Austerlitz,"48.84752,2.34218",01/07/2025 10:39
+89,27,Gare d'Austerlitz,Bibliothèque,"48.84342,2.34420",01/07/2025 10:44
+89,27,Bibliothèque,Porte d’Ivry,"48.85849,2.34634",01/07/2025 10:49
+90,27,Gare Saint-Lazare,Opéra,"48.84935,2.35548",01/07/2025 10:32
+90,27,Opéra,Châtelet,"48.84265,2.35739",01/07/2025 10:37
+90,27,Châtelet,Gare d'Austerlitz,"48.84720,2.35958",01/07/2025 10:42
+90,27,Gare d'Austerlitz,Bibliothèque,"48.84081,2.35583",01/07/2025 10:47
+90,27,Bibliothèque,Porte d’Ivry,"48.85543,2.34684",01/07/2025 10:52
+91,69,Champ de Mars,Invalides,"48.84504,2.34419",01/07/2025 10:35
+91,69,Invalides,Louvre,"48.85723,2.34138",01/07/2025 10:40
+91,69,Louvre,Bastille,"48.84291,2.35227",01/07/2025 10:45
+91,69,Bastille,Père Lachaise,"48.85248,2.34747",01/07/2025 10:50
+91,69,Père Lachaise,Gambetta,"48.84658,2.35783",01/07/2025 10:55
+92,69,Champ de Mars,Invalides,"48.85128,2.34698",01/07/2025 10:38
+92,69,Invalides,Louvre,"48.85616,2.34831",01/07/2025 10:43
+92,69,Louvre,Bastille,"48.85122,2.35792",01/07/2025 10:48
+92,69,Bastille,Père Lachaise,"48.84930,2.35695",01/07/2025 10:53
+92,69,Père Lachaise,Gambetta,"48.85473,2.35994",01/07/2025 10:58
+93,69,Champ de Mars,Invalides,"48.84124,2.34283",01/07/2025 10:41
+93,69,Invalides,Louvre,"48.84230,2.35342",01/07/2025 10:46
+93,69,Louvre,Bastille,"48.84222,2.34071",01/07/2025 10:51
+93,69,Bastille,Père Lachaise,"48.84336,2.34975",01/07/2025 10:56
+93,69,Père Lachaise,Gambetta,"48.85165,2.34248",01/07/2025 11:01
+94,69,Champ de Mars,Invalides,"48.84368,2.34793",01/07/2025 10:44
+94,69,Invalides,Louvre,"48.84184,2.35646",01/07/2025 10:49
+94,69,Louvre,Bastille,"48.84935,2.34058",01/07/2025 10:54
+94,69,Bastille,Père Lachaise,"48.84853,2.34065",01/07/2025 10:59
+94,69,Père Lachaise,Gambetta,"48.84643,2.34877",01/07/2025 11:04
+95,69,Champ de Mars,Invalides,"48.85438,2.35882",01/07/2025 10:47
+95,69,Invalides,Louvre,"48.84065,2.35206",01/07/2025 10:52
+95,69,Louvre,Bastille,"48.84250,2.34965",01/07/2025 10:57
+95,69,Bastille,Père Lachaise,"48.84354,2.35848",01/07/2025 11:02
+95,69,Père Lachaise,Gambetta,"48.84284,2.34129",01/07/2025 11:07
+96,69,Champ de Mars,Invalides,"48.85546,2.34919",01/07/2025 10:50
+96,69,Invalides,Louvre,"48.84337,2.34396",01/07/2025 10:55
+96,69,Louvre,Bastille,"48.85939,2.34204",01/07/2025 11:00
+96,69,Bastille,Père Lachaise,"48.85681,2.34374",01/07/2025 11:05
+96,69,Père Lachaise,Gambetta,"48.84926,2.35198",01/07/2025 11:10
+97,69,Champ de Mars,Invalides,"48.84871,2.36000",01/07/2025 10:53
+97,69,Invalides,Louvre,"48.84889,2.34832",01/07/2025 10:58
+97,69,Louvre,Bastille,"48.84550,2.34815",01/07/2025 11:03
+97,69,Bastille,Père Lachaise,"48.85850,2.34094",01/07/2025 11:08
+97,69,Père Lachaise,Gambetta,"48.84817,2.34918",01/07/2025 11:13
+98,69,Champ de Mars,Invalides,"48.85494,2.35833",01/07/2025 10:56
+98,69,Invalides,Louvre,"48.85952,2.34443",01/07/2025 11:01
+98,69,Louvre,Bastille,"48.84842,2.35682",01/07/2025 11:06
+98,69,Bastille,Père Lachaise,"48.84181,2.34525",01/07/2025 11:11
+98,69,Père Lachaise,Gambetta,"48.85556,2.35754",01/07/2025 11:16
+99,69,Champ de Mars,Invalides,"48.85384,2.34582",01/07/2025 10:59
+99,69,Invalides,Louvre,"48.84490,2.34205",01/07/2025 11:04
+99,69,Louvre,Bastille,"48.85540,2.35113",01/07/2025 11:09
+99,69,Bastille,Père Lachaise,"48.84501,2.34436",01/07/2025 11:14
+99,69,Père Lachaise,Gambetta,"48.85917,2.34893",01/07/2025 11:19
+100,69,Champ de Mars,Invalides,"48.84692,2.35816",01/07/2025 11:02
+100,69,Invalides,Louvre,"48.85139,2.34898",01/07/2025 11:07
+100,69,Louvre,Bastille,"48.84651,2.35140",01/07/2025 11:12
+100,69,Bastille,Père Lachaise,"48.84764,2.35481",01/07/2025 11:17
+100,69,Père Lachaise,Gambetta,"48.85948,2.34503",01/07/2025 11:22
+101,24,Pont Neuf,Châtelet,"48.85844,2.34458",01/07/2025 11:05
+101,24,Châtelet,Odéon,"48.84503,2.34470",01/07/2025 11:10
+101,24,Odéon,Invalides,"48.84001,2.34376",01/07/2025 11:15
+101,24,Invalides,École Militaire,"48.85815,2.35874",01/07/2025 11:20
+102,24,Pont Neuf,Châtelet,"48.85926,2.34299",01/07/2025 11:08
+102,24,Châtelet,Odéon,"48.85429,2.35636",01/07/2025 11:13
+102,24,Odéon,Invalides,"48.85080,2.35376",01/07/2025 11:18
+102,24,Invalides,École Militaire,"48.84340,2.34637",01/07/2025 11:23
+103,24,Pont Neuf,Châtelet,"48.84034,2.34398",01/07/2025 11:11
+103,24,Châtelet,Odéon,"48.84088,2.35608",01/07/2025 11:16
+103,24,Odéon,Invalides,"48.85536,2.34897",01/07/2025 11:21
+103,24,Invalides,École Militaire,"48.84723,2.35782",01/07/2025 11:26
+104,24,Pont Neuf,Châtelet,"48.85397,2.35283",01/07/2025 11:14
+104,24,Châtelet,Odéon,"48.84438,2.34850",01/07/2025 11:19
+104,24,Odéon,Invalides,"48.84916,2.34466",01/07/2025 11:24
+104,24,Invalides,École Militaire,"48.85456,2.34257",01/07/2025 11:29
+105,24,Pont Neuf,Châtelet,"48.84069,2.34209",01/07/2025 11:17
+105,24,Châtelet,Odéon,"48.85821,2.34165",01/07/2025 11:22
+105,24,Odéon,Invalides,"48.85381,2.34754",01/07/2025 11:27
+105,24,Invalides,École Militaire,"48.84194,2.35667",01/07/2025 11:32
+106,24,Pont Neuf,Châtelet,"48.85360,2.35242",01/07/2025 11:20
+106,24,Châtelet,Odéon,"48.85480,2.34026",01/07/2025 11:25
+106,24,Odéon,Invalides,"48.85591,2.34894",01/07/2025 11:30
+106,24,Invalides,École Militaire,"48.85582,2.34871",01/07/2025 11:35
+107,24,Pont Neuf,Châtelet,"48.84077,2.34096",01/07/2025 11:23
+107,24,Châtelet,Odéon,"48.85600,2.34181",01/07/2025 11:28
+107,24,Odéon,Invalides,"48.84192,2.34470",01/07/2025 11:33
+107,24,Invalides,École Militaire,"48.85653,2.35742",01/07/2025 11:38
+108,24,Pont Neuf,Châtelet,"48.84132,2.35151",01/07/2025 11:26
+108,24,Châtelet,Odéon,"48.85097,2.34795",01/07/2025 11:31
+108,24,Odéon,Invalides,"48.84661,2.34042",01/07/2025 11:36
+108,24,Invalides,École Militaire,"48.84692,2.35169",01/07/2025 11:41
+109,24,Pont Neuf,Châtelet,"48.85580,2.34681",01/07/2025 11:29
+109,24,Châtelet,Odéon,"48.85997,2.34901",01/07/2025 11:34
+109,24,Odéon,Invalides,"48.85552,2.35407",01/07/2025 11:39
+109,24,Invalides,École Militaire,"48.84781,2.34450",01/07/2025 11:44
+110,24,Pont Neuf,Châtelet,"48.85901,2.34814",01/07/2025 11:32
+110,24,Châtelet,Odéon,"48.84779,2.34224",01/07/2025 11:37
+110,24,Odéon,Invalides,"48.84287,2.34310",01/07/2025 11:42
+110,24,Invalides,École Militaire,"48.85740,2.35308",01/07/2025 11:47
+111,52,La Muette,Trocadéro,"48.84419,2.34349",01/07/2025 11:35
+111,52,Trocadéro,Champs-Élysées,"48.84619,2.35738",01/07/2025 11:40
+111,52,Champs-Élysées,Madeleine,"48.84709,2.35170",01/07/2025 11:45
+111,52,Madeleine,Opéra,"48.85875,2.34635",01/07/2025 11:50
+112,52,La Muette,Trocadéro,"48.85877,2.35617",01/07/2025 11:38
+112,52,Trocadéro,Champs-Élysées,"48.85547,2.35044",01/07/2025 11:43
+112,52,Champs-Élysées,Madeleine,"48.85571,2.34903",01/07/2025 11:48
+112,52,Madeleine,Opéra,"48.84515,2.35006",01/07/2025 11:53
+113,52,La Muette,Trocadéro,"48.84454,2.35331",01/07/2025 11:41
+113,52,Trocadéro,Champs-Élysées,"48.84658,2.35617",01/07/2025 11:46
+113,52,Champs-Élysées,Madeleine,"48.85466,2.34757",01/07/2025 11:51
+113,52,Madeleine,Opéra,"48.85655,2.35858",01/07/2025 11:56
+114,52,La Muette,Trocadéro,"48.84833,2.35883",01/07/2025 11:44
+114,52,Trocadéro,Champs-Élysées,"48.85353,2.35704",01/07/2025 11:49
+114,52,Champs-Élysées,Madeleine,"48.85426,2.35948",01/07/2025 11:54
+114,52,Madeleine,Opéra,"48.84451,2.34183",01/07/2025 11:59
+115,52,La Muette,Trocadéro,"48.84228,2.34545",01/07/2025 11:47
+115,52,Trocadéro,Champs-Élysées,"48.84980,2.35566",01/07/2025 11:52
+115,52,Champs-Élysées,Madeleine,"48.84775,2.34409",01/07/2025 11:57
+115,52,Madeleine,Opéra,"48.85199,2.35822",01/07/2025 12:02
+116,52,La Muette,Trocadéro,"48.85662,2.35191",01/07/2025 11:50
+116,52,Trocadéro,Champs-Élysées,"48.84751,2.34127",01/07/2025 11:55
+116,52,Champs-Élysées,Madeleine,"48.85396,2.35851",01/07/2025 12:00
+116,52,Madeleine,Opéra,"48.84721,2.34238",01/07/2025 12:05
+117,52,La Muette,Trocadéro,"48.85887,2.35616",01/07/2025 11:53
+117,52,Trocadéro,Champs-Élysées,"48.84064,2.34514",01/07/2025 11:58
+117,52,Champs-Élysées,Madeleine,"48.84934,2.34647",01/07/2025 12:03
+117,52,Madeleine,Opéra,"48.84242,2.35808",01/07/2025 12:08
+118,52,La Muette,Trocadéro,"48.84725,2.34226",01/07/2025 11:56
+118,52,Trocadéro,Champs-Élysées,"48.84445,2.35596",01/07/2025 12:01
+118,52,Champs-Élysées,Madeleine,"48.85987,2.35953",01/07/2025 12:06
+118,52,Madeleine,Opéra,"48.84270,2.34739",01/07/2025 12:11
+119,52,La Muette,Trocadéro,"48.84732,2.34885",01/07/2025 11:59
+119,52,Trocadéro,Champs-Élysées,"48.84670,2.35041",01/07/2025 12:04
+119,52,Champs-Élysées,Madeleine,"48.85799,2.35809",01/07/2025 12:09
+119,52,Madeleine,Opéra,"48.84431,2.34375",01/07/2025 12:14
+120,52,La Muette,Trocadéro,"48.84633,2.35169",01/07/2025 12:02
+120,52,Trocadéro,Champs-Élysées,"48.84859,2.35897",01/07/2025 12:07
+120,52,Champs-Élysées,Madeleine,"48.85134,2.35525",01/07/2025 12:12
+120,52,Madeleine,Opéra,"48.84076,2.34164",01/07/2025 12:17
+121,73,La Défense,Neuilly,"48.84846,2.34956",01/07/2025 12:05
+121,73,Neuilly,Porte Maillot,"48.85916,2.35079",01/07/2025 12:10
+121,73,Porte Maillot,Concorde,"48.85289,2.34629",01/07/2025 12:15
+121,73,Concorde,Musée d'Orsay,"48.84502,2.34598",01/07/2025 12:20
+122,73,La Défense,Neuilly,"48.85584,2.34304",01/07/2025 12:08
+122,73,Neuilly,Porte Maillot,"48.84617,2.34075",01/07/2025 12:13
+122,73,Porte Maillot,Concorde,"48.84068,2.35577",01/07/2025 12:18
+122,73,Concorde,Musée d'Orsay,"48.84183,2.35853",01/07/2025 12:23
+123,73,La Défense,Neuilly,"48.84935,2.34996",01/07/2025 12:11
+123,73,Neuilly,Porte Maillot,"48.84273,2.35917",01/07/2025 12:16
+123,73,Porte Maillot,Concorde,"48.84349,2.34372",01/07/2025 12:21
+123,73,Concorde,Musée d'Orsay,"48.85116,2.35672",01/07/2025 12:26
+124,73,La Défense,Neuilly,"48.85114,2.34651",01/07/2025 12:14
+124,73,Neuilly,Porte Maillot,"48.85139,2.35566",01/07/2025 12:19
+124,73,Porte Maillot,Concorde,"48.84488,2.35445",01/07/2025 12:24
+124,73,Concorde,Musée d'Orsay,"48.85157,2.34251",01/07/2025 12:29
+125,73,La Défense,Neuilly,"48.84960,2.35574",01/07/2025 12:17
+125,73,Neuilly,Porte Maillot,"48.84698,2.35952",01/07/2025 12:22
+125,73,Porte Maillot,Concorde,"48.84301,2.34315",01/07/2025 12:27
+125,73,Concorde,Musée d'Orsay,"48.84633,2.34198",01/07/2025 12:32
+126,73,La Défense,Neuilly,"48.85169,2.35651",01/07/2025 12:20
+126,73,Neuilly,Porte Maillot,"48.85411,2.35765",01/07/2025 12:25
+126,73,Porte Maillot,Concorde,"48.85883,2.35372",01/07/2025 12:30
+126,73,Concorde,Musée d'Orsay,"48.84905,2.34131",01/07/2025 12:35
+127,73,La Défense,Neuilly,"48.85347,2.34808",01/07/2025 12:23
+127,73,Neuilly,Porte Maillot,"48.85131,2.35380",01/07/2025 12:28
+127,73,Porte Maillot,Concorde,"48.84576,2.34094",01/07/2025 12:33
+127,73,Concorde,Musée d'Orsay,"48.85526,2.35331",01/07/2025 12:38
+128,73,La Défense,Neuilly,"48.85616,2.35310",01/07/2025 12:26
+128,73,Neuilly,Porte Maillot,"48.85655,2.35105",01/07/2025 12:31
+128,73,Porte Maillot,Concorde,"48.84001,2.34542",01/07/2025 12:36
+128,73,Concorde,Musée d'Orsay,"48.85929,2.34842",01/07/2025 12:41
+129,73,La Défense,Neuilly,"48.85872,2.35666",01/07/2025 12:29
+129,73,Neuilly,Porte Maillot,"48.84775,2.34900",01/07/2025 12:34
+129,73,Porte Maillot,Concorde,"48.85472,2.34140",01/07/2025 12:39
+129,73,Concorde,Musée d'Orsay,"48.84584,2.35958",01/07/2025 12:44
+130,73,La Défense,Neuilly,"48.84278,2.34841",01/07/2025 12:32
+130,73,Neuilly,Porte Maillot,"48.84094,2.34150",01/07/2025 12:37
+130,73,Porte Maillot,Concorde,"48.85707,2.34083",01/07/2025 12:42
+130,73,Concorde,Musée d'Orsay,"48.85212,2.35554",01/07/2025 12:47
+131,30,Porte Maillot,Ternes,"48.84203,2.35613",01/07/2025 12:35
+131,30,Ternes,Place de Clichy,"48.84553,2.34495",01/07/2025 12:40
+131,30,Place de Clichy,Gare du Nord,"48.84671,2.34169",01/07/2025 12:45
+131,30,Gare du Nord,Gare de l'Est,"48.85006,2.34145",01/07/2025 12:50
+132,30,Porte Maillot,Ternes,"48.84129,2.35719",01/07/2025 12:38
+132,30,Ternes,Place de Clichy,"48.85642,2.34098",01/07/2025 12:43
+132,30,Place de Clichy,Gare du Nord,"48.85897,2.34352",01/07/2025 12:48
+132,30,Gare du Nord,Gare de l'Est,"48.85220,2.34967",01/07/2025 12:53
+133,30,Porte Maillot,Ternes,"48.85598,2.34071",01/07/2025 12:41
+133,30,Ternes,Place de Clichy,"48.85061,2.34910",01/07/2025 12:46
+133,30,Place de Clichy,Gare du Nord,"48.84800,2.34872",01/07/2025 12:51
+133,30,Gare du Nord,Gare de l'Est,"48.85976,2.35613",01/07/2025 12:56
+134,30,Porte Maillot,Ternes,"48.84395,2.34632",01/07/2025 12:44
+134,30,Ternes,Place de Clichy,"48.85455,2.35513",01/07/2025 12:49
+134,30,Place de Clichy,Gare du Nord,"48.84299,2.34817",01/07/2025 12:54
+134,30,Gare du Nord,Gare de l'Est,"48.84180,2.34277",01/07/2025 12:59
+135,30,Porte Maillot,Ternes,"48.85000,2.34866",01/07/2025 12:47
+135,30,Ternes,Place de Clichy,"48.85733,2.35827",01/07/2025 12:52
+135,30,Place de Clichy,Gare du Nord,"48.85455,2.34955",01/07/2025 12:57
+135,30,Gare du Nord,Gare de l'Est,"48.84533,2.34643",01/07/2025 13:02
+136,30,Porte Maillot,Ternes,"48.85577,2.34295",01/07/2025 12:50
+136,30,Ternes,Place de Clichy,"48.84953,2.35889",01/07/2025 12:55
+136,30,Place de Clichy,Gare du Nord,"48.85379,2.34500",01/07/2025 13:00
+136,30,Gare du Nord,Gare de l'Est,"48.85584,2.34517",01/07/2025 13:05
+137,30,Porte Maillot,Ternes,"48.85575,2.34552",01/07/2025 12:53
+137,30,Ternes,Place de Clichy,"48.84511,2.34684",01/07/2025 12:58
+137,30,Place de Clichy,Gare du Nord,"48.85166,2.34837",01/07/2025 13:03
+137,30,Gare du Nord,Gare de l'Est,"48.84317,2.34519",01/07/2025 13:08
+138,30,Porte Maillot,Ternes,"48.85168,2.34415",01/07/2025 12:56
+138,30,Ternes,Place de Clichy,"48.85041,2.35207",01/07/2025 13:01
+138,30,Place de Clichy,Gare du Nord,"48.84055,2.34084",01/07/2025 13:06
+138,30,Gare du Nord,Gare de l'Est,"48.84187,2.34183",01/07/2025 13:11
+139,30,Porte Maillot,Ternes,"48.85481,2.35510",01/07/2025 12:59
+139,30,Ternes,Place de Clichy,"48.84090,2.35325",01/07/2025 13:04
+139,30,Place de Clichy,Gare du Nord,"48.85896,2.35890",01/07/2025 13:09
+139,30,Gare du Nord,Gare de l'Est,"48.84657,2.35419",01/07/2025 13:14
+140,30,Porte Maillot,Ternes,"48.85839,2.35121",01/07/2025 13:02
+140,30,Ternes,Place de Clichy,"48.84733,2.35636",01/07/2025 13:07
+140,30,Place de Clichy,Gare du Nord,"48.85981,2.34212",01/07/2025 13:12
+140,30,Gare du Nord,Gare de l'Est,"48.85816,2.35314",01/07/2025 13:17
+141,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84360,2.34172",01/07/2025 13:05
+142,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84487,2.35140",01/07/2025 13:08
+143,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84921,2.35712",01/07/2025 13:11
+144,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84299,2.35493",01/07/2025 13:14
+145,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84886,2.35164",01/07/2025 13:17
+146,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.85185,2.34932",01/07/2025 13:20
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84399,2.35767",01/07/2025 13:23
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.85200,2.35010",01/07/2025 13:26
+149,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84257,2.35145",01/07/2025 13:29
+150,87,Gare de Lyon,Bibliothèque F. Mitterrand,"48.84495,2.34386",01/07/2025 13:32

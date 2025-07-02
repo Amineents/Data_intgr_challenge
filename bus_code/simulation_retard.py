@@ -2,8 +2,7 @@ import csv
 import random
 from datetime import datetime, timedelta
 
-# Dictionnaire : ligne → liste de gares (arrêts)
-gares_par_ligne = {
+ares_par_ligne = {
     "21": ["Stade Charléty", "Alésia", "Denfert-Rochereau", "Montparnasse", "Opéra", "Gare Saint-Lazare"],
     "38": ["Gare du Nord", "Châtelet", "Luxembourg", "Raspail", "Alésia", "Porte d'Orléans"],
     "47": ["Fort du Kremlin", "Ivry", "Place d'Italie", "Gare d'Austerlitz", "Hôtel de Ville", "Châtelet"],
@@ -21,52 +20,55 @@ gares_par_ligne = {
     "87": ["Gare de Lyon", "Bibliothèque F. Mitterrand"]
 }
 
-# Bus liés à une seule ligne
-bus_infos = [
-    {"id": 1, "ligne": "21"},
-    {"id": 2, "ligne": "38"},
-    {"id": 3, "ligne": "47"},
-    {"id": 4, "ligne": "63"},
-    {"id": 5, "ligne": "72"},
-    {"id": 6, "ligne": "82"},
-    {"id": 7, "ligne": "91"},
-    {"id": 8, "ligne": "96"},
-    {"id": 9, "ligne": "27"},
-    {"id": 10, "ligne": "69"},
-    {"id": 11, "ligne": "24"},
-    {"id": 12, "ligne": "52"},
-    {"id": 13, "ligne": "73"},
-    {"id": 14, "ligne": "30"},
-    {"id": 15, "ligne": "87"}
-]
+# Liste des lignes disponibles
+lignes = list(ares_par_ligne.keys())
 
-# Création du fichier CSV des retards
-with open("historique_retards.csv", mode="w", newline="", encoding="utf-8") as f:
+# Nombre total de bus à simuler
+nb_bus = 150
+
+def random_time(start_hour=6, end_hour=10):
+    """Retourne une heure au format HH:MM aléatoire entre start_hour et end_hour."""
+    hour = random.randint(start_hour, end_hour - 1)
+    minute = random.randint(0, 59)
+    return f"{hour:02d}:{minute:02d}"
+
+def time_add_minutes(time_str, minutes):
+    """Ajoute des minutes à une heure donnée au format HH:MM."""
+    t = datetime.strptime(time_str, "%H:%M")
+    t += timedelta(minutes=minutes)
+    return t.strftime("%H:%M")
+
+with open("historique_retard.csv", mode="w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["id_bus", "ligne", "gare_depart", "gare_retard", "heure_arrivee_prevue", "heure_arrivee_reelle"])
 
-    for bus in bus_infos:
-        ligne = bus["ligne"]
-        arrets = gares_par_ligne[ligne]
-        gare_depart = arrets[0]
+    for bus_id in range(1, nb_bus + 1):
+        # Attribuer une ligne au bus (rotation simple sur la liste)
+        ligne = lignes[(bus_id - 1) % len(lignes)]
+        gares = ares_par_ligne[ligne]
+        
+        gare_depart = gares[0]
 
-        nb_retards = random.randint(2, 4)
+        # Nombre de retards à générer par bus (entre 3 et 7)
+        nb_retards = random.randint(3, 7)
 
         for _ in range(nb_retards):
-            gare_retard = random.choice(arrets[1:])  # on ne prend pas la gare de départ
+            # Choisir une gare de retard différente de la gare_depart
+            gare_retard = random.choice(gares[1:])  # au moins la deuxième gare
 
-            heure_base = datetime.strptime("08:00", "%H:%M")
-            offset_min = random.randint(10, 50)
-            heure_prevue = heure_base + timedelta(minutes=offset_min)
+            # Générer une heure d'arrivée prévue entre 6h00 et 10h00
+            heure_arrivee_prevue = random_time()
 
-            retard_min = random.randint(2, 15)
-            heure_reelle = heure_prevue + timedelta(minutes=retard_min)
+            # Retard entre 0 et 15 minutes
+            retard = random.randint(0, 15)
+
+            heure_arrivee_reelle = time_add_minutes(heure_arrivee_prevue, retard)
 
             writer.writerow([
-                bus["id"],
+                bus_id,
                 ligne,
                 gare_depart,
                 gare_retard,
-                heure_prevue.strftime("%H:%M"),
-                heure_reelle.strftime("%H:%M")
+                heure_arrivee_prevue,
+                heure_arrivee_reelle
             ])
