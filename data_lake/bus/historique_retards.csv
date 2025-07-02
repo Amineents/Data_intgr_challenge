@@ -1,0 +1,51 @@
+id_bus,ligne,gare_depart,gare_retard,heure_arrivee_prevue,heure_arrivee_reelle
+1,21,Stade Charléty,Gare Saint-Lazare,08:43,08:45
+1,21,Stade Charléty,Montparnasse,08:42,08:45
+2,38,Gare du Nord,Raspail,08:19,08:28
+2,38,Gare du Nord,Alésia,08:41,08:44
+2,38,Gare du Nord,Porte d'Orléans,08:27,08:30
+2,38,Gare du Nord,Luxembourg,08:30,08:37
+3,47,Fort du Kremlin,Châtelet,08:30,08:33
+3,47,Fort du Kremlin,Place d'Italie,08:30,08:40
+3,47,Fort du Kremlin,Ivry,08:22,08:35
+3,47,Fort du Kremlin,Gare d'Austerlitz,08:19,08:27
+4,63,Porte de la Muette,Trocadéro,08:39,08:49
+4,63,Porte de la Muette,La Muette,08:34,08:45
+4,63,Porte de la Muette,La Muette,08:38,08:48
+5,72,Hôtel de Ville,Pont Mirabeau,08:19,08:27
+5,72,Hôtel de Ville,Pont Mirabeau,08:38,08:43
+6,82,Luxembourg,Bois de Boulogne,08:13,08:25
+6,82,Luxembourg,Invalides,08:38,08:44
+6,82,Luxembourg,Charles de Gaulle Étoile,08:15,08:27
+6,82,Luxembourg,Charles de Gaulle Étoile,08:23,08:32
+7,91,Bastille,Gare Montparnasse,08:44,08:53
+7,91,Bastille,Place d'Italie,08:42,08:54
+7,91,Bastille,Raspail,08:42,08:53
+7,91,Bastille,Montparnasse,08:31,08:40
+8,96,Gare Montparnasse,Porte des Lilas,08:32,08:34
+8,96,Gare Montparnasse,Ménilmontant,08:50,09:05
+8,96,Gare Montparnasse,Hôtel de Ville,08:50,08:54
+9,27,Gare Saint-Lazare,Châtelet,08:28,08:35
+9,27,Gare Saint-Lazare,Gare d'Austerlitz,08:49,08:58
+9,27,Gare Saint-Lazare,Porte d’Ivry,08:21,08:28
+10,69,Champ de Mars,Gambetta,08:14,08:21
+10,69,Champ de Mars,Invalides,08:18,08:27
+10,69,Champ de Mars,Bastille,08:32,08:44
+10,69,Champ de Mars,Père Lachaise,08:20,08:28
+11,24,Pont Neuf,École Militaire,08:29,08:38
+11,24,Pont Neuf,École Militaire,08:22,08:33
+11,24,Pont Neuf,Invalides,08:20,08:30
+11,24,Pont Neuf,Invalides,08:47,08:58
+12,52,La Muette,Champs-Élysées,08:14,08:22
+12,52,La Muette,Madeleine,08:13,08:26
+12,52,La Muette,Madeleine,08:39,08:54
+13,73,La Défense,Concorde,08:25,08:29
+13,73,La Défense,Musée d'Orsay,08:40,08:53
+13,73,La Défense,Musée d'Orsay,08:11,08:17
+13,73,La Défense,Porte Maillot,08:50,08:57
+14,30,Porte Maillot,Gare du Nord,08:20,08:29
+14,30,Porte Maillot,Gare de l'Est,08:27,08:36
+14,30,Porte Maillot,Ternes,08:26,08:40
+15,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:50,08:57
+15,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:34,08:48
+15,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:47,08:54
