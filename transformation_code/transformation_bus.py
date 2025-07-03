@@ -27,6 +27,8 @@ df_loc.columns = [col.strip().lower().replace(" ", "_") for col in df_loc.column
 df_loc['ligne'] = df_loc['ligne'].astype(str).str.upper().str.strip()
 df_loc['gare_depart'] = df_loc['gare_depart'].astype(str).str.title().str.strip()
 df_loc['destination'] = df_loc['destination'].astype(str).str.title().str.strip()
+df_loc['heure_de_captage'] = pd.to_datetime(df_loc['heure_de_captage'], errors='coerce')
+df_loc.dropna(subset=['heure_de_captage'], inplace=True)
 df_loc.drop_duplicates(inplace=True)
 assert df_loc['id'].is_unique, "ID en double dans localisation_bus"
 
@@ -40,34 +42,31 @@ cursor.execute("""
         heure_de_captage DATETIME
     )
 """)
+
 for _, row in df_loc.iterrows():
+    values = (
+        int(row['id']),
+        str(row['ligne']),
+        str(row['gare_depart']),
+        str(row['destination']),
+        str(row['position_gps']),
+        row['heure_de_captage'].to_pydatetime() if pd.notna(row['heure_de_captage']) else None
+    )
     cursor.execute("""
         INSERT INTO localisation_bus (id, ligne, gare_depart, destination, position_gps, heure_de_captage)
         VALUES (%s, %s, %s, %s, %s, %s)
-    """, tuple(row))
+    """, values)
 
 # === 2. trafic_routes_paris.csv ===
 df_traf = pd.read_csv(data_path / "trafic_routes_paris.csv")
 df_traf.columns = ["id", "route_from", "route_to", "traffic_level", "vehicle_count", "avg_speed_kmh", "timestamp"]
-
-# Nettoyage
 df_traf['route_from'] = df_traf['route_from'].astype(str).str.title().str.strip()
 df_traf['route_to'] = df_traf['route_to'].astype(str).str.title().str.strip()
 df_traf['traffic_level'] = df_traf['traffic_level'].astype(str).str.lower().str.strip()
 df_traf['timestamp'] = pd.to_datetime(df_traf['timestamp'], errors='coerce')
-
-# Nettoyage des erreurs et doublons
 df_traf.dropna(subset=["timestamp"], inplace=True)
 df_traf.drop_duplicates(inplace=True)
 
-# Vérification des points manquants
-points_connus = set(df_loc['gare_depart'].dropna().unique()) | set(df_loc['destination'].dropna().unique())
-points_trafic = set(df_traf['route_from'].dropna().unique()) | set(df_traf['route_to'].dropna().unique())
-points_manquants = points_trafic - points_connus
-if points_manquants:
-    print("Points de trafic non référencés dans les gares :", points_manquants)
-
-# Création de la table
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS trafic_routes (
         id INT PRIMARY KEY,
@@ -80,20 +79,25 @@ cursor.execute("""
     )
 """)
 
-# Insertion
 for _, row in df_traf.iterrows():
+    values = (
+        int(row["id"]),
+        str(row["route_from"]),
+        str(row["route_to"]),
+        str(row["traffic_level"]),
+        int(row["vehicle_count"]),
+        float(row["avg_speed_kmh"]),
+        row["timestamp"].to_pydatetime() if pd.notna(row["timestamp"]) else None
+    )
     cursor.execute("""
         INSERT INTO trafic_routes (
             id, route_from, route_to, traffic_level, vehicle_count, avg_speed_kmh, timestamp
         ) VALUES (%s, %s, %s, %s, %s, %s, %s)
-    """, tuple(row))
-
+    """, values)
 
 # === 3. historique_retards.csv ===
 df_retards = pd.read_csv(data_path / "historique_retards.csv")
 df_retards.columns = [col.strip().lower().replace(" ", "_") for col in df_retards.columns]
-
-# Vérification et nettoyage
 df_retards['ligne'] = df_retards['ligne'].astype(str).str.upper().str.strip()
 df_retards['gare_depart'] = df_retards['gare_depart'].astype(str).str.title().str.strip()
 df_retards['gare_retard'] = df_retards['gare_retard'].astype(str).str.title().str.strip()
@@ -101,7 +105,6 @@ df_retards['heure_arrivee_prevue'] = pd.to_datetime(df_retards['heure_arrivee_pr
 df_retards['heure_arrivee_reelle'] = pd.to_datetime(df_retards['heure_arrivee_reelle'], errors='coerce')
 df_retards.drop_duplicates(inplace=True)
 
-# Table simplifiée : on conserve les colonnes du fichier
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS historique_retards (
         id_bus INT,
@@ -114,17 +117,25 @@ cursor.execute("""
 """)
 
 for _, row in df_retards.iterrows():
+    values = (
+        int(row['id_bus']),
+        str(row['ligne']),
+        str(row['gare_depart']),
+        str(row['gare_retard']),
+        row['heure_arrivee_prevue'].to_pydatetime() if pd.notna(row['heure_arrivee_prevue']) else None,
+        row['heure_arrivee_reelle'].to_pydatetime() if pd.notna(row['heure_arrivee_reelle']) else None
+    )
     cursor.execute("""
         INSERT INTO historique_retards (id_bus, ligne, gare_depart, gare_retard, heure_arrivee_prevue, heure_arrivee_reelle)
         VALUES (%s, %s, %s, %s, %s, %s)
-    """, tuple(row))
-
+    """, values)
 
 # === 4. horaires_arrets_bus.csv ===
 df_horaires = pd.read_csv(data_path / "horaires_arrets_bus.csv")
 df_horaires.columns = ["ligne", "nom_arret", "placement_gare", "heure_passage", "ordre_arret"]
 df_horaires['nom_arret'] = df_horaires['nom_arret'].astype(str).str.title().str.strip()
 df_horaires['placement_gare'] = df_horaires['placement_gare'].astype(str).str.strip()
+df_horaires['heure_passage'] = pd.to_datetime(df_horaires['heure_passage'], errors='coerce')
 df_horaires.drop_duplicates(inplace=True)
 
 cursor.execute("""
@@ -136,17 +147,24 @@ cursor.execute("""
         ordre_arret INT
     )
 """)
+
 for _, row in df_horaires.iterrows():
+    values = (
+        str(row['ligne']),
+        str(row['nom_arret']),
+        str(row['placement_gare']),
+        row['heure_passage'].to_pydatetime() if pd.notna(row['heure_passage']) else None,
+        int(row['ordre_arret'])
+    )
     cursor.execute("""
         INSERT INTO horaires_arrets (ligne, nom_arret, placement_gare, heure_passage, ordre_arret)
         VALUES (%s, %s, %s, %s, %s)
-    """, tuple(row))
+    """, values)
 
 # === 5. weather_data.json ===
 with open(data_path / "weather_data.json", "r", encoding="utf-8") as f:
     weather_json = json.load(f)
 
-# Création de la table (inchangé)
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS weather (
         city_name VARCHAR(100),
@@ -160,7 +178,6 @@ cursor.execute("""
     )
 """)
 
-# Insertion de chaque entrée dans la liste
 for entry in weather_json.get("list", []):
     timestamp = datetime.fromtimestamp(entry["dt"])
     temp = entry["main"]["temp"]
@@ -169,8 +186,6 @@ for entry in weather_json.get("list", []):
     rain = entry.get("rain", {}).get("1h", 0)
     clouds = entry["clouds"]["all"]
     description = entry["weather"][0]["description"]
-    
-    # city name fallback
     city = weather_json.get("city", {}).get("name", "Paris")
 
     cursor.execute("""
@@ -178,8 +193,6 @@ for entry in weather_json.get("list", []):
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
     """, (city, temp, humidity, wind_speed, rain, clouds, description, timestamp))
 
-
-# Fin
 conn.commit()
 cursor.close()
 conn.close()
