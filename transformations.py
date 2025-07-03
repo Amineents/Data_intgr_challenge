@@ -8,7 +8,7 @@ TRANSFORMATION_DIR = BASE_DIR / "transformation_code"
 
 # Fichiers spécifiques à exécuter
 scripts_a_executer = [
-    #TRANSFORMATION_DIR / "transformation_bus.py",
+    TRANSFORMATION_DIR / "transformation_bus.py",
     TRANSFORMATION_DIR / "transformation_lampadaires.py"
 ]
 
