@@ -1,8 +1,8 @@
-
 import pandas as pd
 import mysql.connector
 import json
 import os
+from datetime import datetime
 
 # Détection des chemins dynamiques
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -24,11 +24,11 @@ cursor.execute("USE lampadaires_silver")
 df_static = pd.read_csv(os.path.join(data_dir, "lampadaires_datasud.csv"), sep=";")
 df_static.columns = [col.strip().lower().replace(" ", "_") for col in df_static.columns]
 
-# Création de lamp_id à partir de gid
-df_static["lamp_id"] = df_static["gid"].apply(lambda x: f"LAMP{int(x):05}")
+# Création de lamp_id avec les 3 derniers chiffres du gid
+df_static["lamp_id"] = df_static["gid"].apply(lambda x: f"LAMP{int(str(int(x))[-3:]):03}")
 
 # Colonnes d'intérêt dans l'ordre donné
-df_static = df_static[[
+df_static = df_static[[  
     "lamp_id",
     "marque",
     "etat_foy",
@@ -40,6 +40,7 @@ df_static = df_static[[
     "lat"
 ]]
 
+# Conversion correcte des coordonnées
 df_static["lon"] = pd.to_numeric(df_static["lon"].astype(str).str.replace(",", ".", regex=False), errors="coerce")
 df_static["lat"] = pd.to_numeric(df_static["lat"].astype(str).str.replace(",", ".", regex=False), errors="coerce")
 
@@ -61,6 +62,7 @@ CREATE TABLE IF NOT EXISTS lampadaires_static (
 )
 """)
 
+# Insertion dans MySQL
 for _, row in df_static.iterrows():
     cursor.execute("""
         INSERT INTO lampadaires_static (
@@ -68,14 +70,15 @@ for _, row in df_static.iterrows():
         ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
     """, tuple(None if pd.isna(v) else v for v in row))
 
-
+#print("haha")
 
 
 # --- 2. lampadaires_streaming_simulation.jsonl ---
 df_stream = pd.read_json(os.path.join(data_dir, "lampadaires_streaming_simulation.jsonl"), lines=True)
 df_stream.columns = [col.strip().lower() for col in df_stream.columns]
 df_stream["lamp_id"] = df_stream["lamp_id"].str.strip().str.upper()
-df_stream["ts"] = pd.to_datetime(df_stream["ts"])
+df_stream["ts"] = pd.to_datetime(df_stream["ts"], errors="coerce")
+df_stream.dropna(subset=["ts"], inplace=True)
 df_stream.drop_duplicates(inplace=True)
 
 cursor.execute("""
@@ -86,10 +89,15 @@ CREATE TABLE IF NOT EXISTS consommation_lampadaires (
 )
 """)
 for _, row in df_stream.iterrows():
+    values = (
+        str(row["lamp_id"]),
+        row["ts"].to_pydatetime() if pd.notnull(row["ts"]) else None,
+        float(row["consumption_kwh"])
+    )
     cursor.execute("""
         INSERT INTO consommation_lampadaires (lamp_id, ts, consumption_kwh)
         VALUES (%s, %s, %s)
-    """, tuple(row))
+    """, values)
 
 # --- 3. planning_allumage_saisonnier.csv ---
 df_plan = pd.read_csv(os.path.join(data_dir, "planning_allumage_saisonnier.csv"))
@@ -115,7 +123,8 @@ for _, row in df_plan.iterrows():
 df_reclam = pd.read_json(os.path.join(data_dir, "reclamations_lampadaires.jsonl"), lines=True)
 df_reclam.columns = [col.strip().lower() for col in df_reclam.columns]
 df_reclam["lamp_id"] = df_reclam["lamp_id"].str.upper().str.strip()
-df_reclam["report_time"] = pd.to_datetime(df_reclam["report_time"])
+df_reclam["report_time"] = pd.to_datetime(df_reclam["report_time"], errors="coerce")
+df_reclam.dropna(subset=["report_time"], inplace=True)
 df_reclam["status"] = df_reclam["status"].str.lower().str.strip()
 df_reclam.drop_duplicates(inplace=True)
 
@@ -127,10 +136,15 @@ CREATE TABLE IF NOT EXISTS reclamations_lampadaires (
 )
 """)
 for _, row in df_reclam.iterrows():
+    values = (
+        str(row["lamp_id"]),
+        row["report_time"].to_pydatetime() if pd.notnull(row["report_time"]) else None,
+        str(row["status"])
+    )
     cursor.execute("""
         INSERT INTO reclamations_lampadaires (lamp_id, report_time, status)
         VALUES (%s, %s, %s)
-    """, tuple(row))
+    """, values)
 
 # --- 5. sunrise_sunset.json ---
 with open(os.path.join(data_dir, "sunrise_sunset.json"), "r", encoding="utf-8") as f:

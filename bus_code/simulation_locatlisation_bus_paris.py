@@ -35,7 +35,9 @@ for ligne in ares_par_ligne.keys():
         bus_infos.append({"id": bus_id, "ligne": ligne})
         bus_id += 1
 
-# Génération du fichier
+# ...
+row_id = 1  # identifiant unique par ligne du fichier
+
 with open(output_file, mode="w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["id", "ligne", "gare_depart", "destination", "position_gps", "heure_de_captage"])
@@ -52,12 +54,15 @@ with open(output_file, mode="w", newline='', encoding="utf-8") as f:
             lon = lon_base + random.uniform(-0.01, 0.01)
             heure_captage = base_time + timedelta(minutes=5 * ordre + 3 * bus["id"] + 2)
             writer.writerow([
-                bus["id"],
+                row_id,                   # identifiant unique pour chaque ligne
                 ligne,
                 gare_depart,
                 destination,
                 f"{lat:.5f},{lon:.5f}",
-                heure_captage.strftime("%d/%m/%Y %H:%M")
+                heure_captage.strftime("%Y-%m-%d %H:%M:%S")
+
             ])
+            row_id += 1  # incrémenter pour la prochaine ligne
+
 
 print(f"Fichier généré dans : {output_file}")

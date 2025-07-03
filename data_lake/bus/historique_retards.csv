@@ -1,697 +1,683 @@
 id_bus,ligne,gare_depart,gare_retard,heure_arrivee_prevue,heure_arrivee_reelle
-1,21,Stade Charléty,Montparnasse,08:10,08:11
-1,21,Stade Charléty,Gare Saint-Lazare,08:18,08:30
-1,21,Stade Charléty,Alésia,08:44,08:59
-1,21,Stade Charléty,Opéra,08:26,08:36
-1,21,Stade Charléty,Gare Saint-Lazare,08:44,08:45
-1,21,Stade Charléty,Gare Saint-Lazare,08:07,08:22
-2,21,Stade Charléty,Gare Saint-Lazare,08:33,08:40
-2,21,Stade Charléty,Gare Saint-Lazare,08:45,08:52
-2,21,Stade Charléty,Montparnasse,08:11,08:12
-2,21,Stade Charléty,Denfert-Rochereau,08:23,08:30
-3,21,Stade Charléty,Montparnasse,08:45,08:55
-3,21,Stade Charléty,Gare Saint-Lazare,08:43,08:57
-3,21,Stade Charléty,Gare Saint-Lazare,08:44,08:45
-3,21,Stade Charléty,Alésia,08:26,08:41
-3,21,Stade Charléty,Opéra,08:52,08:59
-3,21,Stade Charléty,Montparnasse,08:36,08:45
-4,21,Stade Charléty,Alésia,08:20,08:30
-4,21,Stade Charléty,Denfert-Rochereau,08:27,08:31
-4,21,Stade Charléty,Alésia,08:43,08:47
-5,21,Stade Charléty,Denfert-Rochereau,08:51,08:59
-5,21,Stade Charléty,Opéra,08:19,08:27
-5,21,Stade Charléty,Gare Saint-Lazare,08:41,08:56
-5,21,Stade Charléty,Opéra,08:05,08:10
-5,21,Stade Charléty,Alésia,08:01,08:14
-6,21,Stade Charléty,Gare Saint-Lazare,08:09,08:15
-6,21,Stade Charléty,Montparnasse,08:53,08:57
-6,21,Stade Charléty,Montparnasse,08:20,08:23
-6,21,Stade Charléty,Montparnasse,08:06,08:17
-6,21,Stade Charléty,Opéra,08:36,08:43
-7,21,Stade Charléty,Alésia,08:04,08:08
-7,21,Stade Charléty,Gare Saint-Lazare,08:03,08:07
-7,21,Stade Charléty,Denfert-Rochereau,08:28,08:36
-7,21,Stade Charléty,Alésia,08:58,09:07
-8,21,Stade Charléty,Montparnasse,08:35,08:43
-8,21,Stade Charléty,Montparnasse,08:18,08:29
-8,21,Stade Charléty,Gare Saint-Lazare,08:48,08:57
-8,21,Stade Charléty,Alésia,08:34,08:43
-8,21,Stade Charléty,Denfert-Rochereau,08:40,08:44
-9,21,Stade Charléty,Alésia,08:19,08:29
-9,21,Stade Charléty,Montparnasse,08:26,08:36
-9,21,Stade Charléty,Opéra,08:34,08:38
-9,21,Stade Charléty,Alésia,08:06,08:10
-10,21,Stade Charléty,Montparnasse,08:16,08:30
-10,21,Stade Charléty,Denfert-Rochereau,08:50,08:57
-10,21,Stade Charléty,Gare Saint-Lazare,08:29,08:32
-10,21,Stade Charléty,Alésia,08:28,08:33
-11,38,Gare du Nord,Châtelet,08:39,08:46
-11,38,Gare du Nord,Alésia,08:45,08:57
-11,38,Gare du Nord,Châtelet,08:52,09:05
-11,38,Gare du Nord,Luxembourg,08:41,08:49
-11,38,Gare du Nord,Raspail,08:50,08:54
-11,38,Gare du Nord,Porte d'Orléans,08:07,08:15
-12,38,Gare du Nord,Raspail,08:01,08:16
-12,38,Gare du Nord,Porte d'Orléans,08:26,08:40
-12,38,Gare du Nord,Alésia,08:05,08:11
-12,38,Gare du Nord,Châtelet,08:49,08:54
-12,38,Gare du Nord,Châtelet,08:22,08:35
-12,38,Gare du Nord,Châtelet,08:38,08:47
-13,38,Gare du Nord,Châtelet,08:25,08:40
-13,38,Gare du Nord,Porte d'Orléans,08:32,08:42
-13,38,Gare du Nord,Luxembourg,08:49,08:51
-13,38,Gare du Nord,Luxembourg,08:37,08:43
-14,38,Gare du Nord,Alésia,08:47,08:48
-14,38,Gare du Nord,Châtelet,08:39,08:41
-14,38,Gare du Nord,Châtelet,08:00,08:03
-14,38,Gare du Nord,Luxembourg,08:41,08:49
-14,38,Gare du Nord,Luxembourg,08:58,09:06
-14,38,Gare du Nord,Porte d'Orléans,08:59,09:04
-15,38,Gare du Nord,Raspail,08:38,08:50
-15,38,Gare du Nord,Alésia,08:20,08:31
-15,38,Gare du Nord,Alésia,08:04,08:09
-16,38,Gare du Nord,Châtelet,08:49,08:59
-16,38,Gare du Nord,Porte d'Orléans,08:32,08:43
-16,38,Gare du Nord,Raspail,08:04,08:06
-16,38,Gare du Nord,Châtelet,08:57,08:58
-16,38,Gare du Nord,Raspail,08:23,08:29
-17,38,Gare du Nord,Alésia,08:52,08:54
-17,38,Gare du Nord,Raspail,08:14,08:22
-17,38,Gare du Nord,Châtelet,08:14,08:17
-18,38,Gare du Nord,Alésia,08:17,08:25
-18,38,Gare du Nord,Luxembourg,08:13,08:18
-18,38,Gare du Nord,Porte d'Orléans,08:11,08:12
-18,38,Gare du Nord,Porte d'Orléans,08:36,08:49
-18,38,Gare du Nord,Alésia,08:38,08:53
-18,38,Gare du Nord,Luxembourg,08:57,09:00
-19,38,Gare du Nord,Alésia,08:25,08:39
-19,38,Gare du Nord,Châtelet,08:19,08:28
-19,38,Gare du Nord,Châtelet,08:17,08:30
-20,38,Gare du Nord,Luxembourg,08:30,08:44
-20,38,Gare du Nord,Raspail,08:31,08:38
-20,38,Gare du Nord,Porte d'Orléans,08:51,08:55
-21,47,Fort du Kremlin,Gare d'Austerlitz,08:24,08:25
-21,47,Fort du Kremlin,Place d'Italie,08:53,09:08
-21,47,Fort du Kremlin,Châtelet,08:27,08:28
-21,47,Fort du Kremlin,Châtelet,08:08,08:23
-21,47,Fort du Kremlin,Hôtel de Ville,08:01,08:16
-22,47,Fort du Kremlin,Hôtel de Ville,08:48,08:59
-22,47,Fort du Kremlin,Châtelet,08:48,08:53
-22,47,Fort du Kremlin,Place d'Italie,08:56,08:57
-22,47,Fort du Kremlin,Châtelet,08:54,08:55
-22,47,Fort du Kremlin,Châtelet,08:29,08:39
-22,47,Fort du Kremlin,Ivry,08:12,08:14
-23,47,Fort du Kremlin,Gare d'Austerlitz,08:19,08:29
-23,47,Fort du Kremlin,Gare d'Austerlitz,08:09,08:14
-23,47,Fort du Kremlin,Gare d'Austerlitz,08:16,08:27
-24,47,Fort du Kremlin,Ivry,08:03,08:18
-24,47,Fort du Kremlin,Hôtel de Ville,08:32,08:45
-24,47,Fort du Kremlin,Hôtel de Ville,08:30,08:32
-24,47,Fort du Kremlin,Hôtel de Ville,08:30,08:35
-24,47,Fort du Kremlin,Ivry,08:55,09:08
-24,47,Fort du Kremlin,Ivry,08:52,09:07
-25,47,Fort du Kremlin,Gare d'Austerlitz,08:50,09:05
-25,47,Fort du Kremlin,Gare d'Austerlitz,08:54,09:08
-25,47,Fort du Kremlin,Gare d'Austerlitz,08:25,08:30
-26,47,Fort du Kremlin,Hôtel de Ville,08:43,08:52
-26,47,Fort du Kremlin,Ivry,08:00,08:10
-26,47,Fort du Kremlin,Place d'Italie,08:30,08:42
-26,47,Fort du Kremlin,Gare d'Austerlitz,08:55,08:56
-26,47,Fort du Kremlin,Châtelet,08:43,08:45
-27,47,Fort du Kremlin,Ivry,08:08,08:11
-27,47,Fort du Kremlin,Châtelet,08:01,08:16
-27,47,Fort du Kremlin,Gare d'Austerlitz,08:26,08:40
-27,47,Fort du Kremlin,Ivry,08:41,08:48
-27,47,Fort du Kremlin,Place d'Italie,08:43,08:47
-27,47,Fort du Kremlin,Gare d'Austerlitz,08:42,08:43
-28,47,Fort du Kremlin,Ivry,08:09,08:20
-28,47,Fort du Kremlin,Châtelet,08:13,08:18
-28,47,Fort du Kremlin,Hôtel de Ville,08:17,08:23
-28,47,Fort du Kremlin,Châtelet,08:23,08:37
-29,47,Fort du Kremlin,Hôtel de Ville,08:41,08:43
-29,47,Fort du Kremlin,Hôtel de Ville,08:21,08:28
-29,47,Fort du Kremlin,Gare d'Austerlitz,08:29,08:41
-29,47,Fort du Kremlin,Gare d'Austerlitz,08:55,09:02
-29,47,Fort du Kremlin,Châtelet,08:19,08:34
-29,47,Fort du Kremlin,Place d'Italie,08:16,08:21
-30,47,Fort du Kremlin,Place d'Italie,08:59,09:13
-30,47,Fort du Kremlin,Place d'Italie,08:40,08:54
-30,47,Fort du Kremlin,Place d'Italie,08:57,09:07
-30,47,Fort du Kremlin,Châtelet,08:43,08:46
-31,63,Porte de la Muette,Trocadéro,08:52,09:03
-31,63,Porte de la Muette,Trocadéro,08:44,08:46
-31,63,Porte de la Muette,Invalides,08:02,08:05
-31,63,Porte de la Muette,La Muette,08:16,08:25
-31,63,Porte de la Muette,La Muette,08:34,08:39
-32,63,Porte de la Muette,Gare de Lyon,08:21,08:33
-32,63,Porte de la Muette,Trocadéro,08:39,08:43
-32,63,Porte de la Muette,La Muette,08:25,08:27
-33,63,Porte de la Muette,Gare de Lyon,08:07,08:19
-33,63,Porte de la Muette,Trocadéro,08:58,09:10
-33,63,Porte de la Muette,Invalides,08:28,08:37
-33,63,Porte de la Muette,Gare de Lyon,08:47,08:57
-33,63,Porte de la Muette,Gare d'Austerlitz,08:28,08:39
-33,63,Porte de la Muette,Gare de Lyon,08:57,08:59
-34,63,Porte de la Muette,La Muette,08:37,08:40
-34,63,Porte de la Muette,La Muette,08:51,08:58
-34,63,Porte de la Muette,Invalides,08:55,09:08
-34,63,Porte de la Muette,Gare de Lyon,08:10,08:13
-34,63,Porte de la Muette,Gare d'Austerlitz,08:05,08:17
-34,63,Porte de la Muette,La Muette,08:07,08:13
-35,63,Porte de la Muette,Gare d'Austerlitz,08:02,08:16
-35,63,Porte de la Muette,Invalides,08:06,08:17
-35,63,Porte de la Muette,Gare d'Austerlitz,08:19,08:34
-35,63,Porte de la Muette,Gare de Lyon,08:32,08:36
-35,63,Porte de la Muette,Invalides,08:02,08:13
-35,63,Porte de la Muette,La Muette,08:21,08:31
-36,63,Porte de la Muette,Gare d'Austerlitz,08:18,08:24
-36,63,Porte de la Muette,La Muette,08:50,08:57
-36,63,Porte de la Muette,Invalides,08:32,08:37
-36,63,Porte de la Muette,Gare de Lyon,08:46,08:59
-36,63,Porte de la Muette,Gare d'Austerlitz,08:52,08:58
-37,63,Porte de la Muette,La Muette,08:18,08:23
-37,63,Porte de la Muette,Trocadéro,08:43,08:53
-37,63,Porte de la Muette,Invalides,08:04,08:13
-37,63,Porte de la Muette,Invalides,08:48,08:57
-37,63,Porte de la Muette,La Muette,08:56,09:02
-38,63,Porte de la Muette,Gare d'Austerlitz,08:47,08:56
-38,63,Porte de la Muette,Gare de Lyon,08:57,08:58
-38,63,Porte de la Muette,Gare de Lyon,08:06,08:14
-38,63,Porte de la Muette,Gare de Lyon,08:33,08:42
-38,63,Porte de la Muette,La Muette,08:09,08:15
-38,63,Porte de la Muette,Gare d'Austerlitz,08:24,08:37
-39,63,Porte de la Muette,Trocadéro,08:07,08:14
-39,63,Porte de la Muette,Gare de Lyon,08:27,08:38
-39,63,Porte de la Muette,Gare d'Austerlitz,08:03,08:07
-39,63,Porte de la Muette,Trocadéro,08:40,08:42
-39,63,Porte de la Muette,Gare d'Austerlitz,08:13,08:14
-40,63,Porte de la Muette,Trocadéro,08:35,08:49
-40,63,Porte de la Muette,Trocadéro,08:56,08:59
-40,63,Porte de la Muette,Gare de Lyon,08:43,08:55
-40,63,Porte de la Muette,Trocadéro,08:20,08:21
-40,63,Porte de la Muette,Trocadéro,08:01,08:02
-41,72,Hôtel de Ville,Pont Mirabeau,08:13,08:22
-41,72,Hôtel de Ville,Parc de Saint-Cloud,08:22,08:29
-41,72,Hôtel de Ville,Musée du quai Branly,08:03,08:12
-41,72,Hôtel de Ville,Pont de l'Alma,08:18,08:19
-41,72,Hôtel de Ville,Concorde,08:02,08:07
-41,72,Hôtel de Ville,Pont Mirabeau,08:21,08:24
-42,72,Hôtel de Ville,Parc de Saint-Cloud,08:55,09:04
-42,72,Hôtel de Ville,Pont Mirabeau,08:41,08:51
-42,72,Hôtel de Ville,Pont de l'Alma,08:24,08:31
-42,72,Hôtel de Ville,Musée du quai Branly,08:25,08:39
-42,72,Hôtel de Ville,Concorde,08:53,08:56
-42,72,Hôtel de Ville,Concorde,08:34,08:35
-43,72,Hôtel de Ville,Pont Mirabeau,08:23,08:33
-43,72,Hôtel de Ville,Pont Mirabeau,08:57,09:06
-43,72,Hôtel de Ville,Pont Mirabeau,08:00,08:13
-43,72,Hôtel de Ville,Pont de l'Alma,08:37,08:38
-44,72,Hôtel de Ville,Pont Mirabeau,08:26,08:35
-44,72,Hôtel de Ville,Pont de l'Alma,08:35,08:49
-44,72,Hôtel de Ville,Pont Mirabeau,08:16,08:31
-44,72,Hôtel de Ville,Parc de Saint-Cloud,08:55,09:09
-45,72,Hôtel de Ville,Concorde,08:34,08:43
-45,72,Hôtel de Ville,Musée du quai Branly,08:21,08:26
-45,72,Hôtel de Ville,Musée du quai Branly,08:08,08:15
-45,72,Hôtel de Ville,Parc de Saint-Cloud,08:47,09:00
-45,72,Hôtel de Ville,Musée du quai Branly,08:47,08:59
-45,72,Hôtel de Ville,Musée du quai Branly,08:29,08:39
-46,72,Hôtel de Ville,Pont Mirabeau,08:17,08:32
-46,72,Hôtel de Ville,Concorde,08:16,08:29
-46,72,Hôtel de Ville,Concorde,08:15,08:28
-46,72,Hôtel de Ville,Concorde,08:48,08:52
-46,72,Hôtel de Ville,Concorde,08:10,08:16
-46,72,Hôtel de Ville,Pont Mirabeau,08:20,08:21
-47,72,Hôtel de Ville,Pont Mirabeau,08:48,08:54
-47,72,Hôtel de Ville,Musée du quai Branly,08:15,08:21
-47,72,Hôtel de Ville,Musée du quai Branly,08:16,08:25
-47,72,Hôtel de Ville,Pont Mirabeau,08:22,08:32
-47,72,Hôtel de Ville,Pont de l'Alma,08:38,08:39
-48,72,Hôtel de Ville,Musée du quai Branly,08:13,08:25
-48,72,Hôtel de Ville,Musée du quai Branly,08:21,08:26
-48,72,Hôtel de Ville,Pont Mirabeau,08:33,08:38
-48,72,Hôtel de Ville,Musée du quai Branly,08:58,09:05
-49,72,Hôtel de Ville,Concorde,08:48,08:55
-49,72,Hôtel de Ville,Parc de Saint-Cloud,08:50,08:53
-49,72,Hôtel de Ville,Parc de Saint-Cloud,08:17,08:21
-49,72,Hôtel de Ville,Concorde,08:58,09:07
-49,72,Hôtel de Ville,Pont de l'Alma,08:43,08:53
-50,72,Hôtel de Ville,Pont Mirabeau,08:28,08:36
-50,72,Hôtel de Ville,Parc de Saint-Cloud,08:23,08:32
-50,72,Hôtel de Ville,Pont Mirabeau,08:30,08:40
-50,72,Hôtel de Ville,Parc de Saint-Cloud,08:54,09:00
-51,82,Luxembourg,Charles de Gaulle Étoile,08:32,08:36
-51,82,Luxembourg,Invalides,08:27,08:30
-51,82,Luxembourg,Montparnasse,08:12,08:27
-51,82,Luxembourg,Charles de Gaulle Étoile,08:11,08:22
-51,82,Luxembourg,Charles de Gaulle Étoile,08:24,08:26
-52,82,Luxembourg,Charles de Gaulle Étoile,08:42,08:52
-52,82,Luxembourg,Neuilly,08:45,08:56
-52,82,Luxembourg,Neuilly,08:26,08:34
-52,82,Luxembourg,Montparnasse,08:34,08:37
-52,82,Luxembourg,Montparnasse,08:32,08:45
-52,82,Luxembourg,Bois de Boulogne,08:31,08:36
-53,82,Luxembourg,Neuilly,08:07,08:15
-53,82,Luxembourg,Invalides,08:35,08:45
-53,82,Luxembourg,Charles de Gaulle Étoile,08:16,08:30
-53,82,Luxembourg,Bois de Boulogne,08:16,08:24
-53,82,Luxembourg,Neuilly,08:31,08:45
-53,82,Luxembourg,Montparnasse,08:34,08:42
-54,82,Luxembourg,Invalides,08:16,08:18
-54,82,Luxembourg,Bois de Boulogne,08:09,08:14
-54,82,Luxembourg,Montparnasse,08:49,08:53
-54,82,Luxembourg,Bois de Boulogne,08:38,08:44
-54,82,Luxembourg,Invalides,08:14,08:29
-55,82,Luxembourg,Bois de Boulogne,08:07,08:08
-55,82,Luxembourg,Invalides,08:57,09:08
-55,82,Luxembourg,Invalides,08:10,08:11
-55,82,Luxembourg,Charles de Gaulle Étoile,08:11,08:15
-55,82,Luxembourg,Charles de Gaulle Étoile,08:52,08:57
-56,82,Luxembourg,Charles de Gaulle Étoile,08:47,08:48
-56,82,Luxembourg,Neuilly,08:20,08:29
-56,82,Luxembourg,Montparnasse,08:06,08:12
-56,82,Luxembourg,Neuilly,08:52,09:03
-56,82,Luxembourg,Bois de Boulogne,08:38,08:43
-56,82,Luxembourg,Neuilly,08:19,08:31
-57,82,Luxembourg,Bois de Boulogne,08:37,08:44
-57,82,Luxembourg,Bois de Boulogne,08:49,09:03
-57,82,Luxembourg,Charles de Gaulle Étoile,08:22,08:29
-57,82,Luxembourg,Bois de Boulogne,08:48,08:52
-58,82,Luxembourg,Neuilly,08:10,08:17
-58,82,Luxembourg,Bois de Boulogne,08:47,09:02
-58,82,Luxembourg,Montparnasse,08:48,08:56
-59,82,Luxembourg,Montparnasse,08:32,08:47
-59,82,Luxembourg,Bois de Boulogne,08:35,08:39
-59,82,Luxembourg,Bois de Boulogne,08:23,08:31
-59,82,Luxembourg,Bois de Boulogne,08:18,08:22
-59,82,Luxembourg,Neuilly,08:09,08:16
-60,82,Luxembourg,Montparnasse,08:34,08:43
-60,82,Luxembourg,Neuilly,08:09,08:21
-60,82,Luxembourg,Bois de Boulogne,08:28,08:39
-60,82,Luxembourg,Bois de Boulogne,08:43,08:45
-61,91,Bastille,Place d'Italie,08:24,08:27
-61,91,Bastille,Montparnasse,08:58,09:07
-61,91,Bastille,Raspail,08:47,08:58
-61,91,Bastille,Montparnasse,08:30,08:41
-61,91,Bastille,Place d'Italie,08:27,08:36
-62,91,Bastille,Raspail,08:36,08:41
-62,91,Bastille,Raspail,08:27,08:39
-62,91,Bastille,Raspail,08:44,08:57
-62,91,Bastille,Gare de Lyon,08:04,08:07
-62,91,Bastille,Montparnasse,08:11,08:13
-63,91,Bastille,Montparnasse,08:18,08:22
-63,91,Bastille,Gare de Lyon,08:35,08:38
-63,91,Bastille,Gare de Lyon,08:04,08:08
-63,91,Bastille,Montparnasse,08:48,08:57
-63,91,Bastille,Place d'Italie,08:51,08:58
-64,91,Bastille,Gare de Lyon,08:58,09:03
-64,91,Bastille,Gare Montparnasse,08:10,08:22
-64,91,Bastille,Montparnasse,08:06,08:16
-64,91,Bastille,Raspail,08:43,08:44
-65,91,Bastille,Gare Montparnasse,08:04,08:10
-65,91,Bastille,Montparnasse,08:22,08:34
-65,91,Bastille,Gare Montparnasse,08:33,08:44
-66,91,Bastille,Montparnasse,08:04,08:14
-66,91,Bastille,Gare de Lyon,08:48,08:52
-66,91,Bastille,Gare Montparnasse,08:56,09:02
-67,91,Bastille,Montparnasse,08:37,08:46
-67,91,Bastille,Gare Montparnasse,08:06,08:10
-67,91,Bastille,Gare Montparnasse,08:37,08:48
-68,91,Bastille,Gare de Lyon,08:24,08:33
-68,91,Bastille,Montparnasse,08:07,08:10
-68,91,Bastille,Gare Montparnasse,08:25,08:33
-68,91,Bastille,Montparnasse,08:14,08:22
-68,91,Bastille,Gare Montparnasse,08:36,08:46
-68,91,Bastille,Montparnasse,08:14,08:28
-69,91,Bastille,Raspail,08:39,08:48
-69,91,Bastille,Gare Montparnasse,08:47,08:57
-69,91,Bastille,Gare de Lyon,08:03,08:17
-70,91,Bastille,Montparnasse,08:08,08:11
-70,91,Bastille,Place d'Italie,08:55,09:06
-70,91,Bastille,Gare Montparnasse,08:41,08:42
-71,96,Gare Montparnasse,Ménilmontant,08:33,08:47
-71,96,Gare Montparnasse,Hôtel de Ville,08:16,08:27
-71,96,Gare Montparnasse,Hôtel de Ville,08:12,08:13
-72,96,Gare Montparnasse,Ménilmontant,08:33,08:48
-72,96,Gare Montparnasse,Porte des Lilas,08:40,08:41
-72,96,Gare Montparnasse,Ménilmontant,08:07,08:14
-73,96,Gare Montparnasse,Hôtel de Ville,08:57,09:05
-73,96,Gare Montparnasse,Odéon,08:25,08:36
-73,96,Gare Montparnasse,Odéon,08:10,08:16
-73,96,Gare Montparnasse,Hôtel de Ville,08:35,08:43
-74,96,Gare Montparnasse,Ménilmontant,08:13,08:22
-74,96,Gare Montparnasse,République,08:59,09:14
-74,96,Gare Montparnasse,Ménilmontant,08:39,08:54
-74,96,Gare Montparnasse,Ménilmontant,08:06,08:07
-74,96,Gare Montparnasse,République,08:33,08:38
-74,96,Gare Montparnasse,Porte des Lilas,08:55,09:07
-75,96,Gare Montparnasse,Porte des Lilas,08:14,08:29
-75,96,Gare Montparnasse,Porte des Lilas,08:25,08:30
-75,96,Gare Montparnasse,République,08:24,08:39
-75,96,Gare Montparnasse,Hôtel de Ville,08:20,08:26
-75,96,Gare Montparnasse,République,08:32,08:38
-76,96,Gare Montparnasse,Odéon,08:44,08:48
-76,96,Gare Montparnasse,Ménilmontant,08:19,08:22
-76,96,Gare Montparnasse,Porte des Lilas,08:10,08:20
-76,96,Gare Montparnasse,Porte des Lilas,08:20,08:27
-77,96,Gare Montparnasse,Hôtel de Ville,08:30,08:34
-77,96,Gare Montparnasse,Porte des Lilas,08:38,08:47
-77,96,Gare Montparnasse,Hôtel de Ville,08:02,08:08
-77,96,Gare Montparnasse,Hôtel de Ville,08:09,08:21
-77,96,Gare Montparnasse,Ménilmontant,08:26,08:40
-78,96,Gare Montparnasse,Porte des Lilas,08:03,08:05
-78,96,Gare Montparnasse,Hôtel de Ville,08:10,08:20
-78,96,Gare Montparnasse,Hôtel de Ville,08:47,08:59
-78,96,Gare Montparnasse,Porte des Lilas,08:07,08:13
-78,96,Gare Montparnasse,Porte des Lilas,08:51,08:53
-78,96,Gare Montparnasse,Odéon,08:21,08:24
-79,96,Gare Montparnasse,Ménilmontant,08:01,08:05
-79,96,Gare Montparnasse,Hôtel de Ville,08:15,08:22
-79,96,Gare Montparnasse,Porte des Lilas,08:15,08:25
-79,96,Gare Montparnasse,Porte des Lilas,08:02,08:13
-79,96,Gare Montparnasse,Ménilmontant,08:17,08:24
-80,96,Gare Montparnasse,Hôtel de Ville,08:56,08:59
-80,96,Gare Montparnasse,Odéon,08:27,08:31
-80,96,Gare Montparnasse,Odéon,08:06,08:18
-80,96,Gare Montparnasse,Hôtel de Ville,08:00,08:11
-80,96,Gare Montparnasse,Porte des Lilas,08:42,08:51
-80,96,Gare Montparnasse,Ménilmontant,08:32,08:38
-81,27,Gare Saint-Lazare,Bibliothèque,08:42,08:57
-81,27,Gare Saint-Lazare,Châtelet,08:54,09:00
-81,27,Gare Saint-Lazare,Gare d'Austerlitz,08:55,09:01
-81,27,Gare Saint-Lazare,Opéra,08:20,08:25
-81,27,Gare Saint-Lazare,Porte d’Ivry,08:52,08:58
-82,27,Gare Saint-Lazare,Gare d'Austerlitz,08:23,08:28
-82,27,Gare Saint-Lazare,Opéra,08:47,08:59
-82,27,Gare Saint-Lazare,Châtelet,08:44,08:55
-82,27,Gare Saint-Lazare,Gare d'Austerlitz,08:18,08:24
-82,27,Gare Saint-Lazare,Gare d'Austerlitz,08:37,08:43
-83,27,Gare Saint-Lazare,Châtelet,08:49,08:53
-83,27,Gare Saint-Lazare,Opéra,08:34,08:38
-83,27,Gare Saint-Lazare,Opéra,08:17,08:28
-83,27,Gare Saint-Lazare,Bibliothèque,08:02,08:15
-83,27,Gare Saint-Lazare,Gare d'Austerlitz,08:45,08:50
-84,27,Gare Saint-Lazare,Châtelet,08:12,08:17
-84,27,Gare Saint-Lazare,Opéra,08:54,09:00
-84,27,Gare Saint-Lazare,Châtelet,08:13,08:27
-85,27,Gare Saint-Lazare,Bibliothèque,08:38,08:43
-85,27,Gare Saint-Lazare,Gare d'Austerlitz,08:43,08:49
-85,27,Gare Saint-Lazare,Opéra,08:33,08:44
-85,27,Gare Saint-Lazare,Châtelet,08:50,09:05
-85,27,Gare Saint-Lazare,Porte d’Ivry,08:14,08:27
-86,27,Gare Saint-Lazare,Opéra,08:21,08:22
-86,27,Gare Saint-Lazare,Gare d'Austerlitz,08:19,08:31
-86,27,Gare Saint-Lazare,Bibliothèque,08:19,08:22
-87,27,Gare Saint-Lazare,Opéra,08:36,08:38
-87,27,Gare Saint-Lazare,Gare d'Austerlitz,08:20,08:22
-87,27,Gare Saint-Lazare,Châtelet,08:26,08:34
-87,27,Gare Saint-Lazare,Châtelet,08:30,08:33
-88,27,Gare Saint-Lazare,Porte d’Ivry,08:01,08:05
-88,27,Gare Saint-Lazare,Opéra,08:22,08:33
-88,27,Gare Saint-Lazare,Porte d’Ivry,08:51,08:55
-88,27,Gare Saint-Lazare,Porte d’Ivry,08:21,08:26
-88,27,Gare Saint-Lazare,Châtelet,08:36,08:44
-89,27,Gare Saint-Lazare,Opéra,08:17,08:31
-89,27,Gare Saint-Lazare,Châtelet,08:49,08:50
-89,27,Gare Saint-Lazare,Bibliothèque,08:30,08:33
-89,27,Gare Saint-Lazare,Châtelet,08:34,08:43
-89,27,Gare Saint-Lazare,Opéra,08:46,08:51
-90,27,Gare Saint-Lazare,Châtelet,08:44,08:57
-90,27,Gare Saint-Lazare,Porte d’Ivry,08:20,08:24
-90,27,Gare Saint-Lazare,Châtelet,08:45,08:58
-90,27,Gare Saint-Lazare,Châtelet,08:39,08:50
-90,27,Gare Saint-Lazare,Opéra,08:10,08:15
-90,27,Gare Saint-Lazare,Gare d'Austerlitz,08:20,08:34
-91,69,Champ de Mars,Bastille,08:35,08:36
-91,69,Champ de Mars,Bastille,08:31,08:40
-91,69,Champ de Mars,Père Lachaise,08:01,08:14
-91,69,Champ de Mars,Louvre,08:14,08:24
-92,69,Champ de Mars,Invalides,08:16,08:21
-92,69,Champ de Mars,Invalides,08:52,09:05
-92,69,Champ de Mars,Bastille,08:13,08:28
-92,69,Champ de Mars,Louvre,08:13,08:28
-92,69,Champ de Mars,Gambetta,08:18,08:22
-93,69,Champ de Mars,Louvre,08:37,08:45
-93,69,Champ de Mars,Gambetta,08:53,08:56
-93,69,Champ de Mars,Louvre,08:44,08:53
-93,69,Champ de Mars,Louvre,08:36,08:41
-93,69,Champ de Mars,Invalides,08:33,08:44
-94,69,Champ de Mars,Gambetta,08:40,08:50
-94,69,Champ de Mars,Gambetta,08:41,08:54
-94,69,Champ de Mars,Invalides,08:12,08:21
-94,69,Champ de Mars,Père Lachaise,08:11,08:12
-94,69,Champ de Mars,Louvre,08:16,08:28
-95,69,Champ de Mars,Louvre,08:49,08:52
-95,69,Champ de Mars,Bastille,08:36,08:43
-95,69,Champ de Mars,Père Lachaise,08:23,08:24
-95,69,Champ de Mars,Gambetta,08:25,08:27
-95,69,Champ de Mars,Père Lachaise,08:34,08:47
-95,69,Champ de Mars,Louvre,08:15,08:25
-96,69,Champ de Mars,Père Lachaise,08:40,08:46
-96,69,Champ de Mars,Bastille,08:18,08:33
-96,69,Champ de Mars,Bastille,08:57,09:12
-96,69,Champ de Mars,Invalides,08:50,08:57
-97,69,Champ de Mars,Père Lachaise,08:37,08:44
-97,69,Champ de Mars,Père Lachaise,08:07,08:13
-97,69,Champ de Mars,Gambetta,08:31,08:45
-98,69,Champ de Mars,Invalides,08:44,08:50
-98,69,Champ de Mars,Gambetta,08:08,08:12
-98,69,Champ de Mars,Louvre,08:16,08:31
-98,69,Champ de Mars,Bastille,08:29,08:30
-98,69,Champ de Mars,Père Lachaise,08:06,08:10
-99,69,Champ de Mars,Invalides,08:17,08:20
-99,69,Champ de Mars,Invalides,08:10,08:19
-99,69,Champ de Mars,Invalides,08:24,08:30
-100,69,Champ de Mars,Louvre,08:47,08:54
-100,69,Champ de Mars,Louvre,08:18,08:28
-100,69,Champ de Mars,Bastille,08:31,08:38
-100,69,Champ de Mars,Invalides,08:45,08:57
-101,24,Pont Neuf,Odéon,08:16,08:28
-101,24,Pont Neuf,École Militaire,08:55,08:57
-101,24,Pont Neuf,Invalides,08:04,08:16
-101,24,Pont Neuf,Odéon,08:22,08:28
-101,24,Pont Neuf,École Militaire,08:47,08:57
-102,24,Pont Neuf,Châtelet,08:51,08:57
-102,24,Pont Neuf,École Militaire,08:51,09:03
-102,24,Pont Neuf,École Militaire,08:45,09:00
-103,24,Pont Neuf,Châtelet,08:58,09:09
-103,24,Pont Neuf,Invalides,08:41,08:53
-103,24,Pont Neuf,Odéon,08:16,08:28
-104,24,Pont Neuf,Odéon,08:57,09:04
-104,24,Pont Neuf,Odéon,08:48,08:50
-104,24,Pont Neuf,Châtelet,08:27,08:30
-104,24,Pont Neuf,Odéon,08:42,08:55
-104,24,Pont Neuf,Invalides,08:57,09:00
-104,24,Pont Neuf,Châtelet,08:27,08:39
-105,24,Pont Neuf,École Militaire,08:06,08:13
-105,24,Pont Neuf,Châtelet,08:01,08:02
-105,24,Pont Neuf,Odéon,08:00,08:03
-105,24,Pont Neuf,École Militaire,08:21,08:31
-105,24,Pont Neuf,Invalides,08:44,08:58
-105,24,Pont Neuf,Odéon,08:53,08:54
-106,24,Pont Neuf,Invalides,08:04,08:18
-106,24,Pont Neuf,École Militaire,08:52,09:06
-106,24,Pont Neuf,École Militaire,08:08,08:20
-106,24,Pont Neuf,Invalides,08:49,08:55
-107,24,Pont Neuf,Châtelet,08:17,08:28
-107,24,Pont Neuf,Odéon,08:17,08:22
-107,24,Pont Neuf,Châtelet,08:40,08:46
-107,24,Pont Neuf,Châtelet,08:46,08:48
-107,24,Pont Neuf,Invalides,08:31,08:41
-108,24,Pont Neuf,Odéon,08:26,08:37
-108,24,Pont Neuf,Invalides,08:49,09:02
-108,24,Pont Neuf,Châtelet,08:50,09:05
-108,24,Pont Neuf,École Militaire,08:24,08:39
-108,24,Pont Neuf,Invalides,08:35,08:47
-109,24,Pont Neuf,Odéon,08:26,08:35
-109,24,Pont Neuf,Invalides,08:11,08:12
-109,24,Pont Neuf,Invalides,08:39,08:53
-110,24,Pont Neuf,Châtelet,08:10,08:13
-110,24,Pont Neuf,École Militaire,08:05,08:12
-110,24,Pont Neuf,École Militaire,08:56,08:57
-111,52,La Muette,Champs-Élysées,08:14,08:24
-111,52,La Muette,Opéra,08:23,08:35
-111,52,La Muette,Opéra,08:16,08:31
-111,52,La Muette,Trocadéro,08:58,09:12
-112,52,La Muette,Champs-Élysées,08:42,08:52
-112,52,La Muette,Madeleine,08:47,08:56
-112,52,La Muette,Champs-Élysées,08:50,09:05
-112,52,La Muette,Opéra,08:07,08:20
-112,52,La Muette,Champs-Élysées,08:44,08:56
-112,52,La Muette,Opéra,08:13,08:21
-113,52,La Muette,Champs-Élysées,08:11,08:22
-113,52,La Muette,Trocadéro,08:00,08:15
-113,52,La Muette,Opéra,08:55,09:02
-113,52,La Muette,Champs-Élysées,08:25,08:28
-114,52,La Muette,Opéra,08:06,08:19
-114,52,La Muette,Champs-Élysées,08:54,08:56
-114,52,La Muette,Opéra,08:03,08:09
-114,52,La Muette,Champs-Élysées,08:27,08:31
-114,52,La Muette,Opéra,08:13,08:25
-114,52,La Muette,Madeleine,08:04,08:08
-115,52,La Muette,Champs-Élysées,08:40,08:51
-115,52,La Muette,Trocadéro,08:07,08:19
-115,52,La Muette,Madeleine,08:48,09:01
-115,52,La Muette,Champs-Élysées,08:39,08:53
-116,52,La Muette,Champs-Élysées,08:09,08:18
-116,52,La Muette,Trocadéro,08:06,08:16
-116,52,La Muette,Opéra,08:22,08:27
-116,52,La Muette,Champs-Élysées,08:57,09:01
-116,52,La Muette,Opéra,08:21,08:30
-117,52,La Muette,Opéra,08:35,08:47
-117,52,La Muette,Champs-Élysées,08:54,08:55
-117,52,La Muette,Opéra,08:08,08:15
-117,52,La Muette,Trocadéro,08:38,08:39
-117,52,La Muette,Opéra,08:43,08:48
-117,52,La Muette,Champs-Élysées,08:04,08:14
-118,52,La Muette,Madeleine,08:24,08:31
-118,52,La Muette,Opéra,08:02,08:06
-118,52,La Muette,Trocadéro,08:36,08:45
-118,52,La Muette,Opéra,08:38,08:44
-119,52,La Muette,Opéra,08:57,09:10
-119,52,La Muette,Opéra,08:23,08:24
-119,52,La Muette,Opéra,08:14,08:19
-120,52,La Muette,Madeleine,08:32,08:45
-120,52,La Muette,Trocadéro,08:28,08:40
-120,52,La Muette,Madeleine,08:32,08:39
-120,52,La Muette,Trocadéro,08:11,08:17
-120,52,La Muette,Trocadéro,08:56,08:57
-121,73,La Défense,Musée d'Orsay,08:23,08:30
-121,73,La Défense,Musée d'Orsay,08:06,08:09
-121,73,La Défense,Musée d'Orsay,08:32,08:38
-121,73,La Défense,Porte Maillot,08:39,08:48
-121,73,La Défense,Musée d'Orsay,08:05,08:09
-121,73,La Défense,Musée d'Orsay,08:23,08:34
-122,73,La Défense,Neuilly,08:25,08:32
-122,73,La Défense,Musée d'Orsay,08:20,08:26
-122,73,La Défense,Concorde,08:05,08:10
-123,73,La Défense,Porte Maillot,08:05,08:19
-123,73,La Défense,Neuilly,08:21,08:28
-123,73,La Défense,Neuilly,08:20,08:30
-123,73,La Défense,Neuilly,08:42,08:51
-123,73,La Défense,Concorde,08:38,08:51
-123,73,La Défense,Neuilly,08:28,08:30
-124,73,La Défense,Neuilly,08:45,08:52
-124,73,La Défense,Concorde,08:15,08:24
-124,73,La Défense,Porte Maillot,08:51,08:56
-124,73,La Défense,Neuilly,08:34,08:41
-124,73,La Défense,Musée d'Orsay,08:20,08:23
-124,73,La Défense,Concorde,08:35,08:41
-125,73,La Défense,Neuilly,08:01,08:12
-125,73,La Défense,Concorde,08:17,08:25
-125,73,La Défense,Neuilly,08:50,09:00
-126,73,La Défense,Musée d'Orsay,08:29,08:31
-126,73,La Défense,Concorde,08:46,08:47
-126,73,La Défense,Concorde,08:55,08:57
-127,73,La Défense,Neuilly,08:20,08:31
-127,73,La Défense,Concorde,08:48,08:52
-127,73,La Défense,Concorde,08:26,08:38
-127,73,La Défense,Musée d'Orsay,08:01,08:08
-127,73,La Défense,Musée d'Orsay,08:16,08:18
-127,73,La Défense,Concorde,08:53,09:03
-128,73,La Défense,Concorde,08:19,08:30
-128,73,La Défense,Concorde,08:35,08:47
-128,73,La Défense,Neuilly,08:53,09:00
-129,73,La Défense,Neuilly,08:37,08:49
-129,73,La Défense,Neuilly,08:49,09:03
-129,73,La Défense,Concorde,08:57,09:03
-129,73,La Défense,Concorde,08:21,08:24
-130,73,La Défense,Concorde,08:20,08:31
-130,73,La Défense,Concorde,08:04,08:11
-130,73,La Défense,Porte Maillot,08:21,08:33
-130,73,La Défense,Porte Maillot,08:56,08:58
-130,73,La Défense,Neuilly,08:10,08:19
-130,73,La Défense,Neuilly,08:28,08:33
-131,30,Porte Maillot,Place de Clichy,08:30,08:34
-131,30,Porte Maillot,Gare de l'Est,08:23,08:33
-131,30,Porte Maillot,Gare du Nord,08:12,08:15
-131,30,Porte Maillot,Place de Clichy,08:46,08:57
-131,30,Porte Maillot,Place de Clichy,08:17,08:24
-131,30,Porte Maillot,Place de Clichy,08:28,08:34
-132,30,Porte Maillot,Ternes,08:51,08:59
-132,30,Porte Maillot,Gare de l'Est,08:47,08:54
-132,30,Porte Maillot,Ternes,08:13,08:20
-132,30,Porte Maillot,Gare du Nord,08:10,08:22
-133,30,Porte Maillot,Ternes,08:06,08:11
-133,30,Porte Maillot,Gare de l'Est,08:16,08:31
-133,30,Porte Maillot,Ternes,08:05,08:08
-133,30,Porte Maillot,Gare de l'Est,08:25,08:32
-133,30,Porte Maillot,Ternes,08:43,08:53
-133,30,Porte Maillot,Ternes,08:53,09:04
-134,30,Porte Maillot,Gare de l'Est,08:36,08:45
-134,30,Porte Maillot,Ternes,08:09,08:22
-134,30,Porte Maillot,Ternes,08:13,08:28
-134,30,Porte Maillot,Gare de l'Est,08:23,08:29
-134,30,Porte Maillot,Place de Clichy,08:58,09:00
-134,30,Porte Maillot,Gare de l'Est,08:02,08:10
-135,30,Porte Maillot,Gare de l'Est,08:18,08:28
-135,30,Porte Maillot,Ternes,08:20,08:28
-135,30,Porte Maillot,Ternes,08:25,08:33
-135,30,Porte Maillot,Ternes,08:26,08:28
-135,30,Porte Maillot,Place de Clichy,08:42,08:55
-135,30,Porte Maillot,Place de Clichy,08:53,09:03
-136,30,Porte Maillot,Place de Clichy,08:37,08:40
-136,30,Porte Maillot,Gare du Nord,08:27,08:30
-136,30,Porte Maillot,Gare du Nord,08:31,08:38
-136,30,Porte Maillot,Place de Clichy,08:26,08:40
-137,30,Porte Maillot,Gare du Nord,08:42,08:52
-137,30,Porte Maillot,Gare de l'Est,08:24,08:31
-137,30,Porte Maillot,Gare de l'Est,08:15,08:22
-137,30,Porte Maillot,Place de Clichy,08:30,08:38
-138,30,Porte Maillot,Place de Clichy,08:42,08:43
-138,30,Porte Maillot,Place de Clichy,08:11,08:15
-138,30,Porte Maillot,Place de Clichy,08:18,08:32
-138,30,Porte Maillot,Gare du Nord,08:47,09:00
-138,30,Porte Maillot,Place de Clichy,08:28,08:29
-138,30,Porte Maillot,Gare de l'Est,08:30,08:36
-139,30,Porte Maillot,Gare du Nord,08:03,08:08
-139,30,Porte Maillot,Gare du Nord,08:35,08:36
-139,30,Porte Maillot,Place de Clichy,08:18,08:32
-139,30,Porte Maillot,Place de Clichy,08:52,09:03
-139,30,Porte Maillot,Gare du Nord,08:23,08:35
-140,30,Porte Maillot,Place de Clichy,08:53,09:06
-140,30,Porte Maillot,Gare de l'Est,08:44,08:58
-140,30,Porte Maillot,Place de Clichy,08:17,08:24
-140,30,Porte Maillot,Gare du Nord,08:47,08:48
-140,30,Porte Maillot,Place de Clichy,08:44,08:45
-140,30,Porte Maillot,Gare de l'Est,08:39,08:50
-141,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:39,08:45
-141,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:19,08:30
-141,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:24,08:29
-142,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:04,08:08
-142,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:57,09:05
-142,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:28,08:37
-143,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:48,08:50
-143,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:01,08:02
-143,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:40,08:53
-143,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:29,08:30
-144,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:22,08:31
-144,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:06,08:17
-144,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:46,08:58
-145,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:53,09:00
-145,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:38,08:50
-145,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:04,08:13
-145,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:26,08:36
-146,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:44,08:55
-146,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:08,08:11
-146,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:53,08:55
-146,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:13,08:22
-146,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:27,08:38
-147,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:53,09:02
-147,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:09,08:24
-147,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:19,08:34
-147,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:09,08:18
-148,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:17,08:30
-148,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:00,08:14
-148,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:38,08:47
-148,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:12,08:14
-148,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:17,08:22
-149,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:05,08:10
-149,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:12,08:16
-149,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:27,08:38
-149,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:29,08:40
-149,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:41,08:51
-150,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:54,09:09
-150,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:05,08:10
-150,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:50,08:52
-150,87,Gare de Lyon,Bibliothèque F. Mitterrand,08:25,08:31
+1,21,Stade Charléty,Gare Saint-Lazare,2025-01-03 08:28,2025-01-03 08:31
+1,21,Stade Charléty,Alésia,2025-01-05 08:34,2025-01-05 08:42
+1,21,Stade Charléty,Gare Saint-Lazare,2025-01-04 08:21,2025-01-04 08:32
+1,21,Stade Charléty,Montparnasse,2025-01-03 08:08,2025-01-03 08:20
+1,21,Stade Charléty,Alésia,2025-01-02 08:05,2025-01-02 08:15
+2,21,Stade Charléty,Gare Saint-Lazare,2025-01-08 08:22,2025-01-08 08:37
+2,21,Stade Charléty,Gare Saint-Lazare,2025-01-04 08:05,2025-01-04 08:15
+2,21,Stade Charléty,Denfert-Rochereau,2025-01-08 08:24,2025-01-08 08:29
+2,21,Stade Charléty,Alésia,2025-01-05 08:50,2025-01-05 08:53
+2,21,Stade Charléty,Opéra,2025-01-04 08:56,2025-01-04 09:00
+2,21,Stade Charléty,Gare Saint-Lazare,2025-01-06 08:28,2025-01-06 08:33
+3,21,Stade Charléty,Montparnasse,2025-01-02 08:14,2025-01-02 08:29
+3,21,Stade Charléty,Denfert-Rochereau,2025-01-08 08:48,2025-01-08 09:03
+3,21,Stade Charléty,Gare Saint-Lazare,2025-01-08 08:07,2025-01-08 08:20
+3,21,Stade Charléty,Denfert-Rochereau,2025-01-05 08:53,2025-01-05 09:01
+3,21,Stade Charléty,Montparnasse,2025-01-02 08:30,2025-01-02 08:36
+3,21,Stade Charléty,Montparnasse,2025-01-06 08:35,2025-01-06 08:38
+4,21,Stade Charléty,Montparnasse,2025-01-08 08:44,2025-01-08 08:47
+4,21,Stade Charléty,Gare Saint-Lazare,2025-01-07 08:46,2025-01-07 08:55
+4,21,Stade Charléty,Montparnasse,2025-01-04 08:49,2025-01-04 08:55
+4,21,Stade Charléty,Gare Saint-Lazare,2025-01-03 08:47,2025-01-03 08:54
+4,21,Stade Charléty,Gare Saint-Lazare,2025-01-08 08:48,2025-01-08 08:59
+4,21,Stade Charléty,Montparnasse,2025-01-07 08:51,2025-01-07 08:54
+5,21,Stade Charléty,Denfert-Rochereau,2025-01-06 08:23,2025-01-06 08:28
+5,21,Stade Charléty,Alésia,2025-01-08 08:31,2025-01-08 08:40
+5,21,Stade Charléty,Gare Saint-Lazare,2025-01-06 08:36,2025-01-06 08:50
+5,21,Stade Charléty,Alésia,2025-01-02 08:36,2025-01-02 08:47
+6,21,Stade Charléty,Denfert-Rochereau,2025-01-04 08:50,2025-01-04 09:02
+6,21,Stade Charléty,Alésia,2025-01-07 08:02,2025-01-07 08:11
+6,21,Stade Charléty,Montparnasse,2025-01-06 08:23,2025-01-06 08:32
+7,21,Stade Charléty,Denfert-Rochereau,2025-01-06 08:56,2025-01-06 09:06
+7,21,Stade Charléty,Montparnasse,2025-01-08 08:35,2025-01-08 08:47
+7,21,Stade Charléty,Opéra,2025-01-02 08:01,2025-01-02 08:10
+7,21,Stade Charléty,Alésia,2025-01-06 08:29,2025-01-06 08:40
+8,21,Stade Charléty,Gare Saint-Lazare,2025-01-08 08:02,2025-01-08 08:13
+8,21,Stade Charléty,Opéra,2025-01-02 08:16,2025-01-02 08:30
+8,21,Stade Charléty,Denfert-Rochereau,2025-01-06 08:04,2025-01-06 08:12
+8,21,Stade Charléty,Denfert-Rochereau,2025-01-03 08:38,2025-01-03 08:40
+8,21,Stade Charléty,Montparnasse,2025-01-05 08:36,2025-01-05 08:51
+9,21,Stade Charléty,Alésia,2025-01-05 08:16,2025-01-05 08:19
+9,21,Stade Charléty,Opéra,2025-01-05 08:44,2025-01-05 08:46
+9,21,Stade Charléty,Montparnasse,2025-01-05 08:04,2025-01-05 08:13
+9,21,Stade Charléty,Montparnasse,2025-01-05 08:59,2025-01-05 09:10
+9,21,Stade Charléty,Denfert-Rochereau,2025-01-06 08:25,2025-01-06 08:33
+10,21,Stade Charléty,Alésia,2025-01-04 08:25,2025-01-04 08:35
+10,21,Stade Charléty,Opéra,2025-01-06 08:20,2025-01-06 08:26
+10,21,Stade Charléty,Opéra,2025-01-08 08:51,2025-01-08 08:52
+10,21,Stade Charléty,Gare Saint-Lazare,2025-01-07 08:52,2025-01-07 08:55
+11,38,Gare du Nord,Raspail,2025-01-05 08:29,2025-01-05 08:33
+11,38,Gare du Nord,Porte d'Orléans,2025-01-05 08:05,2025-01-05 08:10
+11,38,Gare du Nord,Porte d'Orléans,2025-01-03 08:29,2025-01-03 08:42
+11,38,Gare du Nord,Châtelet,2025-01-05 08:35,2025-01-05 08:48
+11,38,Gare du Nord,Porte d'Orléans,2025-01-04 08:49,2025-01-04 08:57
+12,38,Gare du Nord,Châtelet,2025-01-08 08:58,2025-01-08 09:05
+12,38,Gare du Nord,Alésia,2025-01-03 08:52,2025-01-03 09:04
+12,38,Gare du Nord,Luxembourg,2025-01-02 08:57,2025-01-02 09:12
+12,38,Gare du Nord,Alésia,2025-01-08 08:50,2025-01-08 08:58
+12,38,Gare du Nord,Porte d'Orléans,2025-01-06 08:11,2025-01-06 08:12
+12,38,Gare du Nord,Raspail,2025-01-04 08:16,2025-01-04 08:31
+13,38,Gare du Nord,Luxembourg,2025-01-04 08:26,2025-01-04 08:37
+13,38,Gare du Nord,Porte d'Orléans,2025-01-04 08:35,2025-01-04 08:41
+13,38,Gare du Nord,Raspail,2025-01-08 08:04,2025-01-08 08:11
+13,38,Gare du Nord,Alésia,2025-01-03 08:25,2025-01-03 08:39
+13,38,Gare du Nord,Alésia,2025-01-04 08:54,2025-01-04 09:00
+13,38,Gare du Nord,Alésia,2025-01-03 08:46,2025-01-03 08:55
+14,38,Gare du Nord,Luxembourg,2025-01-06 08:14,2025-01-06 08:29
+14,38,Gare du Nord,Châtelet,2025-01-06 08:07,2025-01-06 08:22
+14,38,Gare du Nord,Alésia,2025-01-05 08:18,2025-01-05 08:25
+14,38,Gare du Nord,Raspail,2025-01-03 08:57,2025-01-03 09:11
+14,38,Gare du Nord,Raspail,2025-01-03 08:18,2025-01-03 08:20
+14,38,Gare du Nord,Alésia,2025-01-07 08:58,2025-01-07 09:13
+15,38,Gare du Nord,Luxembourg,2025-01-06 08:25,2025-01-06 08:33
+15,38,Gare du Nord,Luxembourg,2025-01-02 08:07,2025-01-02 08:17
+15,38,Gare du Nord,Alésia,2025-01-03 08:59,2025-01-03 09:13
+15,38,Gare du Nord,Luxembourg,2025-01-04 08:14,2025-01-04 08:16
+15,38,Gare du Nord,Raspail,2025-01-06 08:29,2025-01-06 08:31
+16,38,Gare du Nord,Raspail,2025-01-06 08:24,2025-01-06 08:34
+16,38,Gare du Nord,Raspail,2025-01-03 08:07,2025-01-03 08:11
+16,38,Gare du Nord,Alésia,2025-01-04 08:12,2025-01-04 08:20
+16,38,Gare du Nord,Alésia,2025-01-08 08:50,2025-01-08 09:01
+16,38,Gare du Nord,Luxembourg,2025-01-05 08:21,2025-01-05 08:36
+17,38,Gare du Nord,Luxembourg,2025-01-02 08:53,2025-01-02 09:02
+17,38,Gare du Nord,Luxembourg,2025-01-06 08:26,2025-01-06 08:30
+17,38,Gare du Nord,Châtelet,2025-01-08 08:32,2025-01-08 08:43
+17,38,Gare du Nord,Alésia,2025-01-07 08:08,2025-01-07 08:19
+17,38,Gare du Nord,Raspail,2025-01-08 08:28,2025-01-08 08:41
+17,38,Gare du Nord,Raspail,2025-01-02 08:38,2025-01-02 08:50
+18,38,Gare du Nord,Luxembourg,2025-01-08 08:57,2025-01-08 09:05
+18,38,Gare du Nord,Raspail,2025-01-08 08:21,2025-01-08 08:25
+18,38,Gare du Nord,Châtelet,2025-01-07 08:16,2025-01-07 08:23
+19,38,Gare du Nord,Luxembourg,2025-01-03 08:14,2025-01-03 08:28
+19,38,Gare du Nord,Alésia,2025-01-03 08:04,2025-01-03 08:10
+19,38,Gare du Nord,Raspail,2025-01-04 08:37,2025-01-04 08:41
+19,38,Gare du Nord,Châtelet,2025-01-03 08:10,2025-01-03 08:21
+19,38,Gare du Nord,Raspail,2025-01-04 08:27,2025-01-04 08:37
+20,38,Gare du Nord,Châtelet,2025-01-03 08:20,2025-01-03 08:24
+20,38,Gare du Nord,Alésia,2025-01-08 08:13,2025-01-08 08:24
+20,38,Gare du Nord,Luxembourg,2025-01-03 08:45,2025-01-03 08:57
+21,47,Fort du Kremlin,Place d'Italie,2025-01-03 08:57,2025-01-03 09:00
+21,47,Fort du Kremlin,Ivry,2025-01-05 08:44,2025-01-05 08:56
+21,47,Fort du Kremlin,Châtelet,2025-01-03 08:56,2025-01-03 09:09
+21,47,Fort du Kremlin,Place d'Italie,2025-01-07 08:47,2025-01-07 08:50
+21,47,Fort du Kremlin,Place d'Italie,2025-01-03 08:51,2025-01-03 08:56
+21,47,Fort du Kremlin,Ivry,2025-01-04 08:53,2025-01-04 09:01
+22,47,Fort du Kremlin,Ivry,2025-01-05 08:13,2025-01-05 08:14
+22,47,Fort du Kremlin,Ivry,2025-01-05 08:28,2025-01-05 08:35
+22,47,Fort du Kremlin,Ivry,2025-01-03 08:19,2025-01-03 08:32
+22,47,Fort du Kremlin,Hôtel de Ville,2025-01-06 08:30,2025-01-06 08:43
+22,47,Fort du Kremlin,Châtelet,2025-01-07 08:33,2025-01-07 08:44
+22,47,Fort du Kremlin,Place d'Italie,2025-01-06 08:44,2025-01-06 08:50
+23,47,Fort du Kremlin,Hôtel de Ville,2025-01-02 08:21,2025-01-02 08:27
+23,47,Fort du Kremlin,Châtelet,2025-01-03 08:10,2025-01-03 08:15
+23,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-03 08:10,2025-01-03 08:11
+23,47,Fort du Kremlin,Châtelet,2025-01-04 08:40,2025-01-04 08:47
+24,47,Fort du Kremlin,Place d'Italie,2025-01-03 08:20,2025-01-03 08:29
+24,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-02 08:17,2025-01-02 08:25
+24,47,Fort du Kremlin,Ivry,2025-01-04 08:31,2025-01-04 08:37
+25,47,Fort du Kremlin,Ivry,2025-01-04 08:41,2025-01-04 08:51
+25,47,Fort du Kremlin,Hôtel de Ville,2025-01-08 08:51,2025-01-08 08:59
+25,47,Fort du Kremlin,Place d'Italie,2025-01-06 08:21,2025-01-06 08:36
+26,47,Fort du Kremlin,Ivry,2025-01-08 08:28,2025-01-08 08:43
+26,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-07 08:36,2025-01-07 08:42
+26,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-05 08:55,2025-01-05 09:00
+26,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-08 08:25,2025-01-08 08:35
+26,47,Fort du Kremlin,Place d'Italie,2025-01-05 08:45,2025-01-05 08:51
+27,47,Fort du Kremlin,Hôtel de Ville,2025-01-05 08:05,2025-01-05 08:13
+27,47,Fort du Kremlin,Hôtel de Ville,2025-01-04 08:52,2025-01-04 08:58
+27,47,Fort du Kremlin,Châtelet,2025-01-08 08:08,2025-01-08 08:21
+28,47,Fort du Kremlin,Place d'Italie,2025-01-02 08:59,2025-01-02 09:13
+28,47,Fort du Kremlin,Châtelet,2025-01-04 08:04,2025-01-04 08:07
+28,47,Fort du Kremlin,Hôtel de Ville,2025-01-06 08:39,2025-01-06 08:53
+28,47,Fort du Kremlin,Place d'Italie,2025-01-07 08:31,2025-01-07 08:37
+29,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-02 08:26,2025-01-02 08:35
+29,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-05 08:12,2025-01-05 08:26
+29,47,Fort du Kremlin,Châtelet,2025-01-07 08:40,2025-01-07 08:51
+29,47,Fort du Kremlin,Ivry,2025-01-06 08:37,2025-01-06 08:44
+30,47,Fort du Kremlin,Gare d'Austerlitz,2025-01-07 08:42,2025-01-07 08:54
+30,47,Fort du Kremlin,Ivry,2025-01-08 08:05,2025-01-08 08:08
+30,47,Fort du Kremlin,Ivry,2025-01-04 08:37,2025-01-04 08:39
+30,47,Fort du Kremlin,Châtelet,2025-01-02 08:44,2025-01-02 08:55
+30,47,Fort du Kremlin,Hôtel de Ville,2025-01-05 08:45,2025-01-05 08:48
+31,63,Porte de la Muette,Invalides,2025-01-07 08:52,2025-01-07 08:55
+31,63,Porte de la Muette,Invalides,2025-01-07 08:35,2025-01-07 08:44
+31,63,Porte de la Muette,Invalides,2025-01-06 08:48,2025-01-06 08:50
+31,63,Porte de la Muette,Gare d'Austerlitz,2025-01-03 08:56,2025-01-03 08:57
+31,63,Porte de la Muette,Trocadéro,2025-01-06 08:00,2025-01-06 08:15
+32,63,Porte de la Muette,Gare de Lyon,2025-01-07 08:30,2025-01-07 08:42
+32,63,Porte de la Muette,Gare de Lyon,2025-01-03 08:54,2025-01-03 09:05
+32,63,Porte de la Muette,La Muette,2025-01-05 08:52,2025-01-05 08:54
+32,63,Porte de la Muette,Invalides,2025-01-04 08:42,2025-01-04 08:44
+32,63,Porte de la Muette,Invalides,2025-01-06 08:30,2025-01-06 08:41
+32,63,Porte de la Muette,La Muette,2025-01-02 08:17,2025-01-02 08:18
+33,63,Porte de la Muette,Gare de Lyon,2025-01-04 08:25,2025-01-04 08:32
+33,63,Porte de la Muette,La Muette,2025-01-08 08:54,2025-01-08 08:58
+33,63,Porte de la Muette,Gare d'Austerlitz,2025-01-02 08:40,2025-01-02 08:51
+33,63,Porte de la Muette,Trocadéro,2025-01-07 08:27,2025-01-07 08:31
+33,63,Porte de la Muette,La Muette,2025-01-03 08:04,2025-01-03 08:12
+34,63,Porte de la Muette,Invalides,2025-01-08 08:42,2025-01-08 08:56
+34,63,Porte de la Muette,Gare de Lyon,2025-01-08 08:25,2025-01-08 08:38
+34,63,Porte de la Muette,Gare d'Austerlitz,2025-01-07 08:13,2025-01-07 08:27
+34,63,Porte de la Muette,Trocadéro,2025-01-06 08:07,2025-01-06 08:09
+35,63,Porte de la Muette,Trocadéro,2025-01-03 08:38,2025-01-03 08:48
+35,63,Porte de la Muette,Trocadéro,2025-01-05 08:47,2025-01-05 08:49
+35,63,Porte de la Muette,Gare d'Austerlitz,2025-01-06 08:23,2025-01-06 08:30
+35,63,Porte de la Muette,Invalides,2025-01-03 08:34,2025-01-03 08:46
+35,63,Porte de la Muette,Gare d'Austerlitz,2025-01-07 08:21,2025-01-07 08:36
+36,63,Porte de la Muette,Trocadéro,2025-01-06 08:11,2025-01-06 08:22
+36,63,Porte de la Muette,Gare de Lyon,2025-01-07 08:20,2025-01-07 08:29
+36,63,Porte de la Muette,Trocadéro,2025-01-07 08:35,2025-01-07 08:49
+36,63,Porte de la Muette,Gare de Lyon,2025-01-05 08:02,2025-01-05 08:04
+37,63,Porte de la Muette,Gare d'Austerlitz,2025-01-08 08:32,2025-01-08 08:36
+37,63,Porte de la Muette,Invalides,2025-01-07 08:54,2025-01-07 09:04
+37,63,Porte de la Muette,Gare d'Austerlitz,2025-01-02 08:20,2025-01-02 08:35
+37,63,Porte de la Muette,Trocadéro,2025-01-08 08:21,2025-01-08 08:33
+37,63,Porte de la Muette,Gare d'Austerlitz,2025-01-04 08:45,2025-01-04 08:49
+38,63,Porte de la Muette,Trocadéro,2025-01-02 08:48,2025-01-02 08:58
+38,63,Porte de la Muette,Invalides,2025-01-07 08:23,2025-01-07 08:37
+38,63,Porte de la Muette,La Muette,2025-01-08 08:26,2025-01-08 08:30
+38,63,Porte de la Muette,Trocadéro,2025-01-05 08:20,2025-01-05 08:35
+39,63,Porte de la Muette,La Muette,2025-01-07 08:28,2025-01-07 08:42
+39,63,Porte de la Muette,Trocadéro,2025-01-04 08:59,2025-01-04 09:04
+39,63,Porte de la Muette,Gare de Lyon,2025-01-05 08:11,2025-01-05 08:17
+40,63,Porte de la Muette,La Muette,2025-01-04 08:49,2025-01-04 08:50
+40,63,Porte de la Muette,La Muette,2025-01-02 08:35,2025-01-02 08:39
+40,63,Porte de la Muette,Invalides,2025-01-02 08:34,2025-01-02 08:49
+40,63,Porte de la Muette,Trocadéro,2025-01-06 08:41,2025-01-06 08:43
+41,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-06 08:59,2025-01-06 09:06
+41,72,Hôtel de Ville,Musée du quai Branly,2025-01-06 08:27,2025-01-06 08:36
+41,72,Hôtel de Ville,Pont de l'Alma,2025-01-04 08:15,2025-01-04 08:26
+41,72,Hôtel de Ville,Pont de l'Alma,2025-01-05 08:30,2025-01-05 08:41
+42,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-02 08:50,2025-01-02 09:01
+42,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-02 08:24,2025-01-02 08:39
+42,72,Hôtel de Ville,Concorde,2025-01-05 08:03,2025-01-05 08:16
+42,72,Hôtel de Ville,Pont Mirabeau,2025-01-08 08:39,2025-01-08 08:44
+42,72,Hôtel de Ville,Pont de l'Alma,2025-01-07 08:52,2025-01-07 08:59
+43,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-04 08:36,2025-01-04 08:44
+43,72,Hôtel de Ville,Pont Mirabeau,2025-01-07 08:49,2025-01-07 09:01
+43,72,Hôtel de Ville,Concorde,2025-01-08 08:09,2025-01-08 08:18
+44,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-05 08:46,2025-01-05 08:48
+44,72,Hôtel de Ville,Pont Mirabeau,2025-01-05 08:56,2025-01-05 09:10
+44,72,Hôtel de Ville,Concorde,2025-01-03 08:33,2025-01-03 08:38
+44,72,Hôtel de Ville,Pont de l'Alma,2025-01-02 08:57,2025-01-02 08:59
+44,72,Hôtel de Ville,Concorde,2025-01-04 08:35,2025-01-04 08:47
+45,72,Hôtel de Ville,Concorde,2025-01-08 08:23,2025-01-08 08:35
+45,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-02 08:59,2025-01-02 09:11
+45,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-08 08:55,2025-01-08 09:08
+45,72,Hôtel de Ville,Pont de l'Alma,2025-01-03 08:46,2025-01-03 08:49
+45,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-03 08:52,2025-01-03 08:56
+46,72,Hôtel de Ville,Musée du quai Branly,2025-01-08 08:33,2025-01-08 08:46
+46,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-04 08:12,2025-01-04 08:27
+46,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-06 08:44,2025-01-06 08:53
+46,72,Hôtel de Ville,Concorde,2025-01-02 08:58,2025-01-02 09:03
+46,72,Hôtel de Ville,Pont de l'Alma,2025-01-07 08:01,2025-01-07 08:14
+46,72,Hôtel de Ville,Concorde,2025-01-08 08:24,2025-01-08 08:31
+47,72,Hôtel de Ville,Concorde,2025-01-03 08:11,2025-01-03 08:19
+47,72,Hôtel de Ville,Pont Mirabeau,2025-01-02 08:29,2025-01-02 08:35
+47,72,Hôtel de Ville,Pont Mirabeau,2025-01-02 08:26,2025-01-02 08:40
+47,72,Hôtel de Ville,Musée du quai Branly,2025-01-07 08:58,2025-01-07 09:11
+47,72,Hôtel de Ville,Musée du quai Branly,2025-01-06 08:07,2025-01-06 08:12
+48,72,Hôtel de Ville,Pont Mirabeau,2025-01-08 08:33,2025-01-08 08:44
+48,72,Hôtel de Ville,Concorde,2025-01-06 08:49,2025-01-06 09:03
+48,72,Hôtel de Ville,Pont Mirabeau,2025-01-03 08:54,2025-01-03 09:09
+48,72,Hôtel de Ville,Musée du quai Branly,2025-01-02 08:20,2025-01-02 08:30
+48,72,Hôtel de Ville,Pont Mirabeau,2025-01-02 08:19,2025-01-02 08:23
+49,72,Hôtel de Ville,Parc de Saint-Cloud,2025-01-03 08:35,2025-01-03 08:42
+49,72,Hôtel de Ville,Pont de l'Alma,2025-01-05 08:09,2025-01-05 08:21
+49,72,Hôtel de Ville,Musée du quai Branly,2025-01-05 08:17,2025-01-05 08:31
+49,72,Hôtel de Ville,Concorde,2025-01-04 08:36,2025-01-04 08:47
+49,72,Hôtel de Ville,Pont de l'Alma,2025-01-03 08:40,2025-01-03 08:55
+50,72,Hôtel de Ville,Pont Mirabeau,2025-01-03 08:59,2025-01-03 09:04
+50,72,Hôtel de Ville,Pont Mirabeau,2025-01-03 08:38,2025-01-03 08:46
+50,72,Hôtel de Ville,Musée du quai Branly,2025-01-07 08:44,2025-01-07 08:59
+50,72,Hôtel de Ville,Pont de l'Alma,2025-01-07 08:38,2025-01-07 08:50
+50,72,Hôtel de Ville,Pont de l'Alma,2025-01-08 08:49,2025-01-08 08:53
+51,82,Luxembourg,Bois de Boulogne,2025-01-02 08:28,2025-01-02 08:34
+51,82,Luxembourg,Montparnasse,2025-01-08 08:40,2025-01-08 08:55
+51,82,Luxembourg,Invalides,2025-01-06 08:44,2025-01-06 08:45
+51,82,Luxembourg,Invalides,2025-01-03 08:44,2025-01-03 08:50
+51,82,Luxembourg,Invalides,2025-01-04 08:11,2025-01-04 08:18
+52,82,Luxembourg,Charles de Gaulle Étoile,2025-01-07 08:47,2025-01-07 08:54
+52,82,Luxembourg,Bois de Boulogne,2025-01-03 08:15,2025-01-03 08:23
+52,82,Luxembourg,Neuilly,2025-01-08 08:55,2025-01-08 09:06
+52,82,Luxembourg,Montparnasse,2025-01-07 08:39,2025-01-07 08:52
+52,82,Luxembourg,Invalides,2025-01-07 08:33,2025-01-07 08:39
+53,82,Luxembourg,Montparnasse,2025-01-03 08:32,2025-01-03 08:37
+53,82,Luxembourg,Bois de Boulogne,2025-01-03 08:17,2025-01-03 08:26
+53,82,Luxembourg,Invalides,2025-01-04 08:53,2025-01-04 09:05
+53,82,Luxembourg,Invalides,2025-01-04 08:01,2025-01-04 08:11
+53,82,Luxembourg,Neuilly,2025-01-05 08:37,2025-01-05 08:52
+54,82,Luxembourg,Invalides,2025-01-03 08:14,2025-01-03 08:23
+54,82,Luxembourg,Montparnasse,2025-01-02 08:59,2025-01-02 09:03
+54,82,Luxembourg,Charles de Gaulle Étoile,2025-01-05 08:13,2025-01-05 08:20
+54,82,Luxembourg,Charles de Gaulle Étoile,2025-01-08 08:56,2025-01-08 08:57
+54,82,Luxembourg,Invalides,2025-01-02 08:06,2025-01-02 08:18
+54,82,Luxembourg,Bois de Boulogne,2025-01-03 08:17,2025-01-03 08:21
+55,82,Luxembourg,Montparnasse,2025-01-03 08:28,2025-01-03 08:33
+55,82,Luxembourg,Neuilly,2025-01-06 08:23,2025-01-06 08:24
+55,82,Luxembourg,Neuilly,2025-01-08 08:55,2025-01-08 09:00
+56,82,Luxembourg,Bois de Boulogne,2025-01-06 08:45,2025-01-06 08:54
+56,82,Luxembourg,Invalides,2025-01-08 08:27,2025-01-08 08:41
+56,82,Luxembourg,Charles de Gaulle Étoile,2025-01-07 08:02,2025-01-07 08:08
+56,82,Luxembourg,Charles de Gaulle Étoile,2025-01-05 08:26,2025-01-05 08:30
+56,82,Luxembourg,Montparnasse,2025-01-08 08:29,2025-01-08 08:37
+57,82,Luxembourg,Invalides,2025-01-06 08:39,2025-01-06 08:50
+57,82,Luxembourg,Invalides,2025-01-04 08:31,2025-01-04 08:40
+57,82,Luxembourg,Charles de Gaulle Étoile,2025-01-08 08:28,2025-01-08 08:36
+57,82,Luxembourg,Invalides,2025-01-02 08:58,2025-01-02 09:01
+57,82,Luxembourg,Invalides,2025-01-06 08:28,2025-01-06 08:42
+57,82,Luxembourg,Montparnasse,2025-01-03 08:03,2025-01-03 08:04
+58,82,Luxembourg,Montparnasse,2025-01-05 08:33,2025-01-05 08:45
+58,82,Luxembourg,Charles de Gaulle Étoile,2025-01-07 08:12,2025-01-07 08:26
+58,82,Luxembourg,Charles de Gaulle Étoile,2025-01-05 08:20,2025-01-05 08:24
+58,82,Luxembourg,Montparnasse,2025-01-06 08:35,2025-01-06 08:37
+58,82,Luxembourg,Montparnasse,2025-01-06 08:01,2025-01-06 08:13
+59,82,Luxembourg,Bois de Boulogne,2025-01-08 08:18,2025-01-08 08:26
+59,82,Luxembourg,Bois de Boulogne,2025-01-08 08:19,2025-01-08 08:20
+59,82,Luxembourg,Neuilly,2025-01-03 08:01,2025-01-03 08:04
+60,82,Luxembourg,Bois de Boulogne,2025-01-04 08:15,2025-01-04 08:17
+60,82,Luxembourg,Invalides,2025-01-07 08:00,2025-01-07 08:07
+60,82,Luxembourg,Bois de Boulogne,2025-01-04 08:09,2025-01-04 08:10
+60,82,Luxembourg,Invalides,2025-01-08 08:43,2025-01-08 08:55
+60,82,Luxembourg,Bois de Boulogne,2025-01-05 08:56,2025-01-05 09:05
+61,91,Bastille,Raspail,2025-01-06 08:40,2025-01-06 08:50
+61,91,Bastille,Place d'Italie,2025-01-04 08:21,2025-01-04 08:31
+61,91,Bastille,Place d'Italie,2025-01-07 08:27,2025-01-07 08:39
+61,91,Bastille,Gare de Lyon,2025-01-02 08:44,2025-01-02 08:59
+62,91,Bastille,Gare de Lyon,2025-01-06 08:53,2025-01-06 09:02
+62,91,Bastille,Montparnasse,2025-01-04 08:31,2025-01-04 08:44
+62,91,Bastille,Place d'Italie,2025-01-05 08:58,2025-01-05 09:12
+62,91,Bastille,Gare Montparnasse,2025-01-05 08:01,2025-01-05 08:06
+62,91,Bastille,Gare Montparnasse,2025-01-06 08:47,2025-01-06 08:51
+62,91,Bastille,Montparnasse,2025-01-02 08:57,2025-01-02 09:02
+63,91,Bastille,Place d'Italie,2025-01-08 08:05,2025-01-08 08:08
+63,91,Bastille,Montparnasse,2025-01-08 08:21,2025-01-08 08:35
+63,91,Bastille,Gare de Lyon,2025-01-03 08:54,2025-01-03 08:56
+63,91,Bastille,Gare Montparnasse,2025-01-07 08:18,2025-01-07 08:19
+63,91,Bastille,Montparnasse,2025-01-06 08:04,2025-01-06 08:14
+63,91,Bastille,Montparnasse,2025-01-03 08:47,2025-01-03 09:00
+64,91,Bastille,Gare de Lyon,2025-01-06 08:33,2025-01-06 08:40
+64,91,Bastille,Raspail,2025-01-07 08:13,2025-01-07 08:22
+64,91,Bastille,Place d'Italie,2025-01-07 08:05,2025-01-07 08:19
+64,91,Bastille,Gare de Lyon,2025-01-05 08:48,2025-01-05 08:54
+65,91,Bastille,Raspail,2025-01-06 08:16,2025-01-06 08:20
+65,91,Bastille,Gare Montparnasse,2025-01-06 08:57,2025-01-06 09:04
+65,91,Bastille,Gare Montparnasse,2025-01-03 08:58,2025-01-03 09:08
+66,91,Bastille,Gare de Lyon,2025-01-08 08:22,2025-01-08 08:36
+66,91,Bastille,Raspail,2025-01-03 08:09,2025-01-03 08:23
+66,91,Bastille,Gare Montparnasse,2025-01-08 08:45,2025-01-08 09:00
+66,91,Bastille,Place d'Italie,2025-01-05 08:57,2025-01-05 09:02
+66,91,Bastille,Place d'Italie,2025-01-05 08:30,2025-01-05 08:34
+67,91,Bastille,Raspail,2025-01-03 08:46,2025-01-03 08:59
+67,91,Bastille,Montparnasse,2025-01-05 08:29,2025-01-05 08:32
+67,91,Bastille,Montparnasse,2025-01-08 08:56,2025-01-08 09:07
+68,91,Bastille,Place d'Italie,2025-01-03 08:56,2025-01-03 08:58
+68,91,Bastille,Gare de Lyon,2025-01-04 08:23,2025-01-04 08:34
+68,91,Bastille,Place d'Italie,2025-01-05 08:57,2025-01-05 08:58
+68,91,Bastille,Gare Montparnasse,2025-01-05 08:52,2025-01-05 08:58
+68,91,Bastille,Place d'Italie,2025-01-03 08:31,2025-01-03 08:45
+69,91,Bastille,Gare Montparnasse,2025-01-03 08:52,2025-01-03 09:01
+69,91,Bastille,Montparnasse,2025-01-07 08:50,2025-01-07 09:01
+69,91,Bastille,Place d'Italie,2025-01-08 08:01,2025-01-08 08:12
+69,91,Bastille,Gare Montparnasse,2025-01-05 08:52,2025-01-05 09:00
+69,91,Bastille,Gare de Lyon,2025-01-06 08:59,2025-01-06 09:10
+70,91,Bastille,Place d'Italie,2025-01-07 08:59,2025-01-07 09:00
+70,91,Bastille,Raspail,2025-01-07 08:46,2025-01-07 08:49
+70,91,Bastille,Gare Montparnasse,2025-01-05 08:04,2025-01-05 08:08
+70,91,Bastille,Gare de Lyon,2025-01-05 08:50,2025-01-05 08:54
+70,91,Bastille,Montparnasse,2025-01-07 08:46,2025-01-07 08:50
+70,91,Bastille,Montparnasse,2025-01-04 08:09,2025-01-04 08:13
+71,96,Gare Montparnasse,Porte des Lilas,2025-01-05 08:47,2025-01-05 08:56
+71,96,Gare Montparnasse,Hôtel de Ville,2025-01-02 08:49,2025-01-02 09:03
+71,96,Gare Montparnasse,Ménilmontant,2025-01-07 08:10,2025-01-07 08:25
+72,96,Gare Montparnasse,Porte des Lilas,2025-01-07 08:07,2025-01-07 08:08
+72,96,Gare Montparnasse,Odéon,2025-01-05 08:41,2025-01-05 08:46
+72,96,Gare Montparnasse,Ménilmontant,2025-01-08 08:54,2025-01-08 09:04
+72,96,Gare Montparnasse,Ménilmontant,2025-01-03 08:39,2025-01-03 08:49
+72,96,Gare Montparnasse,République,2025-01-07 08:41,2025-01-07 08:43
+72,96,Gare Montparnasse,Porte des Lilas,2025-01-07 08:34,2025-01-07 08:38
+73,96,Gare Montparnasse,Odéon,2025-01-03 08:23,2025-01-03 08:36
+73,96,Gare Montparnasse,Odéon,2025-01-03 08:22,2025-01-03 08:23
+73,96,Gare Montparnasse,République,2025-01-03 08:00,2025-01-03 08:12
+74,96,Gare Montparnasse,Odéon,2025-01-06 08:59,2025-01-06 09:11
+74,96,Gare Montparnasse,Porte des Lilas,2025-01-06 08:48,2025-01-06 08:53
+74,96,Gare Montparnasse,République,2025-01-05 08:35,2025-01-05 08:38
+75,96,Gare Montparnasse,Odéon,2025-01-02 08:03,2025-01-02 08:09
+75,96,Gare Montparnasse,Porte des Lilas,2025-01-04 08:44,2025-01-04 08:48
+75,96,Gare Montparnasse,République,2025-01-05 08:28,2025-01-05 08:37
+75,96,Gare Montparnasse,Ménilmontant,2025-01-06 08:12,2025-01-06 08:25
+75,96,Gare Montparnasse,Hôtel de Ville,2025-01-02 08:03,2025-01-02 08:15
+76,96,Gare Montparnasse,République,2025-01-05 08:54,2025-01-05 08:57
+76,96,Gare Montparnasse,Porte des Lilas,2025-01-02 08:11,2025-01-02 08:14
+76,96,Gare Montparnasse,Porte des Lilas,2025-01-04 08:17,2025-01-04 08:22
+76,96,Gare Montparnasse,République,2025-01-08 08:26,2025-01-08 08:33
+76,96,Gare Montparnasse,Ménilmontant,2025-01-05 08:00,2025-01-05 08:08
+76,96,Gare Montparnasse,Odéon,2025-01-07 08:46,2025-01-07 08:48
+77,96,Gare Montparnasse,Ménilmontant,2025-01-02 08:58,2025-01-02 09:12
+77,96,Gare Montparnasse,Odéon,2025-01-03 08:19,2025-01-03 08:21
+77,96,Gare Montparnasse,Ménilmontant,2025-01-06 08:32,2025-01-06 08:43
+77,96,Gare Montparnasse,Odéon,2025-01-04 08:44,2025-01-04 08:49
+77,96,Gare Montparnasse,Hôtel de Ville,2025-01-03 08:21,2025-01-03 08:26
+77,96,Gare Montparnasse,Hôtel de Ville,2025-01-04 08:31,2025-01-04 08:32
+78,96,Gare Montparnasse,Porte des Lilas,2025-01-05 08:50,2025-01-05 08:58
+78,96,Gare Montparnasse,Hôtel de Ville,2025-01-04 08:06,2025-01-04 08:20
+78,96,Gare Montparnasse,République,2025-01-03 08:58,2025-01-03 09:06
+78,96,Gare Montparnasse,République,2025-01-04 08:05,2025-01-04 08:20
+79,96,Gare Montparnasse,Porte des Lilas,2025-01-03 08:27,2025-01-03 08:29
+79,96,Gare Montparnasse,République,2025-01-06 08:25,2025-01-06 08:34
+79,96,Gare Montparnasse,Odéon,2025-01-08 08:33,2025-01-08 08:40
+79,96,Gare Montparnasse,République,2025-01-03 08:45,2025-01-03 08:49
+80,96,Gare Montparnasse,Hôtel de Ville,2025-01-02 08:30,2025-01-02 08:33
+80,96,Gare Montparnasse,République,2025-01-03 08:47,2025-01-03 08:54
+80,96,Gare Montparnasse,Porte des Lilas,2025-01-08 08:14,2025-01-08 08:15
+80,96,Gare Montparnasse,Hôtel de Ville,2025-01-07 08:31,2025-01-07 08:41
+80,96,Gare Montparnasse,Porte des Lilas,2025-01-03 08:20,2025-01-03 08:21
+81,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-07 08:25,2025-01-07 08:33
+81,27,Gare Saint-Lazare,Châtelet,2025-01-04 08:18,2025-01-04 08:26
+81,27,Gare Saint-Lazare,Châtelet,2025-01-04 08:48,2025-01-04 09:03
+81,27,Gare Saint-Lazare,Châtelet,2025-01-02 08:57,2025-01-02 09:10
+82,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-08 08:09,2025-01-08 08:17
+82,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-05 08:57,2025-01-05 09:00
+82,27,Gare Saint-Lazare,Bibliothèque,2025-01-03 08:37,2025-01-03 08:49
+82,27,Gare Saint-Lazare,Châtelet,2025-01-08 08:56,2025-01-08 09:04
+82,27,Gare Saint-Lazare,Bibliothèque,2025-01-03 08:34,2025-01-03 08:41
+82,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-05 08:48,2025-01-05 08:58
+83,27,Gare Saint-Lazare,Bibliothèque,2025-01-05 08:33,2025-01-05 08:43
+83,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-06 08:44,2025-01-06 08:58
+83,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-02 08:44,2025-01-02 08:55
+83,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-08 08:21,2025-01-08 08:25
+83,27,Gare Saint-Lazare,Bibliothèque,2025-01-06 08:43,2025-01-06 08:49
+83,27,Gare Saint-Lazare,Châtelet,2025-01-04 08:16,2025-01-04 08:26
+84,27,Gare Saint-Lazare,Opéra,2025-01-05 08:49,2025-01-05 08:53
+84,27,Gare Saint-Lazare,Opéra,2025-01-03 08:49,2025-01-03 09:00
+84,27,Gare Saint-Lazare,Opéra,2025-01-04 08:23,2025-01-04 08:35
+85,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-07 08:21,2025-01-07 08:27
+85,27,Gare Saint-Lazare,Châtelet,2025-01-03 08:10,2025-01-03 08:17
+85,27,Gare Saint-Lazare,Opéra,2025-01-04 08:43,2025-01-04 08:53
+85,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-05 08:00,2025-01-05 08:10
+85,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-06 08:57,2025-01-06 09:11
+86,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-03 08:51,2025-01-03 08:59
+86,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-03 08:39,2025-01-03 08:46
+86,27,Gare Saint-Lazare,Opéra,2025-01-06 08:58,2025-01-06 09:07
+86,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-08 08:46,2025-01-08 08:55
+87,27,Gare Saint-Lazare,Châtelet,2025-01-08 08:28,2025-01-08 08:43
+87,27,Gare Saint-Lazare,Châtelet,2025-01-06 08:49,2025-01-06 08:51
+87,27,Gare Saint-Lazare,Opéra,2025-01-06 08:17,2025-01-06 08:18
+87,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-02 08:52,2025-01-02 09:01
+87,27,Gare Saint-Lazare,Opéra,2025-01-02 08:46,2025-01-02 08:48
+87,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-07 08:43,2025-01-07 08:52
+88,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-07 08:18,2025-01-07 08:22
+88,27,Gare Saint-Lazare,Bibliothèque,2025-01-06 08:55,2025-01-06 09:02
+88,27,Gare Saint-Lazare,Opéra,2025-01-04 08:00,2025-01-04 08:07
+88,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-04 08:36,2025-01-04 08:46
+89,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-05 08:25,2025-01-05 08:32
+89,27,Gare Saint-Lazare,Bibliothèque,2025-01-08 08:48,2025-01-08 09:03
+89,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-08 08:54,2025-01-08 08:56
+89,27,Gare Saint-Lazare,Porte d’Ivry,2025-01-02 08:19,2025-01-02 08:30
+89,27,Gare Saint-Lazare,Bibliothèque,2025-01-03 08:54,2025-01-03 09:05
+90,27,Gare Saint-Lazare,Châtelet,2025-01-02 08:33,2025-01-02 08:44
+90,27,Gare Saint-Lazare,Gare d'Austerlitz,2025-01-08 08:53,2025-01-08 08:56
+90,27,Gare Saint-Lazare,Châtelet,2025-01-04 08:35,2025-01-04 08:39
+91,69,Champ de Mars,Gambetta,2025-01-02 08:38,2025-01-02 08:48
+91,69,Champ de Mars,Bastille,2025-01-07 08:08,2025-01-07 08:17
+91,69,Champ de Mars,Louvre,2025-01-08 08:25,2025-01-08 08:38
+91,69,Champ de Mars,Louvre,2025-01-03 08:31,2025-01-03 08:42
+91,69,Champ de Mars,Invalides,2025-01-02 08:14,2025-01-02 08:20
+92,69,Champ de Mars,Père Lachaise,2025-01-03 08:09,2025-01-03 08:23
+92,69,Champ de Mars,Bastille,2025-01-03 08:31,2025-01-03 08:46
+92,69,Champ de Mars,Louvre,2025-01-03 08:22,2025-01-03 08:23
+92,69,Champ de Mars,Louvre,2025-01-06 08:35,2025-01-06 08:42
+92,69,Champ de Mars,Père Lachaise,2025-01-02 08:21,2025-01-02 08:28
+93,69,Champ de Mars,Bastille,2025-01-03 08:03,2025-01-03 08:18
+93,69,Champ de Mars,Bastille,2025-01-04 08:30,2025-01-04 08:40
+93,69,Champ de Mars,Louvre,2025-01-05 08:10,2025-01-05 08:12
+94,69,Champ de Mars,Bastille,2025-01-06 08:25,2025-01-06 08:36
+94,69,Champ de Mars,Gambetta,2025-01-03 08:53,2025-01-03 08:55
+94,69,Champ de Mars,Père Lachaise,2025-01-08 08:50,2025-01-08 09:02
+94,69,Champ de Mars,Père Lachaise,2025-01-03 08:03,2025-01-03 08:11
+94,69,Champ de Mars,Louvre,2025-01-06 08:17,2025-01-06 08:28
+94,69,Champ de Mars,Bastille,2025-01-05 08:31,2025-01-05 08:43
+95,69,Champ de Mars,Bastille,2025-01-07 08:41,2025-01-07 08:52
+95,69,Champ de Mars,Gambetta,2025-01-07 08:45,2025-01-07 08:57
+95,69,Champ de Mars,Louvre,2025-01-05 08:39,2025-01-05 08:51
+95,69,Champ de Mars,Louvre,2025-01-04 08:43,2025-01-04 08:44
+95,69,Champ de Mars,Louvre,2025-01-02 08:56,2025-01-02 09:04
+95,69,Champ de Mars,Louvre,2025-01-06 08:48,2025-01-06 08:55
+96,69,Champ de Mars,Père Lachaise,2025-01-08 08:46,2025-01-08 08:52
+96,69,Champ de Mars,Louvre,2025-01-08 08:21,2025-01-08 08:31
+96,69,Champ de Mars,Gambetta,2025-01-05 08:33,2025-01-05 08:44
+96,69,Champ de Mars,Invalides,2025-01-02 08:44,2025-01-02 08:54
+96,69,Champ de Mars,Louvre,2025-01-07 08:17,2025-01-07 08:20
+97,69,Champ de Mars,Louvre,2025-01-07 08:01,2025-01-07 08:12
+97,69,Champ de Mars,Bastille,2025-01-07 08:59,2025-01-07 09:02
+97,69,Champ de Mars,Gambetta,2025-01-08 08:07,2025-01-08 08:14
+98,69,Champ de Mars,Invalides,2025-01-04 08:34,2025-01-04 08:38
+98,69,Champ de Mars,Bastille,2025-01-02 08:15,2025-01-02 08:18
+98,69,Champ de Mars,Invalides,2025-01-06 08:45,2025-01-06 09:00
+98,69,Champ de Mars,Invalides,2025-01-07 08:36,2025-01-07 08:38
+98,69,Champ de Mars,Père Lachaise,2025-01-04 08:40,2025-01-04 08:42
+98,69,Champ de Mars,Père Lachaise,2025-01-08 08:33,2025-01-08 08:45
+99,69,Champ de Mars,Père Lachaise,2025-01-07 08:52,2025-01-07 09:02
+99,69,Champ de Mars,Père Lachaise,2025-01-08 08:19,2025-01-08 08:31
+99,69,Champ de Mars,Bastille,2025-01-08 08:10,2025-01-08 08:13
+99,69,Champ de Mars,Invalides,2025-01-08 08:51,2025-01-08 08:57
+99,69,Champ de Mars,Louvre,2025-01-08 08:02,2025-01-08 08:08
+100,69,Champ de Mars,Gambetta,2025-01-06 08:07,2025-01-06 08:11
+100,69,Champ de Mars,Gambetta,2025-01-05 08:23,2025-01-05 08:34
+100,69,Champ de Mars,Louvre,2025-01-05 08:05,2025-01-05 08:20
+101,24,Pont Neuf,Invalides,2025-01-08 08:23,2025-01-08 08:34
+101,24,Pont Neuf,Invalides,2025-01-03 08:57,2025-01-03 09:07
+101,24,Pont Neuf,Châtelet,2025-01-06 08:11,2025-01-06 08:16
+102,24,Pont Neuf,Odéon,2025-01-04 08:09,2025-01-04 08:18
+102,24,Pont Neuf,Invalides,2025-01-07 08:59,2025-01-07 09:02
+102,24,Pont Neuf,École Militaire,2025-01-04 08:52,2025-01-04 09:04
+103,24,Pont Neuf,Châtelet,2025-01-04 08:23,2025-01-04 08:29
+103,24,Pont Neuf,École Militaire,2025-01-05 08:38,2025-01-05 08:50
+103,24,Pont Neuf,Invalides,2025-01-05 08:22,2025-01-05 08:24
+103,24,Pont Neuf,Odéon,2025-01-08 08:34,2025-01-08 08:47
+104,24,Pont Neuf,Invalides,2025-01-03 08:20,2025-01-03 08:25
+104,24,Pont Neuf,Châtelet,2025-01-04 08:20,2025-01-04 08:22
+104,24,Pont Neuf,Invalides,2025-01-08 08:44,2025-01-08 08:59
+104,24,Pont Neuf,Invalides,2025-01-08 08:08,2025-01-08 08:20
+105,24,Pont Neuf,Odéon,2025-01-06 08:07,2025-01-06 08:12
+105,24,Pont Neuf,Invalides,2025-01-07 08:52,2025-01-07 08:53
+105,24,Pont Neuf,Châtelet,2025-01-06 08:39,2025-01-06 08:45
+105,24,Pont Neuf,Odéon,2025-01-05 08:25,2025-01-05 08:31
+105,24,Pont Neuf,École Militaire,2025-01-02 08:09,2025-01-02 08:22
+106,24,Pont Neuf,Invalides,2025-01-02 08:35,2025-01-02 08:40
+106,24,Pont Neuf,Châtelet,2025-01-08 08:19,2025-01-08 08:28
+106,24,Pont Neuf,Odéon,2025-01-02 08:55,2025-01-02 09:10
+106,24,Pont Neuf,Invalides,2025-01-08 08:57,2025-01-08 09:08
+107,24,Pont Neuf,Invalides,2025-01-05 08:38,2025-01-05 08:51
+107,24,Pont Neuf,Odéon,2025-01-02 08:22,2025-01-02 08:37
+107,24,Pont Neuf,Invalides,2025-01-05 08:38,2025-01-05 08:49
+107,24,Pont Neuf,Châtelet,2025-01-08 08:33,2025-01-08 08:44
+107,24,Pont Neuf,Invalides,2025-01-07 08:00,2025-01-07 08:14
+108,24,Pont Neuf,École Militaire,2025-01-05 08:38,2025-01-05 08:46
+108,24,Pont Neuf,École Militaire,2025-01-07 08:36,2025-01-07 08:51
+108,24,Pont Neuf,Invalides,2025-01-06 08:56,2025-01-06 09:05
+108,24,Pont Neuf,Odéon,2025-01-03 08:30,2025-01-03 08:41
+109,24,Pont Neuf,Châtelet,2025-01-02 08:48,2025-01-02 08:54
+109,24,Pont Neuf,Invalides,2025-01-05 08:11,2025-01-05 08:22
+109,24,Pont Neuf,Châtelet,2025-01-02 08:00,2025-01-02 08:02
+109,24,Pont Neuf,Invalides,2025-01-03 08:49,2025-01-03 08:57
+109,24,Pont Neuf,Châtelet,2025-01-04 08:40,2025-01-04 08:52
+109,24,Pont Neuf,Invalides,2025-01-07 08:09,2025-01-07 08:20
+110,24,Pont Neuf,Châtelet,2025-01-04 08:02,2025-01-04 08:15
+110,24,Pont Neuf,Invalides,2025-01-08 08:11,2025-01-08 08:24
+110,24,Pont Neuf,École Militaire,2025-01-08 08:47,2025-01-08 08:52
+110,24,Pont Neuf,Odéon,2025-01-03 08:53,2025-01-03 08:55
+110,24,Pont Neuf,Châtelet,2025-01-06 08:19,2025-01-06 08:26
+110,24,Pont Neuf,Invalides,2025-01-08 08:42,2025-01-08 08:49
+111,52,La Muette,Champs-Élysées,2025-01-08 08:15,2025-01-08 08:16
+111,52,La Muette,Champs-Élysées,2025-01-02 08:05,2025-01-02 08:17
+111,52,La Muette,Opéra,2025-01-05 08:59,2025-01-05 09:01
+112,52,La Muette,Opéra,2025-01-02 08:51,2025-01-02 08:56
+112,52,La Muette,Madeleine,2025-01-07 08:16,2025-01-07 08:26
+112,52,La Muette,Madeleine,2025-01-08 08:54,2025-01-08 09:02
+112,52,La Muette,Madeleine,2025-01-08 08:36,2025-01-08 08:50
+113,52,La Muette,Champs-Élysées,2025-01-08 08:48,2025-01-08 08:58
+113,52,La Muette,Opéra,2025-01-03 08:02,2025-01-03 08:12
+113,52,La Muette,Trocadéro,2025-01-02 08:46,2025-01-02 08:51
+113,52,La Muette,Opéra,2025-01-06 08:12,2025-01-06 08:23
+114,52,La Muette,Trocadéro,2025-01-06 08:43,2025-01-06 08:51
+114,52,La Muette,Trocadéro,2025-01-06 08:40,2025-01-06 08:51
+114,52,La Muette,Opéra,2025-01-03 08:42,2025-01-03 08:49
+114,52,La Muette,Champs-Élysées,2025-01-02 08:52,2025-01-02 09:04
+115,52,La Muette,Opéra,2025-01-08 08:53,2025-01-08 09:06
+115,52,La Muette,Opéra,2025-01-05 08:35,2025-01-05 08:36
+115,52,La Muette,Champs-Élysées,2025-01-03 08:38,2025-01-03 08:45
+115,52,La Muette,Trocadéro,2025-01-02 08:46,2025-01-02 08:56
+115,52,La Muette,Trocadéro,2025-01-05 08:53,2025-01-05 09:05
+115,52,La Muette,Trocadéro,2025-01-07 08:36,2025-01-07 08:51
+116,52,La Muette,Madeleine,2025-01-02 08:42,2025-01-02 08:57
+116,52,La Muette,Champs-Élysées,2025-01-03 08:02,2025-01-03 08:16
+116,52,La Muette,Champs-Élysées,2025-01-03 08:17,2025-01-03 08:19
+116,52,La Muette,Champs-Élysées,2025-01-04 08:38,2025-01-04 08:47
+116,52,La Muette,Trocadéro,2025-01-06 08:35,2025-01-06 08:44
+117,52,La Muette,Trocadéro,2025-01-03 08:25,2025-01-03 08:29
+117,52,La Muette,Madeleine,2025-01-04 08:04,2025-01-04 08:17
+117,52,La Muette,Trocadéro,2025-01-03 08:52,2025-01-03 08:59
+118,52,La Muette,Madeleine,2025-01-04 08:26,2025-01-04 08:35
+118,52,La Muette,Madeleine,2025-01-05 08:48,2025-01-05 09:03
+118,52,La Muette,Champs-Élysées,2025-01-08 08:28,2025-01-08 08:36
+119,52,La Muette,Opéra,2025-01-05 08:43,2025-01-05 08:57
+119,52,La Muette,Opéra,2025-01-06 08:27,2025-01-06 08:37
+119,52,La Muette,Champs-Élysées,2025-01-04 08:01,2025-01-04 08:09
+119,52,La Muette,Champs-Élysées,2025-01-02 08:28,2025-01-02 08:41
+119,52,La Muette,Madeleine,2025-01-03 08:15,2025-01-03 08:21
+120,52,La Muette,Madeleine,2025-01-07 08:23,2025-01-07 08:34
+120,52,La Muette,Opéra,2025-01-02 08:04,2025-01-02 08:11
+120,52,La Muette,Trocadéro,2025-01-07 08:42,2025-01-07 08:50
+121,73,La Défense,Concorde,2025-01-07 08:49,2025-01-07 08:53
+121,73,La Défense,Porte Maillot,2025-01-06 08:34,2025-01-06 08:38
+121,73,La Défense,Concorde,2025-01-04 08:43,2025-01-04 08:46
+121,73,La Défense,Porte Maillot,2025-01-06 08:48,2025-01-06 08:49
+121,73,La Défense,Concorde,2025-01-06 08:42,2025-01-06 08:57
+122,73,La Défense,Porte Maillot,2025-01-02 08:35,2025-01-02 08:36
+122,73,La Défense,Porte Maillot,2025-01-07 08:08,2025-01-07 08:14
+122,73,La Défense,Musée d'Orsay,2025-01-07 08:45,2025-01-07 08:47
+123,73,La Défense,Concorde,2025-01-07 08:09,2025-01-07 08:15
+123,73,La Défense,Musée d'Orsay,2025-01-02 08:38,2025-01-02 08:40
+123,73,La Défense,Concorde,2025-01-08 08:26,2025-01-08 08:35
+123,73,La Défense,Neuilly,2025-01-04 08:16,2025-01-04 08:18
+123,73,La Défense,Concorde,2025-01-08 08:01,2025-01-08 08:13
+124,73,La Défense,Neuilly,2025-01-06 08:18,2025-01-06 08:21
+124,73,La Défense,Concorde,2025-01-05 08:39,2025-01-05 08:43
+124,73,La Défense,Porte Maillot,2025-01-05 08:20,2025-01-05 08:35
+125,73,La Défense,Porte Maillot,2025-01-06 08:04,2025-01-06 08:15
+125,73,La Défense,Neuilly,2025-01-03 08:20,2025-01-03 08:28
+125,73,La Défense,Musée d'Orsay,2025-01-08 08:21,2025-01-08 08:23
+125,73,La Défense,Musée d'Orsay,2025-01-08 08:39,2025-01-08 08:44
+126,73,La Défense,Concorde,2025-01-07 08:19,2025-01-07 08:24
+126,73,La Défense,Musée d'Orsay,2025-01-05 08:23,2025-01-05 08:36
+126,73,La Défense,Musée d'Orsay,2025-01-08 08:31,2025-01-08 08:42
+127,73,La Défense,Musée d'Orsay,2025-01-06 08:43,2025-01-06 08:55
+127,73,La Défense,Concorde,2025-01-05 08:36,2025-01-05 08:43
+127,73,La Défense,Neuilly,2025-01-07 08:25,2025-01-07 08:36
+127,73,La Défense,Concorde,2025-01-07 08:18,2025-01-07 08:28
+127,73,La Défense,Musée d'Orsay,2025-01-06 08:40,2025-01-06 08:53
+127,73,La Défense,Neuilly,2025-01-04 08:41,2025-01-04 08:42
+128,73,La Défense,Porte Maillot,2025-01-06 08:56,2025-01-06 08:57
+128,73,La Défense,Musée d'Orsay,2025-01-08 08:11,2025-01-08 08:20
+128,73,La Défense,Porte Maillot,2025-01-02 08:19,2025-01-02 08:20
+129,73,La Défense,Porte Maillot,2025-01-05 08:05,2025-01-05 08:18
+129,73,La Défense,Porte Maillot,2025-01-02 08:48,2025-01-02 08:56
+129,73,La Défense,Concorde,2025-01-06 08:34,2025-01-06 08:47
+130,73,La Défense,Musée d'Orsay,2025-01-03 08:58,2025-01-03 09:12
+130,73,La Défense,Neuilly,2025-01-03 08:17,2025-01-03 08:28
+130,73,La Défense,Musée d'Orsay,2025-01-06 08:53,2025-01-06 09:07
+130,73,La Défense,Musée d'Orsay,2025-01-06 08:04,2025-01-06 08:13
+130,73,La Défense,Porte Maillot,2025-01-02 08:11,2025-01-02 08:24
+131,30,Porte Maillot,Gare du Nord,2025-01-03 08:25,2025-01-03 08:40
+131,30,Porte Maillot,Ternes,2025-01-04 08:24,2025-01-04 08:38
+131,30,Porte Maillot,Gare de l'Est,2025-01-03 08:34,2025-01-03 08:46
+131,30,Porte Maillot,Gare du Nord,2025-01-07 08:45,2025-01-07 08:51
+132,30,Porte Maillot,Ternes,2025-01-03 08:11,2025-01-03 08:16
+132,30,Porte Maillot,Gare de l'Est,2025-01-04 08:54,2025-01-04 09:02
+132,30,Porte Maillot,Gare du Nord,2025-01-05 08:42,2025-01-05 08:46
+132,30,Porte Maillot,Gare de l'Est,2025-01-04 08:44,2025-01-04 08:45
+133,30,Porte Maillot,Place de Clichy,2025-01-04 08:41,2025-01-04 08:46
+133,30,Porte Maillot,Ternes,2025-01-03 08:07,2025-01-03 08:11
+133,30,Porte Maillot,Gare du Nord,2025-01-08 08:59,2025-01-08 09:01
+133,30,Porte Maillot,Gare du Nord,2025-01-05 08:45,2025-01-05 08:53
+133,30,Porte Maillot,Gare de l'Est,2025-01-06 08:13,2025-01-06 08:19
+133,30,Porte Maillot,Gare de l'Est,2025-01-08 08:17,2025-01-08 08:31
+134,30,Porte Maillot,Place de Clichy,2025-01-08 08:29,2025-01-08 08:31
+134,30,Porte Maillot,Gare de l'Est,2025-01-05 08:38,2025-01-05 08:45
+134,30,Porte Maillot,Gare du Nord,2025-01-07 08:47,2025-01-07 08:50
+134,30,Porte Maillot,Gare du Nord,2025-01-07 08:48,2025-01-07 08:58
+134,30,Porte Maillot,Ternes,2025-01-05 08:23,2025-01-05 08:26
+135,30,Porte Maillot,Gare de l'Est,2025-01-03 08:54,2025-01-03 09:04
+135,30,Porte Maillot,Gare de l'Est,2025-01-08 08:23,2025-01-08 08:38
+135,30,Porte Maillot,Ternes,2025-01-07 08:16,2025-01-07 08:18
+135,30,Porte Maillot,Place de Clichy,2025-01-03 08:33,2025-01-03 08:43
+135,30,Porte Maillot,Place de Clichy,2025-01-03 08:55,2025-01-03 08:58
+135,30,Porte Maillot,Gare de l'Est,2025-01-03 08:01,2025-01-03 08:13
+136,30,Porte Maillot,Gare du Nord,2025-01-02 08:26,2025-01-02 08:40
+136,30,Porte Maillot,Gare de l'Est,2025-01-04 08:01,2025-01-04 08:13
+136,30,Porte Maillot,Ternes,2025-01-06 08:03,2025-01-06 08:06
+136,30,Porte Maillot,Gare de l'Est,2025-01-06 08:45,2025-01-06 08:59
+136,30,Porte Maillot,Gare du Nord,2025-01-03 08:18,2025-01-03 08:23
+137,30,Porte Maillot,Gare du Nord,2025-01-05 08:30,2025-01-05 08:36
+137,30,Porte Maillot,Gare de l'Est,2025-01-06 08:01,2025-01-06 08:03
+137,30,Porte Maillot,Place de Clichy,2025-01-02 08:42,2025-01-02 08:57
+138,30,Porte Maillot,Gare du Nord,2025-01-07 08:45,2025-01-07 08:53
+138,30,Porte Maillot,Place de Clichy,2025-01-02 08:36,2025-01-02 08:41
+138,30,Porte Maillot,Place de Clichy,2025-01-04 08:34,2025-01-04 08:42
+139,30,Porte Maillot,Place de Clichy,2025-01-06 08:41,2025-01-06 08:46
+139,30,Porte Maillot,Place de Clichy,2025-01-02 08:28,2025-01-02 08:32
+139,30,Porte Maillot,Gare de l'Est,2025-01-03 08:05,2025-01-03 08:14
+139,30,Porte Maillot,Ternes,2025-01-02 08:33,2025-01-02 08:36
+139,30,Porte Maillot,Gare de l'Est,2025-01-03 08:06,2025-01-03 08:12
+139,30,Porte Maillot,Gare du Nord,2025-01-07 08:24,2025-01-07 08:28
+140,30,Porte Maillot,Ternes,2025-01-05 08:08,2025-01-05 08:15
+140,30,Porte Maillot,Gare de l'Est,2025-01-07 08:37,2025-01-07 08:39
+140,30,Porte Maillot,Ternes,2025-01-04 08:06,2025-01-04 08:17
+140,30,Porte Maillot,Ternes,2025-01-05 08:40,2025-01-05 08:48
+141,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:07,2025-01-04 08:08
+141,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:15,2025-01-07 08:21
+141,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:26,2025-01-07 08:39
+141,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:42,2025-01-06 08:53
+142,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:32,2025-01-04 08:36
+142,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:01,2025-01-04 08:12
+142,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:19,2025-01-06 08:34
+142,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-02 08:23,2025-01-02 08:37
+142,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-08 08:59,2025-01-08 09:13
+143,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-02 08:16,2025-01-02 08:26
+143,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-02 08:05,2025-01-02 08:14
+143,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:06,2025-01-03 08:09
+144,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-05 08:16,2025-01-05 08:31
+144,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:01,2025-01-03 08:07
+144,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:33,2025-01-04 08:42
+144,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-05 08:15,2025-01-05 08:23
+144,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:26,2025-01-03 08:33
+145,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:56,2025-01-03 09:10
+145,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-05 08:24,2025-01-05 08:35
+145,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:44,2025-01-07 08:57
+146,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-08 08:46,2025-01-08 08:52
+146,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:53,2025-01-07 09:02
+146,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:28,2025-01-07 08:35
+146,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-02 08:30,2025-01-02 08:39
+146,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:33,2025-01-03 08:36
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-05 08:15,2025-01-05 08:18
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:20,2025-01-04 08:23
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:46,2025-01-06 09:00
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:37,2025-01-06 08:38
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-02 08:28,2025-01-02 08:40
+147,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:56,2025-01-07 09:02
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-05 08:51,2025-01-05 08:57
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:14,2025-01-03 08:23
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:33,2025-01-06 08:45
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:40,2025-01-04 08:55
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:17,2025-01-04 08:32
+148,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-07 08:59,2025-01-07 09:06
+149,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:34,2025-01-06 08:35
+149,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-04 08:31,2025-01-04 08:38
+149,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-08 08:13,2025-01-08 08:16
+149,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-05 08:02,2025-01-05 08:07
+149,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:45,2025-01-06 08:52
+150,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-03 08:24,2025-01-03 08:39
+150,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-06 08:48,2025-01-06 08:55
+150,87,Gare de Lyon,Bibliothèque F. Mitterrand,2025-01-02 08:34,2025-01-02 08:46
