@@ -30,6 +30,8 @@ df_loc.columns = [col.strip().lower().replace(" ", "_") for col in df_loc.column
 df_loc['ligne'] = df_loc['ligne'].astype(str).str.upper().str.strip()
 df_loc['gare_depart'] = df_loc['gare_depart'].astype(str).str.title().str.strip()
 df_loc['destination'] = df_loc['destination'].astype(str).str.title().str.strip()
+df_loc['heure_de_captage'] = pd.to_datetime(df_loc['heure_de_captage'], errors='coerce')
+df_loc.dropna(subset=['heure_de_captage'], inplace=True)
 
 # 🔁 Conversion correcte des dates
 df_loc['heure_de_captage'] = pd.to_datetime(df_loc['heure_de_captage'], format="%d/%m/%Y %H:%M", errors='coerce')
@@ -50,10 +52,20 @@ cursor.execute("""
         heure_de_captage DATETIME
     )
 """)
+
 for _, row in df_loc.iterrows():
+    values = (
+        int(row['id']),
+        str(row['ligne']),
+        str(row['gare_depart']),
+        str(row['destination']),
+        str(row['position_gps']),
+        row['heure_de_captage'].to_pydatetime() if pd.notna(row['heure_de_captage']) else None
+    )
     cursor.execute("""
         INSERT INTO localisation_bus (id_localisation, ligne, gare_depart, destination, position_gps, heure_de_captage)
         VALUES (%s, %s, %s, %s, %s, %s)
+    """, values)
     """, (
         int(row['id_localisation']),
         row['ligne'],
@@ -90,11 +102,22 @@ cursor.execute("""
         timestamp DATETIME
     )
 """)
+
 for _, row in df_traf.iterrows():
+    values = (
+        int(row["id"]),
+        str(row["route_from"]),
+        str(row["route_to"]),
+        str(row["traffic_level"]),
+        int(row["vehicle_count"]),
+        float(row["avg_speed_kmh"]),
+        row["timestamp"].to_pydatetime() if pd.notna(row["timestamp"]) else None
+    )
     cursor.execute("""
         INSERT INTO trafic_routes (
             id, route_from, route_to, traffic_level, vehicle_count, avg_speed_kmh, timestamp
         ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+    """, values)
     """, (
         int(row['id']),
         row['route_from'],
@@ -129,7 +152,19 @@ cursor.execute("""
     )
 """)
 for _, row in df_retards.iterrows():
+    values = (
+        int(row['id_bus']),
+        str(row['ligne']),
+        str(row['gare_depart']),
+        str(row['gare_retard']),
+        row['heure_arrivee_prevue'].to_pydatetime() if pd.notna(row['heure_arrivee_prevue']) else None,
+        row['heure_arrivee_reelle'].to_pydatetime() if pd.notna(row['heure_arrivee_reelle']) else None
+    )
     cursor.execute("""
+        INSERT INTO historique_retards (id_bus, ligne, gare_depart, gare_retard, heure_arrivee_prevue, heure_arrivee_reelle)
+        VALUES (%s, %s, %s, %s, %s, %s)
+    """, values)
+
         INSERT INTO historique_retards (
             id_retard, id_bus, ligne, gare_depart, gare_retard, heure_arrivee_prevue, heure_arrivee_reelle
         ) VALUES (%s, %s, %s, %s, %s, %s, %s)
@@ -140,6 +175,7 @@ df_horaires = pd.read_csv(data_path / "horaires_arrets_bus.csv")
 df_horaires.columns = ["ligne", "nom_arret", "placement_gare", "heure_passage", "ordre_arret"]
 df_horaires['nom_arret'] = df_horaires['nom_arret'].astype(str).str.title().str.strip()
 df_horaires['placement_gare'] = df_horaires['placement_gare'].astype(str).str.strip()
+df_horaires['heure_passage'] = pd.to_datetime(df_horaires['heure_passage'], errors='coerce')
 df_horaires['heure_passage'] = pd.to_datetime(df_horaires['heure_passage'], errors='coerce')
 df_horaires.drop_duplicates(inplace=True)
 df_horaires.insert(0, "id_horaires", range(1, len(df_horaires) + 1))
@@ -154,8 +190,19 @@ cursor.execute("""
         ordre_arret INT
     )
 """)
+
 for _, row in df_horaires.iterrows():
+    values = (
+        str(row['ligne']),
+        str(row['nom_arret']),
+        str(row['placement_gare']),
+        row['heure_passage'].to_pydatetime() if pd.notna(row['heure_passage']) else None,
+        int(row['ordre_arret'])
+    )
     cursor.execute("""
+        INSERT INTO horaires_arrets (ligne, nom_arret, placement_gare, heure_passage, ordre_arret)
+        VALUES (%s, %s, %s, %s, %s)
+    """, values)
         INSERT INTO horaires_arrets (
             id_horaires, ligne, nom_arret, placement_gare, heure_passage, ordre_arret
         ) VALUES (%s, %s, %s, %s, %s, %s)
@@ -177,6 +224,7 @@ cursor.execute("""
         timestamp DATETIME
     )
 """)
+
 for entry in weather_json.get("list", []):
     timestamp = datetime.fromtimestamp(entry["dt"])
     temp = entry["main"]["temp"]

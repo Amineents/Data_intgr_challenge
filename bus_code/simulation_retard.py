@@ -24,10 +24,14 @@ ares_par_ligne = {
 
 bus_par_ligne = 10
 
-def random_time(start_hour=8, end_hour=9):
+def random_datetime(start_date="2025-01-02", end_date="2025-01-08", start_hour=8, end_hour=9):
+    """Retourne une datetime complète entre deux dates et heures aléatoires."""
+    start = datetime.strptime(start_date, "%Y-%m-%d")
+    end = datetime.strptime(end_date, "%Y-%m-%d")
+    date_part = start + timedelta(days=random.randint(0, (end - start).days))
     hour = random.randint(start_hour, end_hour - 1)
     minute = random.randint(0, 59)
-    return datetime.strptime(f"{hour}:{minute}", "%H:%M")
+    return datetime(date_part.year, date_part.month, date_part.day, hour, minute)
 
 # === Génération des retards ===
 historique_retards = []
@@ -43,7 +47,7 @@ for ligne, gares in ares_par_ligne.items():
 
         for _ in range(nb_retards):
             gare_retard = random.choice(gares[1:])
-            heure_prevue = random_time()
+            heure_prevue = random_datetime()
             heure_reelle = heure_prevue + timedelta(minutes=random.randint(1, 15))
 
             historique_retards.append({
@@ -51,8 +55,8 @@ for ligne, gares in ares_par_ligne.items():
                 "ligne": ligne,
                 "gare_depart": gare_depart,
                 "gare_retard": gare_retard,
-                "heure_arrivee_prevue": heure_prevue.strftime("%H:%M"),
-                "heure_arrivee_reelle": heure_reelle.strftime("%H:%M")
+                "heure_arrivee_prevue": heure_prevue.strftime("%Y-%m-%d %H:%M"),
+                "heure_arrivee_reelle": heure_reelle.strftime("%Y-%m-%d %H:%M")
             })
 
 # === Écriture dans data_lake/bus/historique_retards.csv ===
