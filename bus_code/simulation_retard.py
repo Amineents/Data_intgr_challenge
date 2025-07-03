@@ -1,8 +1,9 @@
 import csv
 import random
+import os
 from datetime import datetime, timedelta
 
-# Lignes et leurs gares (comme dans ton dictionnaire)
+# === Définition des arrêts par ligne ===
 ares_par_ligne = {
     "21": ["Stade Charléty", "Alésia", "Denfert-Rochereau", "Montparnasse", "Opéra", "Gare Saint-Lazare"],
     "38": ["Gare du Nord", "Châtelet", "Luxembourg", "Raspail", "Alésia", "Porte d'Orléans"],
@@ -21,40 +22,30 @@ ares_par_ligne = {
     "87": ["Gare de Lyon", "Bibliothèque F. Mitterrand"]
 }
 
-# On va créer 10 bus par ligne, donc id_bus de 1 à 150 (15 lignes x 10 bus)
 bus_par_ligne = 10
 
 def random_time(start_hour=8, end_hour=9):
-    """Génère une heure aléatoire au format HH:MM entre start_hour et end_hour."""
     hour = random.randint(start_hour, end_hour - 1)
     minute = random.randint(0, 59)
     return datetime.strptime(f"{hour}:{minute}", "%H:%M")
 
-# Génération des données de retard
+# === Génération des retards ===
 historique_retards = []
-
-id_bus_global = 1  # compteur d'id bus
+id_bus_global = 1
 
 for ligne, gares in ares_par_ligne.items():
-    # Chaque ligne a 10 bus
-    for bus_num in range(bus_par_ligne):
+    for _ in range(bus_par_ligne):
         id_bus = id_bus_global
         id_bus_global += 1
 
-        gare_depart = gares[0]  # La première gare comme départ
-
-        # On génère plusieurs retards aléatoires (entre 3 et 6 retards par bus)
+        gare_depart = gares[0]
         nb_retards = random.randint(3, 6)
 
         for _ in range(nb_retards):
-            # Choisir une gare de retard (différente du départ)
             gare_retard = random.choice(gares[1:])
-            
             heure_prevue = random_time()
-            # Heure réelle = prévue + un retard aléatoire de 1 à 15 minutes
-            retard = timedelta(minutes=random.randint(1, 15))
-            heure_reelle = heure_prevue + retard
-            
+            heure_reelle = heure_prevue + timedelta(minutes=random.randint(1, 15))
+
             historique_retards.append({
                 "id_bus": id_bus,
                 "ligne": ligne,
@@ -64,11 +55,16 @@ for ligne, gares in ares_par_ligne.items():
                 "heure_arrivee_reelle": heure_reelle.strftime("%H:%M")
             })
 
-# Écriture dans un fichier CSV
-with open("historique_retard.csv", mode="w", newline="", encoding="utf-8") as csvfile:
+# === Écriture dans data_lake/bus/historique_retards.csv ===
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(os.path.dirname(current_dir), "data_lake", "bus")
+os.makedirs(data_dir, exist_ok=True)
+output_file = os.path.join(data_dir, "historique_retards.csv")
+
+with open(output_file, mode="w", newline='', encoding="utf-8") as csvfile:
     fieldnames = ["id_bus", "ligne", "gare_depart", "gare_retard", "heure_arrivee_prevue", "heure_arrivee_reelle"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    
     writer.writeheader()
-    for row in historique_retards:
-        writer.writerow(row)
+    writer.writerows(historique_retards)
+
+print(f"Fichier généré : {output_file}")

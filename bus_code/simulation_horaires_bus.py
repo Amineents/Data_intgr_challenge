@@ -1,6 +1,7 @@
 import csv
 from datetime import datetime, timedelta
 import random
+import os
 
 ares_par_ligne = {
     "21": ["Stade Charléty", "Alésia", "Denfert-Rochereau", "Montparnasse", "Opéra", "Gare Saint-Lazare"],
@@ -27,23 +28,25 @@ for ligne in ares_par_ligne.keys():
         bus_infos.append({"id": bus_id, "ligne": ligne})
         bus_id += 1
 
-# Génération du fichier horaire_bus.csv
-with open("horaire_bus.csv", mode="w", newline='', encoding="utf-8") as f:
+# Déterminer dynamiquement le chemin de sortie
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(os.path.dirname(current_dir), "data_lake", "bus")
+os.makedirs(data_dir, exist_ok=True)
+output_file = os.path.join(data_dir, "horaires_arrets_bus.csv")
+
+# Génération du fichier
+with open(output_file, mode="w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["ligne", "nom_arret", "placement_gare", "heure_passage", "ordre_arret"])
 
-    # On fixe une heure de départ fictive
     base_time = datetime(2025, 7, 1, 6, 0, 0)
 
     for bus in bus_infos:
         ligne = bus["ligne"]
         stops = ares_par_ligne[ligne]
         for ordre, arret in enumerate(stops):
-            # Chaque arrêt a une heure de passage avec un délai en fonction de l'ordre et du bus (bus espacés de 3 min)
-            heure_passage = base_time + timedelta(minutes=5*ordre + 3*bus["id"])
+            heure_passage = base_time + timedelta(minutes=5 * ordre + 3 * bus["id"])
             placement_gare = f"Arrêt {ordre} - Ligne {ligne}"
             writer.writerow([ligne, arret, placement_gare, heure_passage.strftime("%Y-%m-%d %H:%M:%S"), ordre])
 
-
-
-print(" Fichier 'horaires_arrets_bus.csv' généré avec arrêts fixes par ligne.")
+print(f"Fichier généré dans : {output_file}")
