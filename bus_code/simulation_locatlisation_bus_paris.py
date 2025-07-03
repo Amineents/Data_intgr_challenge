@@ -1,6 +1,7 @@
 import csv
 from datetime import datetime, timedelta
 import random
+import os
 
 ares_par_ligne = {
     "21": ["Stade Charléty", "Alésia", "Denfert-Rochereau", "Montparnasse", "Opéra", "Gare Saint-Lazare"],
@@ -20,6 +21,13 @@ ares_par_ligne = {
     "87": ["Gare de Lyon", "Bibliothèque F. Mitterrand"]
 }
 
+# Déterminer dynamiquement le chemin de sortie
+base_dir = os.path.dirname(os.path.abspath(__file__))
+output_dir = os.path.join(os.path.dirname(base_dir), "data_lake", "bus")
+os.makedirs(output_dir, exist_ok=True)
+output_file = os.path.join(output_dir, "localisation_bus_paris.csv")
+
+# Création des bus
 bus_infos = []
 bus_id = 1
 for ligne in ares_par_ligne.keys():
@@ -27,29 +35,22 @@ for ligne in ares_par_ligne.keys():
         bus_infos.append({"id": bus_id, "ligne": ligne})
         bus_id += 1
 
-
-# Génération du fichier localisation_bus_paris.csv
-with open("localisation_bus_paris.csv", mode="w", newline='', encoding="utf-8") as f:
+# Génération du fichier
+with open(output_file, mode="w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["id", "ligne", "gare_depart", "destination", "position_gps", "heure_de_captage"])
-    # On fixe une heure de départ fictive
-
     base_time = datetime(2025, 7, 1, 6, 0, 0)
-
     for bus in bus_infos:
         ligne = bus["ligne"]
         stops = ares_par_ligne[ligne]
-        # GPS de base fictif autour de Paris, latitude ~48.85, longitude ~2.35
         lat_base = 48.85
         lon_base = 2.35
-        for ordre, arret in enumerate(stops[:-1]):  # Pour chaque tronçon sauf le dernier arrêt
+        for ordre, arret in enumerate(stops[:-1]):
             gare_depart = arret
             destination = stops[ordre + 1]
-            # Simuler position GPS entre gare_depart et destination avec petite variation
             lat = lat_base + random.uniform(-0.01, 0.01)
             lon = lon_base + random.uniform(-0.01, 0.01)
-            # Heure de captage correspond à horaire plus un petit offset
-            heure_captage = base_time + timedelta(minutes=5*ordre + 3*bus["id"] + 2)
+            heure_captage = base_time + timedelta(minutes=5 * ordre + 3 * bus["id"] + 2)
             writer.writerow([
                 bus["id"],
                 ligne,
@@ -58,3 +59,5 @@ with open("localisation_bus_paris.csv", mode="w", newline='', encoding="utf-8") 
                 f"{lat:.5f},{lon:.5f}",
                 heure_captage.strftime("%d/%m/%Y %H:%M")
             ])
+
+print(f"Fichier généré dans : {output_file}")
