@@ -56,7 +56,6 @@ Power BI est connecté à la base `golden_bus_lamp` via ODBC.
   - Consommation moyenne par lampadaire
   - Répartition des marques de lampadaires
   - Nombre de lampes utilisées par jour (et par mois)
-  - Comparaison on_time vs sunset par mois
 
 ---
 
