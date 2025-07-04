@@ -1,15 +1,15 @@
 {
     "results": {
-        "sunrise": "2025-07-03T04:00:54+00:00",
-        "sunset": "2025-07-03T19:29:15+00:00",
-        "solar_noon": "2025-07-03T11:45:05+00:00",
-        "day_length": 55701,
-        "civil_twilight_begin": "2025-07-03T03:26:34+00:00",
-        "civil_twilight_end": "2025-07-03T20:03:35+00:00",
-        "nautical_twilight_begin": "2025-07-03T02:39:19+00:00",
-        "nautical_twilight_end": "2025-07-03T20:50:50+00:00",
-        "astronomical_twilight_begin": "2025-07-03T01:39:40+00:00",
-        "astronomical_twilight_end": "2025-07-03T21:50:29+00:00"
+        "sunrise": "2025-07-04T04:01:32+00:00",
+        "sunset": "2025-07-04T19:28:58+00:00",
+        "solar_noon": "2025-07-04T11:45:15+00:00",
+        "day_length": 55646,
+        "civil_twilight_begin": "2025-07-04T03:27:15+00:00",
+        "civil_twilight_end": "2025-07-04T20:03:15+00:00",
+        "nautical_twilight_begin": "2025-07-04T02:40:09+00:00",
+        "nautical_twilight_end": "2025-07-04T20:50:22+00:00",
+        "astronomical_twilight_begin": "2025-07-04T01:40:49+00:00",
+        "astronomical_twilight_end": "2025-07-04T21:49:41+00:00"
     },
     "status": "OK",
     "tzid": "UTC"
