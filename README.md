@@ -45,15 +45,18 @@ Ce script :
 
 Power BI est connecté à la base `golden_bus_lamp` via ODBC.
 
-### Graphiques recommandés :
+### Graphiques :
 
 - **Bus**
-  - Retard moyen par ligne
-  - Corrélation retard vs météo (température, humidité…)
+  - Nombre de retards par ligne
+  - Retard moyen par météo
+  - Retard moyen par gare de départ
+
 - **Lampadaires**
-  - Consommation moyenne par lampe
-  - Nombre de lampadaires défectueux par statut
-  - Planning vs Sunrise/Sunset
+  - Consommation moyenne par lampadaire
+  - Répartition des marques de lampadaires
+  - Nombre de lampes utilisées par jour (et par mois)
+  - Comparaison on_time vs sunset par mois
 
 ---
 
