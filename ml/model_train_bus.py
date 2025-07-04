@@ -4,14 +4,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.preprocessing import OneHotEncoder
-import matplotlib.pyplot as plt
 import joblib
 
 # 1. Connexion à MySQL et chargement des données
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="my-secret-pw",
+    password="amine",
     database="bus_silver"
 )
 
@@ -51,15 +50,14 @@ df_joined = pd.merge_asof(
 )
 
 # 3. Sélection et imputation des colonnes
-df_model = df_joined[[
+df_model = df_joined[[ 
     "ligne", "gare_depart", "gare_retard",
     "temperature", "humidity", "wind_speed", "cloud_percent",
     "traffic_level", "vehicle_count", "avg_speed_kmh",
     "retard_minutes"
 ]].copy()
 
-# ➤ Imputation (remplir les NaN avec des valeurs par défaut/moyennes)
-print("Nombre de NaN avant imputation :\n", df_model.isna().sum())
+print(" NaN avant imputation :\n", df_model.isna().sum())
 
 num_cols = ["temperature", "humidity", "wind_speed", "cloud_percent", "vehicle_count", "avg_speed_kmh"]
 cat_cols = ["ligne", "gare_depart", "gare_retard", "traffic_level"]
@@ -70,10 +68,9 @@ for col in num_cols:
 for col in cat_cols:
     df_model[col].fillna("inconnu", inplace=True)
 
-# Filtrage final des lignes où la target serait encore NaN (par précaution)
 df_model.dropna(subset=["retard_minutes"], inplace=True)
 
-print("Nombre de NaN après imputation :\n", df_model.isna().sum())
+print("\n NaN après imputation :\n", df_model.isna().sum())
 
 # 4. Encodage des variables catégorielles
 X_cat = df_model[cat_cols]
@@ -98,18 +95,21 @@ y_pred = model.predict(X_test)
 mae = mean_absolute_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
-print(f"\nMAE (Erreur absolue moyenne) : {mae:.2f} minutes")
-print(f"R² (Score de performance) : {r2:.2f}")
+print("\n Évaluation du modèle :")
+print(f"MAE (Erreur absolue moyenne) : {mae:.2f} minutes")
+print(f"R² (Score de performance)     : {r2:.3f}")
 
-# 8. Visualisation
-plt.scatter(y_test, y_pred, alpha=0.5)
-plt.xlabel("Retards réels (minutes)")
-plt.ylabel("Retards prédits (minutes)")
-plt.title("Prédiction des retards de bus")
-plt.grid(True)
-plt.show()
+# 7.1 Affichage des valeurs réelles vs prédites
+df_comparaison = pd.DataFrame({
+    "Retard réel (min)": y_test.values,
+    "Retard prédit (min)": y_pred
+})
 
-# 9. Sauvegarde
+print("\nComparaison réelle vs prédite (extrait) :")
+print(df_comparaison.head(20).to_string(index=False))
+
+
+# 8. Sauvegarde du modèle
 joblib.dump(model, "modele_retard_bus.pkl")
 joblib.dump(encoder, "encoder_bus.pkl")
 

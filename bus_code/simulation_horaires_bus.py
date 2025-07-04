@@ -32,7 +32,7 @@ for ligne in ares_par_ligne.keys():
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(os.path.dirname(current_dir), "data_lake", "bus")
 os.makedirs(data_dir, exist_ok=True)
-output_file = os.path.join(data_dir, "horaires_arrets_bus.csv")
+output_file = os.path.join(data_dir, "horaires_bus.csv")
 
 # Génération du fichier
 with open(output_file, mode="w", newline='', encoding="utf-8") as f:

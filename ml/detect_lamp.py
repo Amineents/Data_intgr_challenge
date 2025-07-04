@@ -6,9 +6,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 
+
 # Connection details based on your Docker command
 MYSQL_USER = 'root'                    
-MYSQL_PASSWORD = 'my-secret-pw'                
+MYSQL_PASSWORD = 'amine'                
 MYSQL_HOST = 'localhost'               
 MYSQL_PORT = 3306                      
 MYSQL_DB = 'lampadaires_silver'              

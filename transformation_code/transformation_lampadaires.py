@@ -13,7 +13,7 @@ data_dir = os.path.join(parent_dir, "data_lake", "lampadaires")
 conn = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="my-secret-pw",
+    password="amine",
     port=3306,
 )
 cursor = conn.cursor()
